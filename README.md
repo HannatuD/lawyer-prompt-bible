@@ -1,11 +1,14 @@
-# Lawyer Prompt Bible (UK) 📚⚖️
+# UK Legal Prompt Bible
 
-A curated library of GPT prompts designed **for UK lawyers**.  
-Each prompt is:
+A comprehensive collection of AI prompts for UK legal professionals.
 
-* Tagged by **practice area**, **task type**, **jurisdiction** and **audience**  
-* Vetted for citations to UK sources (legislation.gov.uk, BAILII)  
-* Stored as plain Markdown so non-coders can edit in a browser
+## Quick Start
+1. Browse prompts by practice area
+2. Check metadata for complexity and time estimates
+3. Select appropriate variations
+4. Copy and customize for your use case
 
-> 🚧 Early days!  One prompt today, many more tomorrow.
-“Add README skeleton”
+## Stats
+- Total Prompts: 342
+- Practice Areas: 12
+- Last Updated: [Date]
