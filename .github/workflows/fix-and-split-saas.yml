@@ -1,0 +1,110 @@
+name: Fix SaaS batch, add missing YAML, then split
+
+on:
+  push:
+    paths: ['incoming/saas_raw_batch.md']   # trigger only when this file changes
+  workflow_dispatch:
+
+permissions:
+  contents: write          # allow the job to push
+
+jobs:
+  fix_split:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Run fixer-splitter
+      run: |
+        python - <<'PY'
+        import pathlib, re, datetime, textwrap
+
+        src = pathlib.Path('incoming/saas_raw_batch.md')
+        if not src.exists():
+            print("No raw batch file found; nothing to do.")
+            exit(0)
+
+        today = datetime.date.today().isoformat()
+        raw = src.read_text(encoding='utf-8')
+        chunks = [c.strip() for c in raw.split('--------') if c.strip()]
+        good, skip = 0, 0
+
+        # quick heuristics to detect task_type from title keywords
+        def guess_task(title):
+            title_l = title.lower()
+            if any(k in title_l for k in ('checklist', 'review', 'analysis', 'gap')):
+                return 'reviewing'
+            if any(k in title_l for k in ('analysis', 'assessment', 'analytics', 'report')):
+                return 'analysis'
+            if any(k in title_l for k in ('summary', 'digest')):
+                return 'summarising'
+            return 'drafting'
+
+        for chunk in chunks:
+            # pull existing minimal YAML
+            yam = re.search(r'^---\s*\n(.*?)\n---', chunk, re.S)
+            if not yam:
+                print("⚠️  skipped chunk (no YAML header)")
+                skip += 1
+                continue
+
+            meta = yam.group(1).strip().splitlines()
+            kv = {}
+            for line in meta:
+                if ':' in line:
+                    k, v = line.split(':', 1)
+                    kv[k.strip()] = v.strip()
+
+            # mandatory keys that are missing
+            title = kv.get('title', 'Untitled Prompt')
+            task_type = guess_task(title)
+            slug = kv.get('slug', re.sub(r'\W+', '-', title.lower()).strip('-'))
+            number = kv.get('prompt_id', 'tech-saas-temp-000').split('-')[-1]
+
+            kv_full = {
+                'prompt_id': f"tech-saas-{task_type}-{slug}-{number}",
+                'title': title,
+                'practice_area': 'corporate-commercial',
+                'task_type': task_type,
+                'jurisdiction': 'england-wales',
+                'complexity': 'intermediate',
+                'time_estimate': '30',
+                'risk_level': 'medium',
+                'last_updated': today,
+                'author': 'HannatuD',
+                'tags': f"[saas, {slug}]",
+            }
+            # merge any pre-existing keys
+            kv_full.update(kv)
+
+            # rebuild YAML header
+            yaml_lines = ['---'] + [f"{k}: {v}" for k, v in kv_full.items()] + ['---']
+            fixed_chunk = re.sub(r'^---.*?---', '\n'.join(yaml_lines), chunk, count=1, flags=re.S)
+
+            # path
+            pid_parts = kv_full['prompt_id'].split('-')
+            sub = pid_parts[1]    # "saas"
+            task = pid_parts[2]   # drafting / reviewing / ...
+            pid = kv_full['prompt_id']
+            folder = pathlib.Path(f"prompts/corporate-commercial/{sub}/{task}/{pid}")
+            folder.mkdir(parents=True, exist_ok=True)
+            (folder / 'base-prompt.md').write_text(fixed_chunk + '\n', encoding='utf-8')
+            good += 1
+            print(f"✓  wrote {pid}")
+
+        print(f"Finished: {good} files written; {skip} skipped.")
+        PY
+
+    - name: Commit results
+      run: |
+        git config --local user.name  "batch-fix-bot"
+        git config --local user.email "bot@example.com"
+        git add prompts || true
+        git rm -f incoming/saas_raw_batch.md || true
+        git commit -m "feat(prompts): auto-fix + split SaaS batch" || echo "Nothing to commit"
+        git push
