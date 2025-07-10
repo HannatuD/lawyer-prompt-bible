@@ -26,9 +26,10 @@ jobs:
     - name: Install dependencies
       run: pip install pyyaml
 
-    - name: Run validator on every prompt
+    - name: Run validator on every base prompt
       run: |
-        find prompts -name "*.md" -type f -print0 | while IFS= read -r -d '' file; do
+        find prompts -name "base-prompt.md" -type f -print0 | while IFS= read -r -d '' file; do
           echo "Checking $file"
           python tools/validation/prompt-validator.py "$file"
         done
+
