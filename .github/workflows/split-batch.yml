@@ -22,12 +22,25 @@ jobs:
             exit(0)
         txt = src.read_text()
         parts = [p.strip() for p in txt.split('--------') if p.strip()]
-        for part in parts:
-            pid = re.search(r'prompt_id:\s*([^\s]+)', part).group(1)
-            _, sub, task, _ = pid.split('-', 3)   # tech-saas-drafting-002
-            folder = pathlib.Path(f'prompts/corporate-commercial/{sub}/{task}/{pid}')
-            folder.mkdir(parents=True, exist_ok=True)
-            (folder / 'base-prompt.md').write_text(part + '\n')
+            parts = [p.strip() for p in txt.split('--------') if p.strip()]
+
+    for idx, part in enumerate(parts, start=1):
+        m = re.search(r"^prompt_id:\s*([^\s]+)", part, re.MULTILINE)
+        if not m:
+            print(f"⚠️  Chunk {idx} skipped: no prompt_id found")
+            continue
+
+        pid = m.group(1)                  # e.g. tech-saas-drafting-002
+        toks = pid.split("-")
+        if len(toks) < 4:
+            print(f"⚠️  Chunk {idx} skipped: pid '{pid}' not 4 tokens")
+            continue
+
+        _, sub, task, _ = toks[:4]
+        folder = pathlib.Path(f"prompts/corporate-commercial/{sub}/{task}/{pid}")
+        folder.mkdir(parents=True, exist_ok=True)
+        (folder / "base-prompt.md").write_text(part + "\n")
+        print(f"✓  Wrote {pid}")
         print(f'Split {len(parts)} files')
         PY
     - name: Commit results
