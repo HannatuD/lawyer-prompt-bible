@@ -1,0 +1,31 @@
+# === Legal-Practice Specific ===
+client_data/
+confidential/
+*.client
+*.case
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS artefacts ===
+.DS_Store
+Thumbs.db
+
+# === Testing & coverage ===
+.coverage
+htmlcov/
+.pytest_cache/
+
+# === Docs build output ===
+docs/_build/
