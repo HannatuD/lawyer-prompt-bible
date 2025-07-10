@@ -4,7 +4,7 @@ title: "Corporate & Commercial – Standard Mutual NDA (E&W)"
 practice_area: "Corporate & Commercial"
 sub_category: "Commercial Contracts"
 task_type: "Drafting"
-jurisdiction: "England & Wales"
+jurisdiction: "england-wales"
 complexity: basic
 time_sensitivity: "Standard"
 document_length: "Standard"
