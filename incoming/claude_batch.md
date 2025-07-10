@@ -9,7 +9,7 @@ time_estimate: 60
 risk_level: high
 last_updated: 2025-07-10
 author: UKLegalPromptArchitect
-tags: [share-purchase, m&a, warranties, corporate]
+tags: [share-purchase, "m&a", warranties, corporate]
 ---
 
 ## Purpose
