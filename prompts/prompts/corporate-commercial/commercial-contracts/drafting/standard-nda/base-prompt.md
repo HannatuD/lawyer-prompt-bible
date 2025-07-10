@@ -1,5 +1,4 @@
 ---
----
 prompt_id: corp-comm-draft-001
 title: "Corporate & Commercial – Standard Mutual NDA (E&W)"
 practice_area: "Corporate & Commercial"
@@ -15,7 +14,6 @@ prompt_purpose: "Initial Draft"
 risk_level: low
 last_updated: 2025-07-10
 author: HannatuD
----
 ---
 
 ## Context  
