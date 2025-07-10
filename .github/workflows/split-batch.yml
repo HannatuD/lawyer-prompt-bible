@@ -1,53 +1,69 @@
-name: Split Claude batch
+name: Split Claude batch into prompt files
+
 on:
   push:
-    paths: ['incoming/claude_batch.md']
+    paths: ['incoming/claude_batch.md']   # run whenever this file is added/changed
+  workflow_dispatch:                      # manual “Run workflow” button
 
 jobs:
   split:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+
     - name: Run splitter
       run: |
         python - <<'PY'
         import pathlib, re
-        src = pathlib.Path('incoming/claude_batch.md')
-        if not src.exists():
-            print('No batch file – skip')
+
+        batch_file = pathlib.Path('incoming/claude_batch.md')
+        if not batch_file.exists():
+            print("No batch file found — nothing to do.")
             exit(0)
-        txt = src.read_text()
-        parts = [p.strip() for p in txt.split('--------') if p.strip()]
-            parts = [p.strip() for p in txt.split('--------') if p.strip()]
 
-    for idx, part in enumerate(parts, start=1):
-        m = re.search(r"^prompt_id:\s*([^\s]+)", part, re.MULTILINE)
-        if not m:
-            print(f"⚠️  Chunk {idx} skipped: no prompt_id found")
-            continue
+        text = batch_file.read_text(encoding='utf-8')
+        parts = [p.strip() for p in text.split('--------') if p.strip()]
 
-        pid = m.group(1)                  # e.g. tech-saas-drafting-002
-        toks = pid.split("-")
-        if len(toks) < 4:
-            print(f"⚠️  Chunk {idx} skipped: pid '{pid}' not 4 tokens")
-            continue
+        good, skipped = 0, 0
+        for idx, part in enumerate(parts, start=1):
+            m = re.search(r"^prompt_id:\s*([^\s]+)", part, re.MULTILINE)
+            if not m:
+                print(f"⚠️  Chunk {idx} skipped: no prompt_id found")
+                skipped += 1
+                continue
 
-        _, sub, task, _ = toks[:4]
-        folder = pathlib.Path(f"prompts/corporate-commercial/{sub}/{task}/{pid}")
-        folder.mkdir(parents=True, exist_ok=True)
-        (folder / "base-prompt.md").write_text(part + "\n")
-        print(f"✓  Wrote {pid}")
-        print(f'Split {len(parts)} files')
+            pid = m.group(1)                          # e.g. tech-saas-drafting-002
+            toks = pid.split('-')
+            if len(toks) < 4:
+                print(f"⚠️  Chunk {idx} skipped: malformed prompt_id '{pid}'")
+                skipped += 1
+                continue
+
+            _, sub, task, _ = toks[:4]               # tech | saas | drafting | 002
+            folder = pathlib.Path(
+                f"prompts/corporate-commercial/{sub}/{task}/{pid}"
+            )
+            folder.mkdir(parents=True, exist_ok=True)
+            (folder / "base-prompt.md").write_text(part + "\n", encoding='utf-8')
+            print(f"✓  Wrote {pid}")
+            good += 1
+
+        print(f"\nFinished: {good} files written, {skipped} chunks skipped.")
+
         PY
+
     - name: Commit results
       run: |
         git config user.name  "batch-bot"
-        git config user.email "batch@example.com"
-        git add prompts
-        git rm incoming/claude_batch.md
+        git config user.email "batch-bot@example.com"
+        git add prompts || true
+        git rm -f incoming/claude_batch.md || true
         git commit -m "feat(prompts): auto-split Claude tech batch" || echo "Nothing to commit"
         git push
