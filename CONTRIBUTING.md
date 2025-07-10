@@ -29,3 +29,46 @@ author: GitHubUsername
 reviewer: ReviewerUsername    # must be UK-qualified
 tags: [nda, confidentiality]
 ---
+3 Prompt body structure
+# [Prompt Title]
+
+## Purpose
+Why a UK lawyer would use this prompt.
+
+## Base Prompt
+[Paste the actual prompt text with variables such as {{client_name}}]
+
+## Variables
+- {{client_name}} – full legal name
+- {{effective_date}} – DD Month YYYY
+
+## Example usage
+Input and expected model output.
+
+## Risk warnings
+⚠️  Hallucination review required for all statutory references.
+4 How to submit
+Fork the repo and create a branch
+git checkout -b add-[practice]-[prompt-name]
+
+Add your prompt file under the correct folder.
+
+Run the validator:
+python tools/validation/prompt-validator.py path/to/file.md
+
+Commit, push, and open a Pull Request.
+
+A qualified reviewer will approve or request changes.
+
+5 Review criteria
+ Legal accuracy for the stated jurisdiction
+
+ Follows taxonomy and file-naming rules
+
+ Front-matter complete and valid
+
+ Clear, jargon-controlled language for each audience variant
+
+ No confidential data
+
+
