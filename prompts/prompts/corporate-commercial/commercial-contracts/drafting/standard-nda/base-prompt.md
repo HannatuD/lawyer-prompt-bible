@@ -1,19 +1,23 @@
 ---
 prompt_id: corp-comm-draft-001
 title: "Corporate & Commercial – Standard Mutual NDA (E&W)"
-practice_area: "Corporate & Commercial"
-sub_category: "Commercial Contracts"
-task_type: "Drafting"
+practice_area: "corporate & commercial"
+sub_category: "commercial contracts"
+task_type: "drafting"
 jurisdiction: "england-wales"
 complexity: basic
-time_sensitivity: "Standard"
-document_length: "Standard"
-regulatory_framework: "Post-Brexit"
-formality_level: "Professional Standard"
-prompt_purpose: "Initial Draft"
+time_sensitivity: "standard"
+document_length: "standard"
+regulatory_framework: "post-brexit"
+formality_level: "professional standard"
+prompt_purpose: "initial draft"
 risk_level: low
 last_updated: 2025-07-10
 author: HannatuD
+tags: [nda, confidentiality]
+tested_models: [gpt-4o-turbo]
+success_rate: TBD
+
 ---
 
 ## Context  
