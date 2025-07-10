@@ -2,12 +2,14 @@ name: Validate Prompts
 
 # When should the robot run?
 on:
+
   push:
     branches: [main]
     paths: ['prompts/**']
   pull_request:
     paths: ['prompts/**']
-
+  workflow_dispatch:   
+  
 jobs:
   validate:
     runs-on: ubuntu-latest
