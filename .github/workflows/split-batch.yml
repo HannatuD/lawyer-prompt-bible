@@ -5,6 +5,9 @@ on:
     paths: ['incoming/claude_batch.md']   # run whenever this file is added/changed
   workflow_dispatch:                      # manual “Run workflow” button
 
+permissions:               
+  contents: write 
+
 jobs:
   split:
     runs-on: ubuntu-latest
