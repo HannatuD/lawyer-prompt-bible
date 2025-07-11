@@ -70,7 +70,7 @@ This policy ensures compliance with Money Laundering Regulations 2017...
 3.1 Identity Verification
 All clients must provide:
 - Photo ID (passport/driving licence)
-- Proof of address (utility bill <3 months)...
+- utility bill less than 3 months old
 
 ## Risk Warnings
 ⚠️ Personal liability for failures
