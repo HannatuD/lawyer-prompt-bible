@@ -1,0 +1,29 @@
+name: Deploy Docusaurus site
+
+on:
+  push:
+    branches: [main]          # run on every push to main
+  workflow_dispatch:          # plus a manual “Run workflow” button
+
+permissions:
+  contents: write             # allow the job to push to gh-pages
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0        # required for docusaurus deploy
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    - name: Install deps & build
+      run: |
+        cd docs-site
+        npm ci
+        npm run build
+    - name: Deploy to GH Pages
+      run: |
+        cd docs-site
+        npx docusaurus deploy --skip-build --ci
