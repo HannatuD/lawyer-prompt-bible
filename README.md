@@ -30,7 +30,6 @@ Never include client data or confidential information in prompts.
 
 ## 📚 Documentation
 
-- [Browse Prompts](prompts/corporate-commercial/README)
 - [Contribution Guidelines](CONTRIBUTING.md)
 - [Legal Compliance](docs/legal-compliance.md)
 
