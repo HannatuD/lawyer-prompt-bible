@@ -22,6 +22,7 @@ England & Wales
 Formal transfer of IP ownership requiring precision to ensure complete and valid assignment.
 
 ## Base Prompt
+```text
 Draft IP assignment from {{assignor}} to {{assignee}}:
 - IP description: {{ip_assets}}
 - Consideration: £{{purchase_price}}
@@ -39,14 +40,17 @@ Include:
 9. Prosecution cooperation
 10. Formal execution
 Address all IP types comprehensively.
+```
 
 ## Variables
+```text
 - {{assignor}} – current IP owner
 - {{assignee}} – new IP owner
 - {{ip_assets}} – IP being transferred
 - {{purchase_price}} – consideration
 - {{transfer_date}} – when effective
 - {{geographic_scope}} – worldwide/limited
+```
 
 ## Example Usage
 ### Input

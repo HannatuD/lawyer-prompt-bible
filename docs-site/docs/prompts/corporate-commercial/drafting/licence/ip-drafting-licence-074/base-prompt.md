@@ -22,6 +22,7 @@ England & Wales
 Structuring IP licensing deal ensuring clear scope, appropriate controls, and fair commercial terms.
 
 ## Base Prompt
+```text
 Draft IP licence between {{licensor}} and {{licensee}}:
 - IP type: {{ip_rights}}
 - Scope: {{licence_scope}}
@@ -40,8 +41,10 @@ Include:
 8. IP warranties
 9. Infringement procedure
 10. Termination events
+```
 
 ## Variables
+```text
 - {{licensor}} – IP owner
 - {{licensee}} – party receiving licence
 - {{ip_rights}} – patents/copyright/trademark
@@ -50,6 +53,7 @@ Include:
 - {{licence_term}} – duration
 - {{royalty_structure}} – payment terms
 - {{exclusive_status}} – exclusive/non-exclusive
+```
 
 ## Example Usage
 ### Input

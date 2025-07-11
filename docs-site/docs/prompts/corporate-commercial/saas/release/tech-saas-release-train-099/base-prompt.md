@@ -23,7 +23,9 @@ United Kingdom.
 Release management and engineering teams.
 
 ### Base Prompt  
+```text
 “You are an agile release-train engineer. Draft a **Release Train Schedule** for **{{Cadence}}** releases, including freeze periods, regression testing, and comms milestones.”
+```
 
 ### Variables  
 | Variable | Description | Example |

@@ -22,6 +22,7 @@ UK-wide
 Legal requirement to respond within one month with all personal data unless exemptions apply.
 
 ## Base Prompt
+```text
 Draft DSAR response for {{data_subject}} to {{data_controller}}:
 - Request date: {{request_date}}
 - ID verified: {{id_confirmation}}
@@ -40,8 +41,10 @@ Include:
 9. Exemptions applied
 10. Further rights
 Ensure UK GDPR compliance.
+```
 
 ## Variables
+```text
 - {{data_subject}} – requester name
 - {{data_controller}} – organisation
 - {{request_date}} – when received
@@ -49,6 +52,7 @@ Ensure UK GDPR compliance.
 - {{systems_searched}} – systems checked
 - {{data_categories}} – types of data found
 - {{exemptions}} – applicable exemptions
+```
 
 ## Example Usage
 ### Input

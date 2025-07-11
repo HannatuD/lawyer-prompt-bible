@@ -22,6 +22,7 @@ England & Wales
 Pre-collaboration review ensuring confidential information protected while enabling meaningful technical discussions.
 
 ## Base Prompt
+```text
 Review NDA for {{disclosing_party}} sharing with {{receiving_party}}:
 - Purpose: {{disclosure_purpose}}
 - Information type: {{info_category}}
@@ -38,13 +39,16 @@ Check for:
 9. Third party rights
 10. Future dealings
 Flag unusual or problematic terms.
+```
 
 ## Variables
+```text
 - {{disclosing_party}} – information owner
 - {{receiving_party}} – recipient
 - {{disclosure_purpose}} – why disclosing
 - {{info_category}} – type of information
 - {{nda_term}} – confidentiality period
+```
 
 ## Example Usage
 ### Input

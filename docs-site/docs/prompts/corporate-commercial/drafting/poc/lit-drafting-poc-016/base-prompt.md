@@ -22,6 +22,7 @@ England & Wales
 Used for initiating County Court proceedings for debt recovery, breach of contract, or other money claims under £100,000.
 
 ## Base Prompt
+```text
 Draft particulars of claim for {{claimant_name}} against {{defendant_name}} for {{claim_type}}:
 - Amount claimed: £{{principal_amount}}
 - Interest basis: {{interest_basis}}
@@ -36,8 +37,10 @@ Structure per CPR PD 16:
 6. Interest calculation
 7. Prayer for relief
 Include statement of truth wording.
+```
 
 ## Variables
+```text
 - {{claimant_name}} – claiming party
 - {{defendant_name}} – defending party
 - {{claim_type}} – "unpaid invoice", "breach of contract", etc.
@@ -45,6 +48,7 @@ Include statement of truth wording.
 - {{interest_basis}} – "contractual at X%" or "statutory"
 - {{key_dates}} – relevant chronology
 - {{fact_summary}} – brief factual background
+```
 
 ## Example Usage
 ### Input

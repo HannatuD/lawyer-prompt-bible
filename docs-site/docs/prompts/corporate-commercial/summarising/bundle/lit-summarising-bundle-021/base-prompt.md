@@ -22,6 +22,7 @@ England & Wales
 Used when preparing trial bundles, requiring systematic organisation of all case documents for efficient court reference.
 
 ## Base Prompt
+```text
 Create trial bundle index for {{case_name}} organising these documents:
 {{document_list}}
 Structure per Practice Direction:
@@ -43,10 +44,13 @@ Provide:
 - Clear descriptions
 - Chronological ordering within sections
 - Cross-reference table
+```
 
 ## Variables
+```text
 - {{case_name}} – case title
 - {{document_list}} – all documents for inclusion
+```
 
 ## Example Usage
 ### Input

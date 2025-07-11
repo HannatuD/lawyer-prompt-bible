@@ -22,6 +22,7 @@ England & Wales
 Used to document agreed exits ensuring clean break with waiver of claims in exchange for enhanced package.
 
 ## Base Prompt
+```text
 Draft settlement agreement between {{employer}} and {{employee}} for {{exit_reason}}:
 - Termination date: {{leave_date}}
 - Ex gratia payment: £{{ex_gratia}}
@@ -40,8 +41,10 @@ Include:
 8. Announcement wording
 9. Legal advice confirmation
 Ensure s.203 ERA compliance.
+```
 
 ## Variables
+```text
 - {{employer}} – company name
 - {{employee}} – departing employee
 - {{exit_reason}} – "redundancy", "mutual agreement", etc.
@@ -51,6 +54,7 @@ Ensure s.203 ERA compliance.
 - {{notice_weeks}} – notice period
 - {{benefits_continuation}} – ongoing benefits
 - {{restrictions_position}} – affirm/waive/modify
+```
 
 ## Example Usage
 ### Input

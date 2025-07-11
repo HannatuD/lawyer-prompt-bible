@@ -23,7 +23,9 @@ United Kingdom (aligns with AICPA SOC 2 standards).
 Security, compliance, and engineering leaders.
 
 ### Base Prompt  
+```text
 “You are an information-security auditor. Generate a **SOC 2 Readiness Checklist** for **{{ServiceName}}**, mapping current controls to Trust Services Criteria, evidence requirements, and remediation tasks.”
+```
 
 ### Variables  
 | Variable | Description | Example |

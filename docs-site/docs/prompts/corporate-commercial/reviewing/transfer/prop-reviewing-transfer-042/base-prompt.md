@@ -22,6 +22,7 @@ England & Wales
 Critical conveyancing document requiring careful review before completion to avoid post-completion disputes.
 
 ## Base Prompt
+```text
 Review TR1 transfer for {{property_address}}:
 - Transferor: {{seller_details}}
 - Transferee: {{buyer_details}}
@@ -39,13 +40,16 @@ Check:
 9. 9. Stamp duty provisions
 10. Land Registry requirements
 Flag any unusual provisions or missing elements.
+```
 
 ## Variables
+```text
 - {{property_address}} – property being transferred
 - {{seller_details}} – transferor name(s)
 - {{buyer_details}} – transferee name(s)
 - {{purchase_price}} – consideration amount
 - {{title_number}} – Land Registry title
+```
 
 ## Example Usage
 ### Input

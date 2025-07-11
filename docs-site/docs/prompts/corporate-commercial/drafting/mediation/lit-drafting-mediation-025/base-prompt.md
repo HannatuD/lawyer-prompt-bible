@@ -22,6 +22,7 @@ UK-wide
 Used for mediation preparation, balancing openness for settlement with protection of litigation position.
 
 ## Base Prompt
+```text
 Draft mediation position statement for {{party_name}} in {{dispute_description}}:
 - Claim amount: £{{claim_amount}}
 - Key issues: {{main_issues}}
@@ -37,8 +38,10 @@ Structure:
 7. Creative solutions
 Tone: Constructive but protecting position
 Mark "Without Prejudice Save as to Costs"
+```
 
 ## Variables
+```text
 - {{party_name}} – your client
 - {{dispute_description}} – nature of dispute
 - {{claim_amount}} – amount in dispute
@@ -46,6 +49,7 @@ Mark "Without Prejudice Save as to Costs"
 - {{min_settlement}} – minimum acceptable
 - {{ideal_settlement}} – target settlement
 - {{other_terms}} – non-monetary aspects
+```
 
 ## Example Usage
 ### Input

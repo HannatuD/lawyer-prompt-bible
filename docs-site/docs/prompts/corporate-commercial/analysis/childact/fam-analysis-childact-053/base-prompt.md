@@ -22,6 +22,7 @@ England & Wales
 Used to assess child arrangements proposals in private law proceedings focusing on child's best interests.
 
 ## Base Prompt
+```text
 Analyse child arrangements proposal for {{children_names}} (ages {{ages}}):
 - Current arrangements: {{existing_pattern}}
 - Proposed change: {{proposed_arrangements}}
@@ -40,14 +41,17 @@ Consider:
 - Attachment patterns
 - Practical logistics
 - Sibling relationships
+```
 
 ## Variables
+```text
 - {{children_names}} – children involved
 - {{ages}} – children's ages
 - {{existing_pattern}} – current arrangements
 - {{proposed_arrangements}} – suggested changes
 - {{change_reason}} – why change sought
 - {{parent_views}} – each parent's position
+```
 
 ## Example Usage
 ### Input

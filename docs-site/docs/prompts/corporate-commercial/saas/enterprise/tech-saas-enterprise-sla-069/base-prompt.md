@@ -23,7 +23,9 @@ United Kingdom.
 Legal, sales engineering, and service-delivery teams.
 
 ### Base Prompt  
+```text
 “You are a SaaS service-delivery expert. Draft an **Enterprise SLA** for **{{Service}}** guaranteeing {{Uptime}} uptime, priority support, and service-credit calculations.”
+```
 
 ### Variables  
 | Variable | Description | Example |

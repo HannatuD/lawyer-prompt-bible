@@ -22,6 +22,7 @@ England & Wales
 Used for establishing long-term supply relationships for manufactured goods, particularly where buyer requires security of supply and quality standards.
 
 ## Base Prompt
+```text
 Draft a manufacturing supply agreement where {{manufacturer}} supplies {{products}} to {{buyer}}:
 - Term: {{contract_term}} with {{renewal_option}}
 - Minimum order: {{min_order}} units/month
@@ -37,8 +38,10 @@ Include:
 - Product liability and recalls
 - IP and confidentiality
 - Termination and wind-down
+```
 
 ## Variables
+```text
 - {{manufacturer}} – supplier company name
 - {{buyer}} – purchasing company name
 - {{products}} – goods description
@@ -47,6 +50,7 @@ Include:
 - {{min_order}} – minimum monthly quantity
 - {{unit_price}} – price per unit
 - {{price_review}} – "annual review" or "fixed term"
+```
 
 ## Example Usage
 ### Input

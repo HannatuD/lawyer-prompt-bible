@@ -22,6 +22,7 @@ UK-wide
 Essential compliance document requiring regular updates to reflect processing activities and legal requirements.
 
 ## Base Prompt
+```text
 Review privacy policy for {{company_name}} website:
 {{policy_text}}
 Check against UK GDPR Article 13/14:
@@ -39,10 +40,13 @@ Check against UK GDPR Article 13/14:
 12. Automated decisions
 13. Source of data
 Assess clarity and accessibility.
+```
 
 ## Variables
+```text
 - {{company_name}} – business name
 - {{policy_text}} – current policy
+```
 
 ## Example Usage
 ### Input

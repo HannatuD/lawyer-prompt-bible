@@ -23,7 +23,9 @@ United Kingdom.
 Security and procurement teams at SaaS businesses.
 
 ### Base Prompt  
+```text
 “You are a cybersecurity procurement advisor. Draft a **Pen-Testing RFP** for **{{Platform}}** highlighting scope (web app, APIs, cloud infra), reporting standards, and remediation timelines.”
+```
 
 ### Variables  
 | Variable | Description | Example |

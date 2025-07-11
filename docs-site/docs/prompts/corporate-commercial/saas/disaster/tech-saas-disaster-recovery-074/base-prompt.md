@@ -23,7 +23,9 @@ United Kingdom.
 Site-reliability engineering (SRE) and operations teams.
 
 ### Base Prompt  
+```text
 “You are a SaaS reliability engineer. Produce a **Disaster-Recovery Plan** for **{{ServiceName}}**, including RTO/RPO targets, failover runbooks, and testing cadence.”
+```
 
 ### Variables  
 | Variable | Description | Example |

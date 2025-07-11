@@ -22,6 +22,7 @@ England & Wales
 Emergency application in cases of domestic abuse or relationship breakdown requiring one party to leave home.
 
 ## Base Prompt
+```text
 Draft occupation order application for {{applicant_name}} against {{respondent_name}}:
 - Property: {{property_address}}
 - Ownership: {{ownership_status}}
@@ -40,8 +41,10 @@ Include:
 - Urgency factors
 - Without notice justification
 - Power of arrest need
+```
 
 ## Variables
+```text
 - {{applicant_name}} – person seeking order
 - {{respondent_name}} – person to be excluded
 - {{property_address}} – family home
@@ -49,6 +52,7 @@ Include:
 - {{relationship_type}} – married/cohabiting
 - {{children_present}} – children details
 - {{abuse_summary}} – conduct relied on
+```
 
 ## Example Usage
 ### Input

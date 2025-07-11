@@ -23,7 +23,9 @@ United Kingdom.
 Cloud architects and compliance officers.
 
 ### Base Prompt  
+```text
 “You are a cloud-risk analyst. Perform a **Multi-Region Deployment Assessment** for **{{Service}}**, evaluating latency impact, data-sovereignty, and cost.”
+```
 
 ### Variables  
 | Variable | Description | Example |

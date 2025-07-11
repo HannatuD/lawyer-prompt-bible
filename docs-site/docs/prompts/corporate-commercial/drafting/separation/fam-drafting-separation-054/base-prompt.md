@@ -22,6 +22,7 @@ England & Wales
 Used when cohabitees separate, lacking divorce law protections but needing formal arrangement for assets and children.
 
 ## Base Prompt
+```text
 Draft separation agreement for {{party_1}} and {{party_2}} (unmarried):
 - Shared property: {{property_details}}
 - Ownership: {{ownership_shares}}
@@ -39,14 +40,17 @@ Include:
 9. Legal advice confirmation
 10. Variation provisions
 Note limits without court order.
+```
 
 ## Variables
+```text
 - {{party_1}} – first party
 - {{party_2}} – second party
 - {{property_details}} – shared home details
 - {{ownership_shares}} – legal ownership split
 - {{children_details}} – children and ages
 - {{sep_date}} – when separated
+```
 
 ## Example Usage
 ### Input

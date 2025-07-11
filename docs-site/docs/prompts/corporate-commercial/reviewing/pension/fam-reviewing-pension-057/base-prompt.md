@@ -22,6 +22,7 @@ England & Wales
 Technical document requiring precision as errors can invalidate transfer or cause significant delays.
 
 ## Base Prompt
+```text
 Review pension sharing annex for {{pension_scheme}}:
 - Member: {{member_name}}
 - Transfer percentage: {{percentage}}%
@@ -38,13 +39,16 @@ Check:
 8. Implementation timeline
 9. Death provisions
 10. Information requirements
+```
 
 ## Variables
+```text
 - {{pension_scheme}} – pension provider
 - {{member_name}} – pension member
 - {{percentage}} – share percentage
 - {{cev_amount}} – cash equivalent
 - {{cev_date}} – valuation date
+```
 
 ## Example Usage
 ### Input

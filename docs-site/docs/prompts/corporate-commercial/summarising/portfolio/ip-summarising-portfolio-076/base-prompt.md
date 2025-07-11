@@ -22,6 +22,7 @@ UK-wide
 Strategic IP review for business planning, investment rounds, or exit preparation.
 
 ## Base Prompt
+```text
 Audit IP portfolio for {{company_name}}:
 Catalogue:
 1. Patents (granted/pending)
@@ -40,9 +41,12 @@ Assess each for:
 - Enforcement history
 - Valuation factors
 Identify strategic recommendations.
+```
 
 ## Variables
+```text
 - {{company_name}} – portfolio owner
+```
 
 ## Example Usage
 ### Input

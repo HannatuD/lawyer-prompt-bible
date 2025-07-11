@@ -22,6 +22,7 @@ UK-wide
 Used in business sales, outsourcing, or re-tendering to determine employee transfer obligations and liabilities.
 
 ## Base Prompt
+```text
 Analyse TUPE application for {{transfer_type}}:
 - Transferor: {{current_employer}}
 - Transferee: {{new_employer}}
@@ -40,14 +41,17 @@ Assess:
 9. Warranty/indemnity needs
 10. Due diligence requirements
 Provide compliance timeline.
+```
 
 ## Variables
+```text
 - {{transfer_type}} – "business sale", "outsourcing", "insourcing"
 - {{current_employer}} – transferor entity
 - {{new_employer}} – transferee entity
 - {{transfer_description}} – what's transferring
 - {{employee_numbers}} – staff potentially affected
 - {{proposed_date}} – intended transfer date
+```
 
 ## Example Usage
 ### Input

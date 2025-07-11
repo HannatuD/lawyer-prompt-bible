@@ -22,6 +22,7 @@ UK-wide
 Used during settlement negotiations to objectively assess proposals against likely court outcomes, costs, and commercial objectives.
 
 ## Base Prompt
+```text
 Analyse settlement proposal in {{case_name}}:
 - Claim value: £{{claim_amount}}
 - Settlement offer: £{{offer_amount}}
@@ -38,14 +39,17 @@ Evaluate:
 7. Confidentiality benefits
 8. Part 36 implications
 Provide recommendation with reasoning.
+```
 
 ## Variables
+```text
 - {{case_name}} – case reference
 - {{claim_amount}} – full claim value
 - {{offer_amount}} – settlement proposed
 - {{case_stage}} – "pre-action", "pleadings", "disclosure", etc.
 - {{costs_incurred}} – costs spent so far
 - {{future_costs}} – estimated costs to trial
+```
 
 ## Example Usage
 ### Input

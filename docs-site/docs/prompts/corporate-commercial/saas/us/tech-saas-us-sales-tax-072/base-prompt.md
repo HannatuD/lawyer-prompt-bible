@@ -23,7 +23,9 @@ United Kingdom & United States.
 Finance and legal teams.
 
 ### Base Prompt  
+```text
 “You are a US sales-tax specialist. Perform a **Nexus Assessment** for **{{Company}}**, summarising state thresholds, SaaS taxability, and registration timelines.”
+```
 
 ### Variables  
 | Variable | Description | Example |

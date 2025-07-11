@@ -23,7 +23,9 @@ United Kingdom.
 Compliance, DevOps, and legal teams.
 
 ### Base Prompt  
+```text
 “You are a SaaS data-governance officer. Draft a **Data Retention Policy** for **{{Product}}**, defining retention periods, auto-deletion jobs, and customer export options.”
+```
 
 ### Variables  
 | Variable | Description | Example |

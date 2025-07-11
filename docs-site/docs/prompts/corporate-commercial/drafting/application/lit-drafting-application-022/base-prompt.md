@@ -22,6 +22,7 @@ England & Wales
 Used for making applications during proceedings such as summary judgment, security for costs, or specific disclosure.
 
 ## Base Prompt
+```text
 Draft application notice for {{applicant}} seeking {{relief_sought}} in {{case_name}}:
 - Legal basis: {{legal_grounds}}
 - Evidence relied on: {{evidence_summary}}
@@ -38,8 +39,10 @@ Structure:
 - Grounds in numbered paragraphs
 - Evidence referenced
 - Time estimate justified
+```
 
 ## Variables
+```text
 - {{applicant}} – applying party
 - {{relief_sought}} – what order seeking
 - {{case_name}} – case reference
@@ -47,6 +50,7 @@ Structure:
 - {{evidence_summary}} – supporting evidence
 - {{hearing_time}} – estimated hearing length
 - {{urgent_basis}} – if urgent, why
+```
 
 ## Example Usage
 ### Input

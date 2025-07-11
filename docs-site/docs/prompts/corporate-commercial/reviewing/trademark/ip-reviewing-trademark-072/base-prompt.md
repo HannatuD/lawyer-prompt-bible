@@ -22,6 +22,7 @@ UK-wide
 Pre-filing review to maximize registration chances and avoid costly objections or oppositions.
 
 ## Base Prompt
+```text
 Review trademark application for {{mark_name}}:
 - Type: {{mark_type}}
 - Classes: {{nice_classes}}
@@ -40,14 +41,17 @@ Assess:
 9. Translation issues
 10. Opposition risks
 Recommend improvements.
+```
 
 ## Variables
+```text
 - {{mark_name}} – trademark applied for
 - {{mark_type}} – word/logo/combined
 - {{nice_classes}} – classification numbers
 - {{specification}} – goods/services list
 - {{applicant_name}} – trademark owner
 - {{search_results}} – clearance search outcome
+```
 
 ## Example Usage
 ### Input

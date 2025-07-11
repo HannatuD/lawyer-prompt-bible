@@ -22,6 +22,7 @@ England & Wales
 Used for engaging IT consultants through limited companies where demonstrating genuine business services (not disguised employment) is critical.
 
 ## Base Prompt
+```text
 Draft an IT consultancy agreement between {{client}} and {{consultancy_company}} for {{consultant_name}} to provide {{services}}:
 - Duration: {{contract_length}}
 - Fee: £{{daily_rate}} per day
@@ -35,8 +36,10 @@ IR35 considerations:
 - Multiple client capability
 - Fixed project deliverables
 Include IP assignment, confidentiality, professional indemnity insurance.
+```
 
 ## Variables
+```text
 - {{client}} – end client company
 - {{consultancy_company}} – consultant's limited company
 - {{consultant_name}} – individual consultant
@@ -44,6 +47,7 @@ Include IP assignment, confidentiality, professional indemnity insurance.
 - {{contract_length}} – project duration
 - {{daily_rate}} – consultancy rate
 - {{work_location}} – "client site", "remote", or "mixed"
+```
 
 ## Example Usage
 ### Input

@@ -23,7 +23,9 @@ United Kingdom.
 SaaS information security management and operations teams.
 
 ### Base Prompt  
+```text
 “You are an ISO 27001 consultant. Draft a **12-Month Implementation Roadmap** for **{{Organisation}}**, including ISMS scope, policy drafts, risk assessment schedule, and internal audit plan.”
+```
 
 ### Variables  
 | Variable | Description | Example |

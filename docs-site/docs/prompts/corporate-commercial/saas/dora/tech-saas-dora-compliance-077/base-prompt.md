@@ -23,7 +23,9 @@ European Union & United Kingdom.
 Risk, compliance, and engineering teams at SaaS companies serving financial clients.
 
 ### Base Prompt  
+```text
 “You are a regulatory compliance analyst. Conduct a **DORA Gap-Analysis** for **{{Service}}**, mapping ICT risk controls, incident reporting, and third-party oversight.”
+```
 
 ### Variables  
 | Variable | Description | Example |

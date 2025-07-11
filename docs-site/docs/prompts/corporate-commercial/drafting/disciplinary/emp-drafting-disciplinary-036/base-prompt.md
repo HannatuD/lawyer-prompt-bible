@@ -22,6 +22,7 @@ UK-wide
 First formal step in disciplinary process requiring careful drafting to ensure procedural fairness.
 
 ## Base Prompt
+```text
 Draft disciplinary invitation letter for {{employee_name}} regarding {{allegation_type}}:
 - Incident date(s): {{incident_dates}}
 - Allegations: {{specific_allegations}}
@@ -39,8 +40,10 @@ Include:
 8. Suspension status
 9. Confidentiality reminder
 Ensure ACAS Code compliance.
+```
 
 ## Variables
+```text
 - {{employee_name}} – employee facing disciplinary
 - {{allegation_type}} – misconduct category
 - {{incident_dates}} – when alleged incidents occurred
@@ -48,6 +51,7 @@ Ensure ACAS Code compliance.
 - {{hearing_date}} – proposed hearing date/time
 - {{location}} – hearing venue
 - {{chair_name}} – who will chair hearing
+```
 
 ## Example Usage
 ### Input

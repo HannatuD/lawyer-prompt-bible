@@ -23,7 +23,9 @@ United Kingdom (UK-GDPR).
 Data science and privacy teams.
 
 ### Base Prompt  
+```text
 “You are a privacy engineer. Develop a **Data Anonymisation Playbook** for **{{Dataset}}** applying techniques like hashing, differential privacy, and aggregation.”
+```
 
 ### Variables  
 | Variable | Description | Example |

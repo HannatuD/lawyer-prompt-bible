@@ -22,6 +22,7 @@ UK-wide
 Critical incident response requiring rapid assessment of risks and legal notification obligations.
 
 ## Base Prompt
+```text
 Assess data breach at {{organisation_name}}:
 - Incident type: {{breach_type}}
 - Data affected: {{data_categories}}
@@ -40,14 +41,17 @@ Evaluate:
 9. Law enforcement involvement
 10. PR/media strategy
 Create action plan with timelines.
+```
 
 ## Variables
+```text
 - {{organisation_name}} – affected entity
 - {{breach_type}} – nature of breach
 - {{data_categories}} – types compromised
 - {{number_affected}} – scale of breach
 - {{discovery_date}} – when discovered
 - {{breach_cause}} – how occurred
+```
 
 ## Example Usage
 ### Input

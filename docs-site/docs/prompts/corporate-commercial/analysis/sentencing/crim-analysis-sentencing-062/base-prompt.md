@@ -22,6 +22,7 @@ England & Wales
 Essential for client advice on plea decisions and managing expectations about likely outcomes.
 
 ## Base Prompt
+```text
 Analyse sentencing for {{defendant_name}} convicted of {{offence}}:
 - Previous convictions: {{antecedents}}
 - Offence category: {{category_factors}}
@@ -40,14 +41,17 @@ Consider:
 - Custody threshold
 - Suspended sentence
 - Community options
+```
 
 ## Variables
+```text
 - {{defendant_name}} – person being sentenced
 - {{offence}} – conviction offence
 - {{antecedents}} – criminal record
 - {{category_factors}} – offence specifics
 - {{harm_level}} – harm caused
 - {{culpability_level}} – culpability factors
+```
 
 ## Example Usage
 ### Input

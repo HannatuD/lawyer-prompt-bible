@@ -22,6 +22,7 @@ England & Wales
 Used where defendant admits offence but disputes prosecution version of facts affecting sentence.
 
 ## Base Prompt
+```text
 Draft basis of plea for {{defendant_name}} pleading guilty to {{offence}}:
 - Prosecution version: {{pros_facts}}
 - Defence version: {{def_facts}}
@@ -38,13 +39,16 @@ Ensure:
 - Clear factual basis
 - Affects sentence legitimately
 - Supported by evidence
+```
 
 ## Variables
+```text
 - {{defendant_name}} – defendant
 - {{offence}} – charge pleading to
 - {{pros_facts}} – prosecution version
 - {{def_facts}} – defendant's version
 - {{disputed_elements}} – key differences
+```
 
 ## Example Usage
 ### Input

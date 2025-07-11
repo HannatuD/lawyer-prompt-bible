@@ -22,6 +22,7 @@ England & Wales
 Used when two or more businesses collaborate on a specific project or ongoing business, requiring clear governance, funding, and exit arrangements.
 
 ## Base Prompt
+```text
 Draft a joint venture agreement between {{party_a}} and {{party_b}} to establish {{jv_purpose}}:
 - JV vehicle: {{structure_type}}
 - Ownership split: {{party_a_share}}% / {{party_b_share}}%
@@ -36,8 +37,10 @@ Include:
 - Profit distribution policy
 - Exit mechanisms (IPO, trade sale, buy-out)
 - Dissolution triggers and procedures
+```
 
 ## Variables
+```text
 - {{party_a}} – first JV partner name
 - {{party_b}} – second JV partner name
 - {{jv_purpose}} – business purpose of JV
@@ -45,6 +48,7 @@ Include:
 - {{party_a_share}} – party A's percentage
 - {{party_b_share}} – party B's percentage
 - {{initial_capital}} – starting capital amount
+```
 
 ## Example Usage
 ### Input

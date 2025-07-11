@@ -22,6 +22,7 @@ UK-wide
 Critical document in grievance process requiring careful drafting to avoid discrimination claims or procedural challenges.
 
 ## Base Prompt
+```text
 Review grievance outcome letter regarding {{employee_name}}'s complaint about {{grievance_subject}}:
 {{draft_letter}}
 Check for:
@@ -39,11 +40,14 @@ Suggest improvements for:
 - Clarity and structure
 - Legal protection
 - Employee relations
+```
 
 ## Variables
+```text
 - {{employee_name}} – complainant
 - {{grievance_subject}} – nature of complaint
 - {{draft_letter}} – draft response
+```
 
 ## Example Usage
 ### Input

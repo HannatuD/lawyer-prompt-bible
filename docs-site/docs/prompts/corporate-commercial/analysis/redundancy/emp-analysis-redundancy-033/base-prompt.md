@@ -22,6 +22,7 @@ UK-wide
 Used when planning workforce reductions, ensuring fair process and minimising legal risk of unfair dismissal claims.
 
 ## Base Prompt
+```text
 Plan redundancy process for {{company_name}}:
 - Current employees: {{total_employees}}
 - Proposed redundancies: {{redundancy_number}}
@@ -40,8 +41,10 @@ Develop:
 8. Notice requirements
 9. Appeal process
 10. Protected characteristic impact
+```
 
 ## Variables
+```text
 - {{company_name}} – employer name
 - {{total_employees}} – workforce size
 - {{redundancy_number}} – proposed job losses
@@ -49,6 +52,7 @@ Develop:
 - {{affected_roles}} – positions at risk
 - {{redundancy_reason}} – business rationale
 - {{urgency_level}} – time pressure
+```
 
 ## Example Usage
 ### Input

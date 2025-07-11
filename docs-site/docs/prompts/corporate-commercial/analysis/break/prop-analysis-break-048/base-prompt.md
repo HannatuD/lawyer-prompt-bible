@@ -22,6 +22,7 @@ England & Wales
 Critical when planning lease termination as strict compliance required and errors cannot usually be corrected.
 
 ## Base Prompt
+```text
 Analyse break clause in lease of {{property_address}}:
 - Tenant: {{tenant_name}}
 - Break date: {{break_date}}
@@ -40,14 +41,17 @@ Assess:
 9. Authorisation needed
 10. Common pitfalls
 Provide compliance checklist and timeline.
+```
 
 ## Variables
+```text
 - {{property_address}} – leased property
 - {{tenant_name}} – tenant exercising break
 - {{break_date}} – when break operates
 - {{notice_required}} – notice period needed
 - {{today_date}} – current date
 - {{break_conditions}} – conditions to satisfy
+```
 
 ## Example Usage
 ### Input

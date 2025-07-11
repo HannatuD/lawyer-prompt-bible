@@ -22,6 +22,7 @@ UK-wide
 Complex application requiring detailed evidence of genuine need and robust HR systems for compliance.
 
 ## Base Prompt
+```text
 Prepare sponsor licence application for {{company_name}}:
 - Business type: {{business_sector}}
 - Size: {{employee_count}} employees
@@ -39,13 +40,16 @@ Structure application covering:
 9. Document retention systems
 10. Reporting procedures
 Include supporting evidence checklist.
+```
 
 ## Variables
+```text
 - {{company_name}} – applicant employer
 - {{business_sector}} – industry type
 - {{employee_count}} – company size
 - {{job_roles}} – positions for migrants
 - {{years_trading}} – business history
+```
 
 ## Example Usage
 ### Input

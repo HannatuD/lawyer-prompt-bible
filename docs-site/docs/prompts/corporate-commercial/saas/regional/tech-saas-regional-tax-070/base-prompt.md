@@ -23,7 +23,9 @@ United Kingdom (originating seller).
 Tax and finance teams of SaaS companies.
 
 ### Base Prompt  
+```text
 “You are a SaaS tax advisor. Summarise **Regional SaaS Tax Obligations** for sales into **{{Regions}}**, indicating VAT/GST registration thresholds and e-services rules.”
+```
 
 ### Variables  
 | Variable | Description | Example |

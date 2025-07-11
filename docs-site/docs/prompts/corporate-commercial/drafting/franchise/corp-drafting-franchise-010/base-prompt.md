@@ -22,6 +22,7 @@ England & Wales
 Used when appointing a master franchisee to develop a franchise network within UK, requiring careful balance of control, support, and commercial terms.
 
 ## Base Prompt
+```text
 Draft a master franchise agreement where {{franchisor}} grants {{master_franchisee}} exclusive rights to develop {{franchise_system}} in {{territory}}:
 - Development schedule: {{min_outlets}} outlets over {{dev_period}} years
 - Master franchise fee: £{{master_fee}}
@@ -36,8 +37,10 @@ Include:
 - Product supply arrangements
 - Termination and consequences
 - Post-term restrictions
+```
 
 ## Variables
+```text
 - {{franchisor}} – franchise system owner
 - {{master_franchisee}} – UK developer
 - {{franchise_system}} – brand/business name
@@ -46,6 +49,7 @@ Include:
 - {{dev_period}} – development timeframe
 - {{master_fee}} – upfront fee
 - {{royalty_rate}} – ongoing percentage
+```
 
 ## Example Usage
 ### Input

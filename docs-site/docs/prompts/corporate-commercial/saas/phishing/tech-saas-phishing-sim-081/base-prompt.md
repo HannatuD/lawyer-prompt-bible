@@ -23,7 +23,9 @@ United Kingdom.
 Security operations and HR compliance.
 
 ### Base Prompt  
+```text
 “You are a cyber-awareness lead. Draft a **Phishing Simulation Campaign** for **{{Department}}**, defining email templates, difficulty levels, and reporting KPIs.”
+```
 
 ### Variables  
 | Variable | Description | Example |

@@ -22,6 +22,7 @@ England & Wales
 Urgent communication when client arrested, establishing legal representation and protecting fundamental rights.
 
 ## Base Prompt
+```text
 Draft police station representation letter for {{client_name}} detained at {{police_station}}:
 - Reference: {{custody_number}}
 - Alleged offence: {{offence}}
@@ -38,14 +39,17 @@ Assert:
 8. PACE compliance
 9. Interview postponement if needed
 10. Bail representations preparation
+```
 
 ## Variables
+```text
 - {{client_name}} – detained person
 - {{police_station}} – place of detention
 - {{custody_number}} – custody reference
 - {{offence}} – alleged offence
 - {{detention_time}} – when detained
 - {{interview_time}} – planned interview
+```
 
 ## Example Usage
 ### Input

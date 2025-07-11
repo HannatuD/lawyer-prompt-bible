@@ -22,6 +22,7 @@ England & Wales
 Advocacy document for sentencing hearing aiming to achieve lowest appropriate sentence.
 
 ## Base Prompt
+```text
 Draft mitigation for {{defendant_name}} being sentenced for {{offence}}:
 Personal circumstances:
 - Age: {{age}}
@@ -39,8 +40,10 @@ Structure:
 7. Rehabilitation prospects
 8. Realistic proposal
 Include references/testimonials approach.
+```
 
 ## Variables
+```text
 - {{defendant_name}} – person being sentenced
 - {{offence}} – conviction
 - {{age}} – defendant's age
@@ -48,6 +51,7 @@ Include references/testimonials approach.
 - {{family_situation}} – dependents
 - {{health_issues}} – relevant conditions
 - {{character}} – previous behaviour
+```
 
 ## Example Usage
 ### Input

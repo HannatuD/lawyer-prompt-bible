@@ -23,7 +23,9 @@ United Kingdom (data protection compliance).
 Professional Services and Customer Onboarding teams.
 
 ### Base Prompt  
+```text
 “You are a SaaS migration architect. Produce a **Data Migration Plan** for onboarding **{{Customer}}** into **{{Product}}**, covering data mapping, validation, cut-over strategy, and rollback.”
+```
 
 ### Variables  
 | Variable | Description | Example |

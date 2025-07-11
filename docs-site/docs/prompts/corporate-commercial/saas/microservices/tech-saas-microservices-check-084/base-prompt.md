@@ -23,7 +23,9 @@ United Kingdom.
 Architects and engineering leads.
 
 ### Base Prompt  
+```text
 “You are a cloud-architecture consultant. Produce a **Microservices Readiness Checklist** for **{{Project}}**, covering service boundaries, observability, and deployment pipelines.”
+```
 
 ### Variables  
 | Variable | Description | Example |

@@ -22,6 +22,7 @@ UK-wide
 Ensuring B2C contracts comply with extensive consumer protection framework avoiding enforcement action.
 
 ## Base Prompt
+```text
 Review consumer contract for {{business_name}}:
 {{contract_terms}}
 Check compliance with:
@@ -39,10 +40,13 @@ Identify:
 - Potentially unfair terms
 - Missing mandatory information
 - Enforcement risks
+```
 
 ## Variables
+```text
 - {{business_name}} – trader name
 - {{contract_terms}} – terms to review
+```
 
 ## Example Usage
 ### Input

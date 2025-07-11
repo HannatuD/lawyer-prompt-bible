@@ -22,6 +22,7 @@ England & Wales
 Used to ensure full understanding and compliance with court orders, avoiding sanctions for breach.
 
 ## Base Prompt
+```text
 Review court order in {{case_name}} dated {{order_date}}:
 {{order_text}}
 Extract and summarise:
@@ -38,11 +39,14 @@ Create compliance checklist with:
 - Deadline
 - Consequences of breach
 - Evidence of compliance needed
+```
 
 ## Variables
+```text
 - {{case_name}} – case reference
 - {{order_date}} – date of order
 - {{order_text}} – full order text
+```
 
 ## Example Usage
 ### Input

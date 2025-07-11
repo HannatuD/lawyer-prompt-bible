@@ -22,6 +22,7 @@ UK-wide
 Used to review existing contracts with EU counterparties identifying areas requiring update post-Brexit transition including regulatory divergence.
 
 ## Base Prompt
+```text
 Analyse {{contract_type}} between UK entity {{uk_party}} and EU entity {{eu_party}} for Brexit impacts:
 Key areas to assess:
 - Governing law and jurisdiction clauses
@@ -35,11 +36,14 @@ Key areas to assess:
 - Tariff and quota implications
 - Force majeure coverage
 Provide specific amendment recommendations and risk mitigation strategies.
+```
 
 ## Variables
+```text
 - {{contract_type}} – type of commercial agreement
 - {{uk_party}} – UK contracting entity
 - {{eu_party}} – EU contracting entity
+```
 
 ## Example Usage
 ### Input

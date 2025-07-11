@@ -22,6 +22,7 @@ UK-wide
 Mandatory compliance framework for regulated entities preventing business being used for money laundering.
 
 ## Base Prompt
+```text
 Draft AML policy for {{business_name}} in {{sector_type}}:
 - Business activities: {{services_provided}}
 - Risk profile: {{risk_level}}
@@ -38,13 +39,16 @@ Include:
 9. MLRO appointment
 10. Regular review process
 Align with MLR 2017 requirements.
+```
 
 ## Variables
+```text
 - {{business_name}} – company name
 - {{sector_type}} – business sector
 - {{services_provided}} – regulated activities
 - {{risk_level}} – inherent risk
 - {{employee_count}} – staff numbers
+```
 
 ## Example Usage
 ### Input

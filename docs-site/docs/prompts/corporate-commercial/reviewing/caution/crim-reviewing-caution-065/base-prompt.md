@@ -22,6 +22,7 @@ England & Wales
 Advising on whether to accept caution as alternative to prosecution considering admission requirements and consequences.
 
 ## Base Prompt
+```text
 Review caution proposal for {{client_name}} for {{offence}}:
 - Evidence strength: {{evidence_summary}}
 - Admission made: {{admission_status}}
@@ -39,14 +40,17 @@ Consider:
    - Future prosecution weight
 5. Alternatives available
 Advise on acceptance.
+```
 
 ## Variables
+```text
 - {{client_name}} – person offered caution
 - {{offence}} – alleged offence
 - {{evidence_summary}} – prosecution evidence
 - {{admission_status}} – whether admitted
 - {{previous_cautions}} – criminal history
 - {{immigration}} – visa status if relevant
+```
 
 ## Example Usage
 ### Input

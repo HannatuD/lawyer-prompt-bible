@@ -22,6 +22,7 @@ UK-wide
 Essential HR compliance exercise ensuring policies meet statutory requirements and provide appropriate employer protections.
 
 ## Base Prompt
+```text
 Review employee handbook for {{company_name}} with {{employee_count}} employees in {{industry_sector}}:
 Check policies for:
 1. Legal compliance:
@@ -42,11 +43,14 @@ Check policies for:
    - Mental health
    - Remote working
 Identify missing policies and outdated provisions.
+```
 
 ## Variables
+```text
 - {{company_name}} – employer name
 - {{employee_count}} – workforce size
 - {{industry_sector}} – type of business
+```
 
 ## Example Usage
 ### Input

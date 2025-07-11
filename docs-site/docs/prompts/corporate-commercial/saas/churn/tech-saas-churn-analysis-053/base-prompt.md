@@ -23,7 +23,9 @@ United Kingdom.
 Revenue operations, data analytics, and finance teams in SaaS firms.
 
 ### Base Prompt  
+```text
 “You are a SaaS analytics lead. Produce a **Churn Root-Cause Analysis** using cohort data **{{DataRange}}**. Break down voluntary vs. involuntary churn, product usage predictors, and competitive displacement reasons.”
+```
 
 ### Variables  
 | Variable | Description | Example |

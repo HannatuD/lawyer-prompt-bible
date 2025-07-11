@@ -23,7 +23,9 @@ United Kingdom.
 Engineering and DevOps teams.
 
 ### Base Prompt  
+```text
 “You are a performance engineer. Draft a **Performance Optimisation Protocol** for **{{App}}** addressing APM tooling, latency SLOs, and capacity planning.”
+```
 
 ### Variables  
 | Variable | Description | Example |

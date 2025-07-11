@@ -22,6 +22,7 @@ UK-wide
 Used for board reporting, due diligence preparation, or contract management system implementation to understand contractual commitments and opportunities.
 
 ## Base Prompt
+```text
 Summarise the following contracts for {{company_name}}:
 {{contract_list}}
 For each contract provide:
@@ -34,10 +35,13 @@ For each contract provide:
 - Change control mechanisms
 - Risk rating (High/Medium/Low)
 Create summary table and highlight top 5 risks/opportunities.
+```
 
 ## Variables
+```text
 - {{company_name}} – entity holding the contracts
 - {{contract_list}} – list or details of contracts to review
+```
 
 ## Example Usage
 ### Input

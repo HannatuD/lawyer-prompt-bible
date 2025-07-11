@@ -23,7 +23,9 @@ United Kingdom.
 Executive leadership and corporate governance teams.
 
 ### Base Prompt  
+```text
 “You are a corporate governance advisor. Draft a **Quarterly Board Pack** for **{{Company}}** covering strategy updates, KPI dashboards, risk register changes, and investment proposals.”
+```
 
 ### Variables  
 | Variable | Description | Example |

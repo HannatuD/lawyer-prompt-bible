@@ -23,7 +23,9 @@ United Kingdom.
 UX designers and legal reviewers.
 
 ### Base Prompt  
+```text
 “You are a privacy-focused UX designer. Provide a **Cookie Banner Checklist** for **{{Site}}**, ensuring PECR compliance, accessibility, and conversion impact.”
+```
 
 ### Variables  
 | Variable | Description | Example |

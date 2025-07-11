@@ -23,7 +23,9 @@ United Kingdom with global considerations.
 Infrastructure strategy and compliance teams.
 
 ### Base Prompt  
+```text
 “You are a cloud strategy consultant. Draft a **Data-Centre Strategy** for **{{Product}}**, evaluating region selection, failover policies, and regulatory constraints (GDPR, HIPAA, etc.).”
+```
 
 ### Variables  
 | Variable | Description | Example |

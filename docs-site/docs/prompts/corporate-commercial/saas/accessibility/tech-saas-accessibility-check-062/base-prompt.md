@@ -23,7 +23,9 @@ United Kingdom.
 Product design, engineering, and legal compliance teams.
 
 ### Base Prompt  
+```text
 “You are a digital-accessibility auditor. Draft a **SaaS Accessibility Checklist** for **{{AppName}}** covering keyboard navigation, ARIA labels, colour contrast, and assistive technology testing.”
+```
 
 ### Variables  
 | Variable | Description | Example |

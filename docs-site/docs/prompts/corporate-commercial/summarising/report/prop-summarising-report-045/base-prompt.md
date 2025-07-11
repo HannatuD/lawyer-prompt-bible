@@ -22,6 +22,7 @@ England & Wales
 Essential for client understanding of property title complexities before exchange of contracts.
 
 ## Base Prompt
+```text
 Summarise title report for {{property_address}}:
 {{title_documents}}
 Extract and explain:
@@ -40,10 +41,13 @@ Present as:
 - Key issues for decision
 - Required undertakings
 - Completion requirements
+```
 
 ## Variables
+```text
 - {{property_address}} – subject property
 - {{title_documents}} – title report content
+```
 
 ## Example Usage
 ### Input

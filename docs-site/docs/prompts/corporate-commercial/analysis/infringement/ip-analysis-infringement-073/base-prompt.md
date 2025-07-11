@@ -22,6 +22,7 @@ UK-wide
 Critical analysis for product launch decisions or defence against infringement allegations.
 
 ## Base Prompt
+```text
 Analyse infringement risk for {{product_name}} against {{patent_number}}:
 - Patent holder: {{patentee}}
 - Priority date: {{priority_date}}
@@ -39,14 +40,17 @@ Conduct:
 9. Invalidity prospects
 10. Risk quantification
 Provide FTO opinion structure.
+```
 
 ## Variables
+```text
 - {{product_name}} – product being assessed
 - {{patent_number}} – patent of concern
 - {{patentee}} – patent owner
 - {{priority_date}} – patent priority
 - {{product_description}} – product details
 - {{relevant_claims}} – key patent claims
+```
 
 ## Example Usage
 ### Input
