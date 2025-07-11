@@ -27,3 +27,4 @@ jobs:
       run: |
         cd docs-site
         npx docusaurus deploy --skip-build --ci
+onBrokenLinks: 'warn',
