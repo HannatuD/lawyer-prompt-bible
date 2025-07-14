@@ -1,53 +1,37 @@
-import type {Config} from '@docusaurus/types';
+name: Deploy Docusaurus site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
 
-const config: Config = {
-  // ——————————————————  basic site metadata  ——————————————————
-  title: 'UK Legal Prompt Bible',
-  url: 'https://HannatuD.github.io',        // ← change to custom domain later
-  baseUrl: '/lawyer-prompt-bible/',         // ← repo name, keep leading & trailing /
+permissions:
+  contents: write
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-
-  organizationName: 'HannatuD',             // GitHub org/user
-  projectName: 'lawyer-prompt-bible',       // repo name
-
-  i18n: {                                   // one-language site
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
-  // ————————————————  preset: docs only, no blog  ————————————————
-  presets: [
-    [
-      'classic',
-      ({
-        docs: {
-          path: 'docs/prompts',              // ← points to your prompt library
-          routeBasePath: '/',                // serve at root URL
-          sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateTime: true,
-        },
-        blog: false,                         // disable blog
-      }),
-    ],
-  ],
-
-  // ————————————————  theme (navbar & footer) ————————————————
-  themeConfig: {
-    navbar: {
-      title: 'UK Legal Prompt Bible',
-      logo: {
-        alt: 'Logo',
-        src: 'img/logo.svg',                 // optional—add later
-      },
-    },
-    footer: {
-      style: 'dark',
-      copyright: `© ${new Date().getFullYear()} HannatuD`,
-    },
-  },
-};
-
-export default config;
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install deps & build
+      run: |
+        cd docs-site
+        npm ci
+        npm run build
+        
+    - name: Deploy to GH Pages
+      run: |
+        cd docs-site
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        npx docusaurus deploy --skip-build
+      env:
+        GIT_USER: git
+        GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+        USE_SSH: false
