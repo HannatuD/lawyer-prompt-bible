@@ -22,7 +22,6 @@ UK-wide
 Used in early stages of acquisition planning to determine optimal deal structure considering liability exposure, tax efficiency, and commercial objectives.
 
 ## Base Prompt
-```text
 Compare asset purchase vs share purchase for acquiring {{target_business}}:
 - Purchase price: £{{purchase_price}}
 - Target structure: {{company_structure}}
@@ -38,17 +37,14 @@ Analyse:
 6. Warranty and indemnity requirements
 7. Due diligence scope
 Provide recommendation with rationale.
-```
 
 ## Variables
-```text
 - {{target_business}} – business sector and name
 - {{purchase_price}} – acquisition value
 - {{company_structure}} – "single company" or "group"
 - {{asset_types}} – main assets involved
 - {{employee_count}} – number of employees
 - {{property_status}} – "owned", "leased" or "none"
-```
 
 ## Example Usage
 ### Input

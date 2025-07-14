@@ -22,7 +22,6 @@ England & Wales
 Used to evaluate repair liability exposure and negotiate dilapidations claims at lease termination.
 
 ## Base Prompt
-```text
 Assess dilapidations liability for {{tenant_name}} at {{property_address}}:
 - Lease term: {{lease_details}}
 - Repair covenant: {{repair_obligation}}
@@ -40,10 +39,8 @@ Analyse:
 8. Cost estimate breakdown
 9. Negotiation strategy
 10. Early settlement benefits
-```
 
 ## Variables
-```text
 - {{tenant_name}} – tenant company
 - {{property_address}} – leased premises
 - {{lease_details}} – key lease terms
@@ -51,7 +48,6 @@ Analyse:
 - {{condition_summary}} – current state
 - {{months_remaining}} – time to lease end
 - {{landlord_plans}} – known intentions
-```
 
 ## Example Usage
 ### Input

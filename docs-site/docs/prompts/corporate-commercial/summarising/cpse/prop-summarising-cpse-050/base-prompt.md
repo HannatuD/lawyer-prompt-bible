@@ -22,7 +22,6 @@ England & Wales
 Critical due diligence review in commercial property transactions to uncover issues affecting value or usability.
 
 ## Base Prompt
-```text
 Review CPSE replies for purchase of {{property_address}} from {{seller_name}}:
 Analyse responses for:
 1. Incomplete/evasive answers
@@ -41,13 +40,10 @@ Create:
 - Document requisitions
 - Insurance requirements
 - Price negotiation points
-```
 
 ## Variables
-```text
 - {{property_address}} – target property
 - {{seller_name}} – selling entity
-```
 
 ## Example Usage
 ### Input

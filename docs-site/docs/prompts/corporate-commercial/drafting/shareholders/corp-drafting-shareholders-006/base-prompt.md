@@ -22,7 +22,6 @@ Scotland
 Used when structuring investment rounds or formalising shareholder relationships in Scottish companies, particularly for growth businesses with external investment.
 
 ## Base Prompt
-```text
 Draft a shareholders agreement under Scots law for {{company_name}} between:
 - Founders: {{founders}} ({{founder_shares}}% ordinary shares)
 - Investors: {{investors}} ({{investor_shares}}% preference shares)
@@ -35,17 +34,14 @@ Include:
 - Dividend policy
 - Exit and liquidity provisions
 - Scottish law and jurisdiction clause
-```
 
 ## Variables
-```text
 - {{company_name}} – Scottish company name and SC number
 - {{founders}} – names of founding shareholders
 - {{founder_shares}} – percentage held by founders
 - {{investors}} – names of investor entities
 - {{investor_shares}} – percentage held by investors
 - {{board_structure}} – e.g. "5 directors: 2 founders, 2 investors, 1 independent"
-```
 
 ## Example Usage
 ### Input

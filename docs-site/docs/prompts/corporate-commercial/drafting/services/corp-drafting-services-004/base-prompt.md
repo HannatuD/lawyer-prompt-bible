@@ -22,7 +22,6 @@ England & Wales
 Used for engaging consultants, IT services, marketing agencies, or other professional service providers where clear deliverables and liability allocation are critical.
 
 ## Base Prompt
-```text
 Draft a professional services agreement where {{service_provider}} provides {{service_type}} to {{client_name}}:
 - Service term: {{term_length}}
 - Fees: £{{fee_amount}} {{payment_frequency}}
@@ -34,10 +33,8 @@ Include:
 - Professional indemnity insurance requirement
 - Liability cap at annual fees
 - GDPR processor terms if applicable
-```
 
 ## Variables
-```text
 - {{service_provider}} – consultant/agency name
 - {{client_name}} – customer name
 - {{service_type}} – description of services
@@ -45,7 +42,6 @@ Include:
 - {{fee_amount}} – fee in GBP
 - {{payment_frequency}} – "monthly" or "per milestone"
 - {{notice_period}} – "30 days" typical
-```
 
 ## Example Usage
 ### Input

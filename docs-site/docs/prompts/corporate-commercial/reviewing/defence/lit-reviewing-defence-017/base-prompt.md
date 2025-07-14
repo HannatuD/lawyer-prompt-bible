@@ -22,7 +22,6 @@ England & Wales
 Used when analysing opponent's defence to identify weaknesses, admissions, and areas requiring clarification or challenge.
 
 ## Base Prompt
-```text
 Review the following defence filed in {{case_name}}:
 {{defence_text}}
 Analyse and report on:
@@ -39,13 +38,10 @@ Recommend:
 - Key evidence to obtain
 - Witness requirements
 - Whether to file reply
-```
 
 ## Variables
-```text
 - {{case_name}} – case title/reference
 - {{defence_text}} – the defence document
-```
 
 ## Example Usage
 ### Input

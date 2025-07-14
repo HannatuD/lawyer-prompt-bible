@@ -22,7 +22,6 @@ UK-wide
 Strategic advice on changing immigration status while remaining in UK, navigating complex switching restrictions.
 
 ## Base Prompt
-```text
 Analyse visa switch for {{applicant_name}}:
 - Current visa: {{current_status}}
 - Expiry date: {{visa_expiry}}
@@ -40,16 +39,13 @@ Assess:
 9. Gap risks
 10. Settlement impact
 Provide application timeline.
-```
 
 ## Variables
-```text
 - {{applicant_name}} – visa holder
 - {{current_status}} – present visa type
 - {{visa_expiry}} – current visa end date
 - {{desired_status}} – target visa category
 - {{change_reason}} – why switching
-```
 
 ## Example Usage
 ### Input

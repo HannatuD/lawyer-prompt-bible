@@ -22,7 +22,6 @@ UK-wide
 Critical analysis for purchase decision and price negotiation based on property condition findings.
 
 ## Base Prompt
-```text
 Review building survey for {{property_address}}:
 {{survey_report}}
 Identify and assess:
@@ -41,13 +40,10 @@ Provide:
 - Total cost implications
 - Price chip recommendations
 - Conditions precedent suggestions
-```
 
 ## Variables
-```text
 - {{property_address}} – surveyed property
 - {{survey_report}} – survey content
-```
 
 ## Example Usage
 ### Input

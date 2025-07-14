@@ -22,7 +22,6 @@ England & Wales
 Used for letting commercial property requiring balance between landlord investment protection and tenant business needs.
 
 ## Base Prompt
-```text
 Draft commercial lease for {{property_address}}:
 - Landlord: {{landlord_name}}
 - Tenant: {{tenant_name}}
@@ -43,10 +42,8 @@ Include:
 9. Break clauses
 10. 1954 Act position
 Include schedules for condition and services.
-```
 
 ## Variables
-```text
 - {{property_address}} – full property address
 - {{landlord_name}} – landlord details
 - {{tenant_name}} – tenant company
@@ -55,7 +52,6 @@ Include schedules for condition and services.
 - {{review_pattern}} – "5-yearly upward only"
 - {{permitted_use}} – planning use class
 - {{break_options}} – break clause details
-```
 
 ## Example Usage
 ### Input

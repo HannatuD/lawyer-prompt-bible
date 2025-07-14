@@ -22,7 +22,6 @@ England & Wales
 Final financial order by consent requiring careful review to ensure clean break and practical workability.
 
 ## Base Prompt
-```text
 Review consent order for {{applicant}} and {{respondent}} in divorce:
 {{draft_order}}
 Check for:
@@ -41,14 +40,11 @@ Identify:
 - Practical difficulties
 - Ambiguous terms
 - Enforcement issues
-```
 
 ## Variables
-```text
 - {{applicant}} – applying party
 - {{respondent}} – responding party
 - {{draft_order}} – draft consent order
-```
 
 ## Example Usage
 ### Input

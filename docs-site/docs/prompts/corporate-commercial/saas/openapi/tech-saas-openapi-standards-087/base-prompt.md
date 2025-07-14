@@ -23,9 +23,7 @@ United Kingdom.
 API product managers and technical writers.
 
 ### Base Prompt  
-```text
 “You are an API documentation lead. Draft **OpenAPI Standards** for **{{APIName}}**, covering naming conventions, versioning, security schemes, and example payloads.”
-```
 
 ### Variables  
 | Variable | Description | Example |

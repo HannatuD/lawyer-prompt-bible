@@ -22,7 +22,6 @@ England & Wales
 Used to formalise access rights between neighbouring properties, essential for landlocked sites or shared accessways.
 
 ## Base Prompt
-```text
 Draft deed of easement between {{grantor}} (servient owner) and {{grantee}} (dominant owner):
 - Servient land: {{burdened_property}}
 - Dominant land: {{benefited_property}}
@@ -41,10 +40,8 @@ Include:
 8. Registration requirements
 9. Plans showing route
 10. Successor binding
-```
 
 ## Variables
-```text
 - {{grantor}} – owner granting right
 - {{grantee}} – owner receiving benefit
 - {{burdened_property}} – servient land
@@ -53,7 +50,6 @@ Include:
 - {{route_details}} – physical route
 - {{consideration}} – payment amount
 - {{maintenance_split}} – cost sharing
-```
 
 ## Example Usage
 ### Input

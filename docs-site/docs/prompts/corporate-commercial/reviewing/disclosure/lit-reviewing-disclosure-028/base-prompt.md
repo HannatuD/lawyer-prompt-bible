@@ -22,7 +22,6 @@ England & Wales
 Used after standard disclosure to analyse opponent's document production and identify further disclosure needs.
 
 ## Base Prompt
-```text
 Review disclosure list from {{disclosing_party}} in {{case_name}}:
 {{disclosure_list}}
 Analyse:
@@ -39,14 +38,11 @@ Identify:
 - Privilege challenges
 - Third party disclosure needs
 Create action plan with deadlines.
-```
 
 ## Variables
-```text
 - {{disclosing_party}} – opponent's name
 - {{case_name}} – case reference
 - {{disclosure_list}} – their list of documents
-```
 
 ## Example Usage
 ### Input

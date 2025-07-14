@@ -23,9 +23,7 @@ United Kingdom.
 Product management and finance departments of SaaS businesses.
 
 ### Base Prompt  
-```text
 “You are a SaaS pricing strategist. Review **{{PricingStructure}}** for **{{Product}}**. Compare against value metrics, competitor benchmarks, and margin targets. Recommend tier adjustments and monetisation experiments.”
-```
 
 ### Variables  
 | Variable | Description | Example |

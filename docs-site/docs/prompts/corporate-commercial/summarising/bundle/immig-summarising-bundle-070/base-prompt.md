@@ -22,7 +22,6 @@ UK-wide
 Pre-hearing analysis essential for effective tribunal advocacy and identifying additional evidence needs.
 
 ## Base Prompt
-```text
 Review appeal bundle for {{appellant_name}} v SSHD:
 Summarise:
 1. Grounds of appeal
@@ -41,12 +40,9 @@ Create hearing preparation notes including:
 - Key points checklist
 - Cross-examination areas
 - Submissions structure
-```
 
 ## Variables
-```text
 - {{appellant_name}} – person appealing
-```
 
 ## Example Usage
 ### Input

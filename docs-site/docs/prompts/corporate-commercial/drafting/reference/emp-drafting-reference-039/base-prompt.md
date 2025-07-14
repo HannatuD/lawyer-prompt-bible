@@ -22,7 +22,6 @@ UK-wide
 Providing references requires balancing duties to former employee and recipient employer while avoiding negligence claims.
 
 ## Base Prompt
-```text
 Draft employment reference for {{employee_name}} who worked as {{job_title}} from {{start_date}} to {{end_date}}:
 - Reason for leaving: {{departure_reason}}
 - Performance level: {{performance_summary}}
@@ -37,10 +36,8 @@ Include:
 - Balanced presentation
 - Data protection compliance
 Follow "true, accurate, fair" principle.
-```
 
 ## Variables
-```text
 - {{employee_name}} – former employee
 - {{job_title}} – role held
 - {{start_date}} – employment start
@@ -50,7 +47,6 @@ Follow "true, accurate, fair" principle.
 - {{attendance_record}} – factual record
 - {{any_issues}} – disciplinary/performance matters
 - {{basic_or_detailed}} – level of detail required
-```
 
 ## Example Usage
 ### Input

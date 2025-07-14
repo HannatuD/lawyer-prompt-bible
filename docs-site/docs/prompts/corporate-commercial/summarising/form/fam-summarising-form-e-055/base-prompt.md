@@ -22,7 +22,6 @@ England & Wales
 Essential analysis in financial remedy proceedings to understand financial landscape and identify disclosure gaps.
 
 ## Base Prompt
-```text
 Summarise Form E from {{party_name}} in {{case_name}}:
 Extract:
 1. Total assets summary
@@ -41,13 +40,10 @@ Analyse:
 - Hidden assets indicators
 - Lifestyle inconsistencies
 - Questionnaire priorities
-```
 
 ## Variables
-```text
 - {{party_name}} – disclosing party
 - {{case_name}} – case reference
-```
 
 ## Example Usage
 ### Input

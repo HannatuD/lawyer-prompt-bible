@@ -22,7 +22,6 @@ England & Wales
 Used for preparing witness evidence in civil litigation, ensuring compliance with formal requirements and effective presentation of evidence.
 
 ## Base Prompt
-```text
 Draft a witness statement template for {{witness_name}} in {{case_name}} covering {{subject_matter}}:
 Structure per PD 32:
 1. Formal heading with case details
@@ -39,16 +38,13 @@ Ensure:
 - Factual not argumentative
 - Clear paragraph numbering
 - Proper exhibit referencing
-```
 
 ## Variables
-```text
 - {{witness_name}} – person giving evidence
 - {{case_name}} – case title and number
 - {{subject_matter}} – what evidence covers
 - {{key_events}} – important dates/events
 - {{exhibits}} – documents to attach
-```
 
 ## Example Usage
 ### Input

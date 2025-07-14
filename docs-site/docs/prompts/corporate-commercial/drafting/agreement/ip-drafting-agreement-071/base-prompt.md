@@ -22,7 +22,6 @@ England & Wales
 Protecting client's interests in custom software development with appropriate IP assignments and delivery terms.
 
 ## Base Prompt
-```text
 Draft software development agreement between {{client_company}} and {{developer_company}}:
 - Project: {{project_description}}
 - Phases: {{development_phases}}
@@ -40,10 +39,8 @@ Include:
 8. Maintenance terms
 9. Confidentiality
 10. Dispute escalation
-```
 
 ## Variables
-```text
 - {{client_company}} – commissioning party
 - {{developer_company}} – software developer
 - {{project_description}} – software purpose
@@ -51,7 +48,6 @@ Include:
 - {{delivery_schedule}} – timeline
 - {{total_cost}} – project value
 - {{payment_terms}} – payment structure
-```
 
 ## Example Usage
 ### Input

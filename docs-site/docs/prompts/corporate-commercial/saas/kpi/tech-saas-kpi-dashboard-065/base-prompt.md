@@ -23,9 +23,7 @@ United Kingdom.
 Data engineering and business-intelligence teams.
 
 ### Base Prompt  
-```text
 “You are a BI architect. Specify **KPI Dashboard Requirements** for **{{UserGroup}}** focusing on MRR, churn, customer health, and NPS. Provide data-source mapping and refresh cadence.”
-```
 
 ### Variables  
 | Variable | Description | Example |

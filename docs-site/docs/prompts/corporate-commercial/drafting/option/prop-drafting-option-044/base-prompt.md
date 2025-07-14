@@ -22,7 +22,6 @@ England & Wales
 Used in development projects where purchaser needs time to secure planning before committing to purchase.
 
 ## Base Prompt
-```text
 Draft option agreement between {{landowner}} and {{developer}} for {{site_description}}:
 - Option period: {{option_term}}
 - Option fee: £{{option_payment}}
@@ -40,10 +39,8 @@ Include:
 8. Confidentiality
 9. Assignment rights
 10. Tax provisions
-```
 
 ## Variables
-```text
 - {{landowner}} – grantor of option
 - {{developer}} – option holder
 - {{site_description}} – land description
@@ -53,7 +50,6 @@ Include:
 - {{price_mechanism}} – calculation method
 - {{exercise_conditions}} – triggers for exercise
 - {{planning_requirements}} – planning needed
-```
 
 ## Example Usage
 ### Input

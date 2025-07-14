@@ -22,7 +22,6 @@ England & Wales
 First assessment of prosecution case strength essential for plea advice and case strategy.
 
 ## Base Prompt
-```text
 Review initial disclosure in R v {{defendant_name}} for {{charges}}:
 {{disclosure_bundle}}
 Assess:
@@ -40,14 +39,11 @@ Identify:
 - Defence statement strategy
 - S.8 application needs
 - Defence witnesses required
-```
 
 ## Variables
-```text
 - {{defendant_name}} – accused person
 - {{charges}} – offences charged
 - {{disclosure_bundle}} – prosecution papers
-```
 
 ## Example Usage
 ### Input

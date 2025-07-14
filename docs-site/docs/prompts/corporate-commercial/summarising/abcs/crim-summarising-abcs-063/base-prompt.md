@@ -22,7 +22,6 @@ England & Wales
 Analysis of video recorded evidence from vulnerable witnesses crucial for defence preparation.
 
 ## Base Prompt
-```text
 Summarise ABE interview of {{witness_name}} in {{case_name}}:
 - Duration: {{interview_length}}
 - Date recorded: {{recording_date}}
@@ -39,16 +38,13 @@ Extract:
 9. Rapport phase problems
 10. Closure issues
 Identify cross-examination topics while respecting vulnerability.
-```
 
 ## Variables
-```text
 - {{witness_name}} – interviewed witness
 - {{case_name}} – case reference
 - {{interview_length}} – duration
 - {{recording_date}} – when recorded
 - {{interviewer_details}} – officer details
-```
 
 ## Example Usage
 ### Input

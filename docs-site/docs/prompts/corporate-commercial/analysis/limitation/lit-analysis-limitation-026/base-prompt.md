@@ -22,7 +22,6 @@ England & Wales
 Critical analysis required before commencing proceedings to ensure claims not time-barred under Limitation Act 1980.
 
 ## Base Prompt
-```text
 Analyse limitation period for {{claim_type}} by {{claimant}} against {{defendant}}:
 - Key dates: {{relevant_dates}}
 - Basis of claim: {{claim_basis}}
@@ -41,10 +40,8 @@ Calculate:
 - Limitation expiry date
 - Safety margin for issue
 - Service requirements
-```
 
 ## Variables
-```text
 - {{claim_type}} – type of legal claim
 - {{claimant}} – potential claimant
 - {{defendant}} – potential defendant
@@ -52,7 +49,6 @@ Calculate:
 - {{claim_basis}} – contract/tort/statute
 - {{knowledge_date}} – when discovered claim
 - {{defendant_jurisdiction}} – where defendant based
-```
 
 ## Example Usage
 ### Input

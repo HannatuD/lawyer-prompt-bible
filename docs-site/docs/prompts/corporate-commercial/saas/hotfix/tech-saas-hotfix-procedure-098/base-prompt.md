@@ -23,9 +23,7 @@ United Kingdom.
 DevOps and SRE teams.
 
 ### Base Prompt  
-```text
 “You are a release-engineering lead. Create a **Hotfix Deployment Procedure** for **{{Service}}**, covering rollbacks, approvals, and customer comms.”
-```
 
 ### Variables  
 | Variable | Description | Example |

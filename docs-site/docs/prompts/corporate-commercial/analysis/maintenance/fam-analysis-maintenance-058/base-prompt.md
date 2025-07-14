@@ -22,7 +22,6 @@ England & Wales
 Advising on child maintenance levels whether through Child Maintenance Service or private agreement.
 
 ## Base Prompt
-```text
 Calculate child maintenance for {{paying_parent}}:
 - Gross income: £{{annual_income}}
 - Children: {{number_children}}
@@ -38,17 +37,14 @@ Calculate:
 7. Enforcement options
 8. Review triggers
 Compare with {{receiving_parent}} needs budget.
-```
 
 ## Variables
-```text
 - {{paying_parent}} – maintenance payer
 - {{annual_income}} – gross yearly income
 - {{number_children}} – qualifying children
 - {{overnight_care}} – nights per year
 - {{other_dependents}} – other relevant children
 - {{receiving_parent}} – maintenance receiver
-```
 
 ## Example Usage
 ### Input

@@ -22,7 +22,6 @@ England & Wales
 Used for hiring senior employees where protecting business interests through carefully drafted terms is essential.
 
 ## Base Prompt
-```text
 Draft employment contract for {{employer_name}} hiring {{employee_name}} as {{job_title}}:
 - Salary: £{{annual_salary}}
 - Start date: {{start_date}}
@@ -40,10 +39,8 @@ Include:
 6. Bonus scheme (discretionary)
 7. Share options reference
 Ensure enforceability of restrictions.
-```
 
 ## Variables
-```text
 - {{employer_name}} – company name
 - {{employee_name}} – individual's name
 - {{job_title}} – position title
@@ -55,7 +52,6 @@ Ensure enforceability of restrictions.
 - {{compete_scope}} – geographic/sector limit
 - {{solicit_period}} – non-solicitation duration
 - {{dealing_period}} – non-dealing duration
-```
 
 ## Example Usage
 ### Input

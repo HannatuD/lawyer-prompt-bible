@@ -23,9 +23,7 @@ United Kingdom.
 Support operations and service delivery teams.
 
 ### Base Prompt  
-```text
 “You are a SaaS support architect. Draft **Support Tier Definitions** for **{{Product}}**, including channel availability, SLAs, and escalation paths.”
-```
 
 ### Variables  
 | Variable | Description | Example |

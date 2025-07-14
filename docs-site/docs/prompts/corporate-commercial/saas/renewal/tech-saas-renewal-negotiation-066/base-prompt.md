@@ -23,9 +23,7 @@ United Kingdom.
 Account managers and Customer Success leads.
 
 ### Base Prompt  
-```text
 “You are a SaaS negotiation coach. Draft a **Renewal Call Script** for customer **{{CustomerName}}** (ARR £{{ARR}}), including objection handling and ROI reminders.”
-```
 
 ### Variables  
 | Variable | Description | Example |

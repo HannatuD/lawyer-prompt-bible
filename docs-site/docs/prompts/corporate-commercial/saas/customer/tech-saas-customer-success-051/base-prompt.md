@@ -23,9 +23,7 @@ United Kingdom (general commercial practice).
 For Customer Success leaders and operations managers within established SaaS companies.
 
 ### Base Prompt  
-```text
 “You are a SaaS Customer Success strategist. Draft a **Customer Success Playbook** for **{{ProductName}}**, covering onboarding workflows, health-score metrics, QBR templates, churn-risk actions, and expansion playbooks. Align timelines with a standard 90-day onboarding model.”
-```
 
 ### Variables  
 | Variable | Description | Example |

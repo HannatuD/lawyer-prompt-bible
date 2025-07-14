@@ -23,9 +23,7 @@ United Kingdom.
 Marketing, product, and customer-success teams.
 
 ### Base Prompt  
-```text
 “You are a SaaS release manager. Create a **Feature Rollout Comms Plan** for feature **{{FeatureName}}**, including announcement emails, in-app messaging, release notes, and enablement training.”
-```
 
 ### Variables  
 | Variable | Description | Example |

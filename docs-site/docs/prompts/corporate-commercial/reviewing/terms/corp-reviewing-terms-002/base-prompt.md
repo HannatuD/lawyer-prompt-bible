@@ -22,7 +22,6 @@ England & Wales
 Used when advising clients on supplier or customer standard terms, particularly for ongoing commercial relationships requiring balanced risk allocation.
 
 ## Base Prompt
-```text
 Review the following B2B terms for {{client_name}} as {{client_role}}:
 {{terms_text}}
 Identify and assess:
@@ -34,14 +33,11 @@ Identify and assess:
 - GDPR compliance
 - Dispute resolution mechanism
 Provide risk rating (1-5) for each area and suggest protective amendments.
-```
 
 ## Variables
-```text
 - {{client_name}} – your client's business name
 - {{client_role}} – "customer" or "supplier"
 - {{terms_text}} – the terms to review
-```
 
 ## Example Usage
 ### Input

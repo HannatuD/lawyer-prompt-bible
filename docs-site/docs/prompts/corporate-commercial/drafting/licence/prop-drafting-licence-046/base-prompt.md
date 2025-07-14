@@ -22,7 +22,6 @@ England & Wales
 Required when tenant needs landlord consent for alterations under lease terms, documenting agreed works and conditions.
 
 ## Base Prompt
-```text
 Draft licence to alter for {{tenant_name}} at {{property_address}}:
 - Landlord: {{landlord_name}}
 - Proposed works: {{works_description}}
@@ -40,10 +39,8 @@ Include:
 8. Rent suspension provisions
 9. Professional fees
 10. Documentation requirements
-```
 
 ## Variables
-```text
 - {{tenant_name}} – tenant company
 - {{property_address}} – premises location
 - {{landlord_name}} – landlord entity
@@ -51,7 +48,6 @@ Include:
 - {{plans_ref}} – drawing references
 - {{completion_time}} – works timescale
 - {{reinstatement}} – "yes" or "no"
-```
 
 ## Example Usage
 ### Input

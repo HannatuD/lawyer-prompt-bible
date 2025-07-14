@@ -22,7 +22,6 @@ UK-wide
 Used to quickly understand and compare investment offers, particularly for founders and boards evaluating venture capital or private equity proposals.
 
 ## Base Prompt
-```text
 Summarise the investment terms for {{company_name}} receiving investment from {{investor_name}}:
 {{termsheet_content}}
 Extract and explain:
@@ -36,14 +35,11 @@ Extract and explain:
 - Exit rights (drag/tag/ROFR)
 - Information rights
 Create comparison table of key terms and highlight founder-unfriendly provisions.
-```
 
 ## Variables
-```text
 - {{company_name}} – target company
 - {{investor_name}} – investing entity
 - {{termsheet_content}} – term sheet text
-```
 
 ## Example Usage
 ### Input

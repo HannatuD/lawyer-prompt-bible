@@ -22,7 +22,6 @@ UK-wide
 Essential case preparation tool for identifying key events, patterns, and evidential gaps in complex disputes.
 
 ## Base Prompt
-```text
 Create case chronology for {{case_name}} covering period {{start_date}} to {{end_date}}:
 Key events: {{event_list}}
 Format:
@@ -39,15 +38,12 @@ Highlight:
 - Gaps in evidence
 - Inconsistencies
 Provide analysis of patterns revealed.
-```
 
 ## Variables
-```text
 - {{case_name}} – matter reference
 - {{start_date}} – beginning of relevant period
 - {{end_date}} – end of relevant period
 - {{event_list}} – key events to include
-```
 
 ## Example Usage
 ### Input

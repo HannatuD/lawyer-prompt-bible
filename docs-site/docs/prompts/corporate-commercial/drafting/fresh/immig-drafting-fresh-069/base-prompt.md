@@ -22,7 +22,6 @@ UK-wide
 Complex submission requiring clear demonstration of genuinely fresh grounds meeting paragraph 353 requirements.
 
 ## Base Prompt
-```text
 Draft fresh claim for {{applicant_name}} from {{country_origin}}:
 - Previous refusal: {{refusal_date}}
 - New evidence: {{new_material}}
@@ -40,17 +39,14 @@ Structure submission:
 9. Exceptional circumstances
 10. Why significantly different
 Include objective evidence bundle.
-```
 
 ## Variables
-```text
 - {{applicant_name}} – asylum seeker
 - {{country_origin}} – country of origin
 - {{refusal_date}} – previous refusal
 - {{new_material}} – new evidence
 - {{country_changes}} – country developments
 - {{uk_factors}} – UK ties/family
-```
 
 ## Example Usage
 ### Input

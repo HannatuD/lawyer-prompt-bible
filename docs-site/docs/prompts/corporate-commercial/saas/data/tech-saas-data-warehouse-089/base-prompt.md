@@ -23,9 +23,7 @@ United Kingdom.
 Data engineering teams.
 
 ### Base Prompt  
-```text
 “You are a data-warehouse architect. Draft a **Schema Plan** for **{{WarehouseName}}**, mapping SaaS event data to fact and dimension tables, with partitioning and RBAC.”
-```
 
 ### Variables  
 | Variable | Description | Example |

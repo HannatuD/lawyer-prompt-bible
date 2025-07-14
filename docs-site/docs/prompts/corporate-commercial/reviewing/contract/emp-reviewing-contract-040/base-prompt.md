@@ -22,7 +22,6 @@ UK-wide
 Used for casual workforce arrangements requiring careful drafting to maintain flexibility while meeting legal obligations.
 
 ## Base Prompt
-```text
 Review zero hours contract for {{employer}} engaging {{worker_type}}:
 {{contract_text}}
 Check for:
@@ -40,14 +39,11 @@ Identify risks of:
 - Employment status claims
 - Holiday pay calculations
 - Continuity of employment
-```
 
 ## Variables
-```text
 - {{employer}} – company name
 - {{worker_type}} – type of casual worker
 - {{contract_text}} – contract to review
-```
 
 ## Example Usage
 ### Input

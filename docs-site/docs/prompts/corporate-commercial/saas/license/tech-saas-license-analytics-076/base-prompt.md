@@ -23,9 +23,7 @@ United Kingdom.
 Product analytics and finance teams.
 
 ### Base Prompt  
-```text
 “You are a SaaS data analyst. Create a **Licence Usage Report** for **{{CustomerSegment}}**, showing active vs. purchased seats, feature adoption, and upsell score.”
-```
 
 ### Variables  
 | Variable | Description | Example |

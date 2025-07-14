@@ -22,7 +22,6 @@ UK-wide
 Used in M&A transactions to systematically review target company's legal affairs, identify risks, and inform transaction structuring and pricing.
 
 ## Base Prompt
-```text
 Create a legal due diligence checklist for acquiring {{target_type}} in {{industry_sector}}:
 Structure by category:
 1. Corporate structure and governance
@@ -36,13 +35,10 @@ Structure by category:
 9. Environmental
 10. Tax
 For each category, list specific documents required and key risk indicators.
-```
 
 ## Variables
-```text
 - {{target_type}} – "private limited company" or "group structure"
 - {{industry_sector}} – target's primary business sector
-```
 
 ## Example Usage
 ### Input

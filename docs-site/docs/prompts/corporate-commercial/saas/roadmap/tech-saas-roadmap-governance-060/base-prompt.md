@@ -23,9 +23,7 @@ United Kingdom.
 Product management and PMO functions.
 
 ### Base Prompt  
-```text
 “You are a SaaS product governance expert. Draft a **Roadmap Governance Charter** for **{{ProductLine}}** detailing meeting cadences, decision rights (RACI), prioritisation criteria, and change-log transparency.”
-```
 
 ### Variables  
 | Variable | Description | Example |

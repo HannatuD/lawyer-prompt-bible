@@ -22,7 +22,6 @@ UK-wide
 Critical analysis determining whether refusal can be challenged and best route for challenge.
 
 ## Base Prompt
-```text
 Review refusal of {{visa_type}} for {{applicant_name}}:
 {{refusal_letter}}
 Analyse:
@@ -40,14 +39,11 @@ Determine:
 - Judicial review grounds
 - Fresh application prospects
 - Urgent factors
-```
 
 ## Variables
-```text
 - {{visa_type}} – type of visa refused
 - {{applicant_name}} – refused applicant
 - {{refusal_letter}} – decision letter
-```
 
 ## Example Usage
 ### Input

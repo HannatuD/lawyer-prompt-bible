@@ -22,7 +22,6 @@ UK-wide
 Used when procuring significant software licenses or SaaS subscriptions, particularly for business-critical systems requiring careful risk assessment.
 
 ## Base Prompt
-```text
 Review software license agreement for {{licensee_name}} licensing {{software_name}} from {{vendor_name}}:
 - License type: {{license_model}}
 - Annual cost: £{{annual_fee}}
@@ -38,17 +37,14 @@ Evaluate:
 - Audit rights and compliance
 - Source code escrow needs
 Rate each area and provide negotiation priorities.
-```
 
 ## Variables
-```text
 - {{licensee_name}} – customer company name
 - {{software_name}} – software product/service
 - {{vendor_name}} – software supplier
 - {{license_model}} – "perpetual", "subscription", or "SaaS"
 - {{annual_fee}} – yearly cost
 - {{scope}} – "enterprise-wide" or specific limits
-```
 
 ## Example Usage
 ### Input
