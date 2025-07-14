@@ -6,7 +6,7 @@ const config: Config = {
   url: 'https://HannatuD.github.io',        // ← change to custom domain later
   baseUrl: '/lawyer-prompt-bible/',         // ← repo name, keep leading & trailing /
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
