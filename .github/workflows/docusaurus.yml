@@ -7,7 +7,11 @@ on:
 
 permissions:
   contents: write             # allow the job to push to gh-pages
-
+env:
+  GIT_USER: ${{ github.actor }}
+  GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+  USE_SSH: false
+  
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -26,4 +30,4 @@ jobs:
     - name: Deploy to GH Pages
       run: |
         cd docs-site
-        npx docusaurus deploy --skip-build --ci
+        npx docusaurus deploy --skip-build 
