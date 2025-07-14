@@ -24,7 +24,7 @@ const config = {
       'classic',
       {
         docs: {
-          path: 'docs/prompts',
+          path: 'docs',
           routeBasePath: '/',               // docs served at site root
           sidebarPath: './sidebars.js',     // sidebar autogeneration file
           showLastUpdateTime: true,
