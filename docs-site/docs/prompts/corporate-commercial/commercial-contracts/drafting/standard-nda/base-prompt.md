@@ -33,6 +33,6 @@ You are instructed as a solicitor to draft a **mutual non-disclosure agreement**
 ### Data-Protection Clause  
 <!-- Shared component pulled in at build time -->
 
-{{% include "_shared/clauses/gdpr-compliance.md" %}}
+<!-- TODO: pull in GDPR clause once remark‑plugin is set up -->
 
 → Audience-specific guidance appears below.
