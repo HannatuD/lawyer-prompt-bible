@@ -17,20 +17,19 @@ author: HannatuD
 tags: [nda, confidentiality]
 tested_models: [gpt-4o-turbo]
 success_rate: TBD
-
 ---
 
-## Context  
+## Context 
 You are instructed as a solicitor to draft a **mutual non-disclosure agreement** between *{{counterparty_name}}* and the client, governed by the laws of England & Wales and effective on *{{effective_date}}*.
 
 ### Core Clauses to Include
-1. Definition of **Confidential Information** (standard carve-outs).  
-2. Mutual obligations of non-use and non-disclosure.  
-3. Term: **5 years** from the Effective Date.  
-4. No licence or assignment of IP.  
+1. Definition of **Confidential Information** (standard carve-outs). 
+2. Mutual obligations of non-use and non-disclosure. 
+3. Term: **5 years** from the Effective Date. 
+4. No licence or assignment of IP. 
 5. **Governing law** & exclusive jurisdiction of the courts of England & Wales.
 
-### Data-Protection Clause  
+### Data-Protection Clause 
 <!-- Shared component pulled in at build time -->
 
 <!-- TODO: pull in GDPR clause once remark‑plugin is set up -->
