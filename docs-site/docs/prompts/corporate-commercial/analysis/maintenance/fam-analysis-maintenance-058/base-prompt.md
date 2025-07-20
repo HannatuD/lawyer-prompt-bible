@@ -22,11 +22,11 @@ England & Wales
 Advising on child maintenance levels whether through Child Maintenance Service or private agreement.
 
 ## Base Prompt
-Calculate child maintenance for \{\{paying_parent\}\}:
-- Gross income: £\{\{annual_income\}\}
-- Children: \{\{number_children\}\}
-- Overnight stays: \{\{overnight_care\}\}
-- Other children: \{\{other_dependents\}\}
+Calculate child maintenance for \\{\\{paying_parent\\}\\}:
+- Gross income: £\\{\\{annual_income\\}\\}
+- Children: \\{\\{number_children\\}\\}
+- Overnight stays: \\{\\{overnight_care\\}\\}
+- Other children: \\{\\{other_dependents\\}\\}
 Calculate:
 1. CMS basic rate
 2. Reduced rate if applicable
@@ -36,15 +36,15 @@ Calculate:
 6. Agreement vs CMS pros/cons
 7. Enforcement options
 8. Review triggers
-Compare with \{\{receiving_parent\}\} needs budget.
+Compare with \\{\\{receiving_parent\\}\\} needs budget.
 
 ## Variables
-- \{\{paying_parent\}\} – maintenance payer
-- \{\{annual_income\}\} – gross yearly income
-- \{\{number_children\}\} – qualifying children
-- \{\{overnight_care\}\} – nights per year
-- \{\{other_dependents\}\} – other relevant children
-- \{\{receiving_parent\}\} – maintenance receiver
+- \\{\\{paying_parent\\}\\} – maintenance payer
+- \\{\\{annual_income\\}\\} – gross yearly income
+- \\{\\{number_children\\}\\} – qualifying children
+- \\{\\{overnight_care\\}\\} – nights per year
+- \\{\\{other_dependents\\}\\} – other relevant children
+- \\{\\{receiving_parent\\}\\} – maintenance receiver
 
 ## Example Usage
 ### Input

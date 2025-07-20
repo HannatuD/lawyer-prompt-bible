@@ -22,11 +22,11 @@ Scotland
 Used when structuring investment rounds or formalising shareholder relationships in Scottish companies, particularly for growth businesses with external investment.
 
 ## Base Prompt
-Draft a shareholders agreement under Scots law for \{\{company_name\}\} between:
-- Founders: \{\{founders\}\} (\{\{founder_shares\}\}% ordinary shares)
-- Investors: \{\{investors\}\} (\{\{investor_shares\}\}% preference shares)
+Draft a shareholders agreement under Scots law for \\{\\{company_name\\}\\} between:
+- Founders: \\{\\{founders\\}\\} (\\{\\{founder_shares\\}\\}% ordinary shares)
+- Investors: \\{\\{investors\\}\\} (\\{\\{investor_shares\\}\\}% preference shares)
 Include:
-- Board composition (\{\{board_structure\}\})
+- Board composition (\\{\\{board_structure\\}\\})
 - Reserved matters requiring investor consent
 - Pre-emption rights on transfer and allotment
 - Tag-along and drag-along provisions
@@ -36,12 +36,12 @@ Include:
 - Scottish law and jurisdiction clause
 
 ## Variables
-- \{\{company_name\}\} – Scottish company name and SC number
-- \{\{founders\}\} – names of founding shareholders
-- \{\{founder_shares\}\} – percentage held by founders
-- \{\{investors\}\} – names of investor entities
-- \{\{investor_shares\}\} – percentage held by investors
-- \{\{board_structure\}\} – e.g. "5 directors: 2 founders, 2 investors, 1 independent"
+- \\{\\{company_name\\}\\} – Scottish company name and SC number
+- \\{\\{founders\\}\\} – names of founding shareholders
+- \\{\\{founder_shares\\}\\} – percentage held by founders
+- \\{\\{investors\\}\\} – names of investor entities
+- \\{\\{investor_shares\\}\\} – percentage held by investors
+- \\{\\{board_structure\\}\\} – e.g. "5 directors: 2 founders, 2 investors, 1 independent"
 
 ## Example Usage
 ### Input

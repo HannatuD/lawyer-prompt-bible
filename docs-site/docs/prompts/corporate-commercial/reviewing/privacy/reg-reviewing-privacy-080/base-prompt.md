@@ -22,8 +22,8 @@ UK-wide
 Essential compliance document requiring regular updates to reflect processing activities and legal requirements.
 
 ## Base Prompt
-Review privacy policy for \{\{company_name\}\} website:
-\{\{policy_text\}\}
+Review privacy policy for \\{\\{company_name\\}\\} website:
+\\{\\{policy_text\\}\\}
 Check against UK GDPR Article 13/14:
 1. Controller identity
 2. DPO contact details
@@ -41,8 +41,8 @@ Check against UK GDPR Article 13/14:
 Assess clarity and accessibility.
 
 ## Variables
-- \{\{company_name\}\} – business name
-- \{\{policy_text\}\} – current policy
+- \\{\\{company_name\\}\\} – business name
+- \\{\\{policy_text\\}\\} – current policy
 
 ## Example Usage
 ### Input

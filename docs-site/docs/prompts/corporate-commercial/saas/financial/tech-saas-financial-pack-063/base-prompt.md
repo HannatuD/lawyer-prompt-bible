@@ -23,7 +23,7 @@ United Kingdom (FRS 102 & IFRS 15 considerations).
 Finance controllers and FP&A teams at SaaS businesses.
 
 ### Base Prompt  
-“You are a SaaS FP&A analyst. Produce a **Monthly Financial Pack** for **\{\{Month\}\}** including P&L, cash-flow, SaaS metrics, and narrative analysis.”
+“You are a SaaS FP&A analyst. Produce a **Monthly Financial Pack** for **\\{\\{Month\\}\\}** including P&L, cash-flow, SaaS metrics, and narrative analysis.”
 
 ### Variables  
 | Variable | Description | Example |

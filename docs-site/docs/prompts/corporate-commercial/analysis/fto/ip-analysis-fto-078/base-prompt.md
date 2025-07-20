@@ -22,10 +22,10 @@ UK-wide
 Essential pre-launch diligence to identify and mitigate IP infringement risks across all relevant rights.
 
 ## Base Prompt
-Conduct FTO analysis for \{\{product_name\}\} launch in \{\{market_territory\}\}:
-- Product features: \{\{technical_description\}\}
-- Launch date: \{\{planned_launch\}\}
-- Competitors: \{\{main_competitors\}\}
+Conduct FTO analysis for \\{\\{product_name\\}\\} launch in \\{\\{market_territory\\}\\}:
+- Product features: \\{\\{technical_description\\}\\}
+- Launch date: \\{\\{planned_launch\\}\\}
+- Competitors: \\{\\{main_competitors\\}\\}
 Search and analyse:
 1. Patent landscape
 2. Design rights
@@ -42,11 +42,11 @@ For each right:
 Provide risk matrix and mitigation plan.
 
 ## Variables
-- \{\{product_name\}\} – new product
-- \{\{market_territory\}\} – launch markets
-- \{\{technical_description\}\} – product details
-- \{\{planned_launch\}\} – target date
-- \{\{main_competitors\}\} – key competitors
+- \\{\\{product_name\\}\\} – new product
+- \\{\\{market_territory\\}\\} – launch markets
+- \\{\\{technical_description\\}\\} – product details
+- \\{\\{planned_launch\\}\\} – target date
+- \\{\\{main_competitors\\}\\} – key competitors
 
 ## Example Usage
 ### Input

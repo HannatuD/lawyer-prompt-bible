@@ -22,8 +22,8 @@ England & Wales
 Used when considering urgent injunctive relief, requiring careful analysis of legal tests and practical considerations.
 
 ## Base Prompt
-Assess injunction application for \{\{applicant\}\} against \{\{respondent\}\} seeking to \{\{injunction_purpose\}\}:
-Current situation: \{\{factual_position\}\}
+Assess injunction application for \\{\\{applicant\\}\\} against \\{\\{respondent\\}\\} seeking to \\{\\{injunction_purpose\\}\\}:
+Current situation: \\{\\{factual_position\\}\\}
 Analyse American Cyanamid criteria:
 1. Serious issue to be tried
 2. Damages adequate remedy?
@@ -40,10 +40,10 @@ Also consider:
 Provide success likelihood and tactical advice.
 
 ## Variables
-- \{\{applicant\}\} – party seeking injunction
-- \{\{respondent\}\} – party to be injuncted
-- \{\{injunction_purpose\}\} – what order will prohibit/require
-- \{\{factual_position\}\} – current situation
+- \\{\\{applicant\\}\\} – party seeking injunction
+- \\{\\{respondent\\}\\} – party to be injuncted
+- \\{\\{injunction_purpose\\}\\} – what order will prohibit/require
+- \\{\\{factual_position\\}\\} – current situation
 
 ## Example Usage
 ### Input

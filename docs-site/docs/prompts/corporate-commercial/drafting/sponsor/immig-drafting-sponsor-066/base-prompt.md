@@ -22,11 +22,11 @@ UK-wide
 Complex application requiring detailed evidence of genuine need and robust HR systems for compliance.
 
 ## Base Prompt
-Prepare sponsor licence application for \{\{company_name\}\}:
-- Business type: \{\{business_sector\}\}
-- Size: \{\{employee_count\}\} employees
-- Roles needed: \{\{job_roles\}\}
-- Trading history: \{\{years_trading\}\}
+Prepare sponsor licence application for \\{\\{company_name\\}\\}:
+- Business type: \\{\\{business_sector\\}\\}
+- Size: \\{\\{employee_count\\}\\} employees
+- Roles needed: \\{\\{job_roles\\}\\}
+- Trading history: \\{\\{years_trading\\}\\}
 Structure application covering:
 1. Genuine trading business
 2. HR systems adequacy
@@ -41,11 +41,11 @@ Structure application covering:
 Include supporting evidence checklist.
 
 ## Variables
-- \{\{company_name\}\} – applicant employer
-- \{\{business_sector\}\} – industry type
-- \{\{employee_count\}\} – company size
-- \{\{job_roles\}\} – positions for migrants
-- \{\{years_trading\}\} – business history
+- \\{\\{company_name\\}\\} – applicant employer
+- \\{\\{business_sector\\}\\} – industry type
+- \\{\\{employee_count\\}\\} – company size
+- \\{\\{job_roles\\}\\} – positions for migrants
+- \\{\\{years_trading\\}\\} – business history
 
 ## Example Usage
 ### Input

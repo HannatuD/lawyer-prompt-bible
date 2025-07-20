@@ -22,8 +22,8 @@ England & Wales
 Initial analysis of tribunal claim essential for response deadline compliance and early case assessment.
 
 ## Base Prompt
-Analyse ET1 claim form for \{\{respondent_employer\}\}:
-\{\{et1_content\}\}
+Analyse ET1 claim form for \\{\\{respondent_employer\\}\\}:
+\\{\\{et1_content\\}\\}
 Extract and summarise:
 1. All claims brought (with statutory basis)
 2. Key factual allegations
@@ -41,8 +41,8 @@ Create action plan with:
 - ET3 response strategy
 
 ## Variables
-- \{\{respondent_employer\}\} – employer defending claim
-- \{\{et1_content\}\} – claim form content
+- \\{\\{respondent_employer\\}\\} – employer defending claim
+- \\{\\{et1_content\\}\\} – claim form content
 
 ## Example Usage
 ### Input

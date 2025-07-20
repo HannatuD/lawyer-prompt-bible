@@ -22,8 +22,8 @@ UK-wide
 Critical document in grievance process requiring careful drafting to avoid discrimination claims or procedural challenges.
 
 ## Base Prompt
-Review grievance outcome letter regarding \{\{employee_name\}\}'s complaint about \{\{grievance_subject\}\}:
-\{\{draft_letter\}\}
+Review grievance outcome letter regarding \\{\\{employee_name\\}\\}'s complaint about \\{\\{grievance_subject\\}\\}:
+\\{\\{draft_letter\\}\\}
 Check for:
 1. ACAS Code compliance
 2. Each complaint addressed
@@ -41,9 +41,9 @@ Suggest improvements for:
 - Employee relations
 
 ## Variables
-- \{\{employee_name\}\} – complainant
-- \{\{grievance_subject\}\} – nature of complaint
-- \{\{draft_letter\}\} – draft response
+- \\{\\{employee_name\\}\\} – complainant
+- \\{\\{grievance_subject\\}\\} – nature of complaint
+- \\{\\{draft_letter\\}\\} – draft response
 
 ## Example Usage
 ### Input

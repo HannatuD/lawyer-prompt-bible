@@ -22,8 +22,8 @@ UK-wide
 Critical analysis for purchase decision and price negotiation based on property condition findings.
 
 ## Base Prompt
-Review building survey for \{\{property_address\}\}:
-\{\{survey_report\}\}
+Review building survey for \\{\\{property_address\\}\\}:
+\\{\\{survey_report\\}\\}
 Identify and assess:
 1. Structural issues
 2. Environmental concerns
@@ -42,8 +42,8 @@ Provide:
 - Conditions precedent suggestions
 
 ## Variables
-- \{\{property_address\}\} – surveyed property
-- \{\{survey_report\}\} – survey content
+- \\{\\{property_address\\}\\} – surveyed property
+- \\{\\{survey_report\\}\\} – survey content
 
 ## Example Usage
 ### Input

@@ -22,12 +22,12 @@ UK-wide
 Providing references requires balancing duties to former employee and recipient employer while avoiding negligence claims.
 
 ## Base Prompt
-Draft employment reference for \{\{employee_name\}\} who worked as \{\{job_title\}\} from \{\{start_date\}\} to \{\{end_date\}\}:
-- Reason for leaving: \{\{departure_reason\}\}
-- Performance level: \{\{performance_summary\}\}
-- Attendance: \{\{attendance_record\}\}
-- Conduct issues: \{\{any_issues\}\}
-- Reference type: \{\{basic_or_detailed\}\}
+Draft employment reference for \\{\\{employee_name\\}\\} who worked as \\{\\{job_title\\}\\} from \\{\\{start_date\\}\\} to \\{\\{end_date\\}\\}:
+- Reason for leaving: \\{\\{departure_reason\\}\\}
+- Performance level: \\{\\{performance_summary\\}\\}
+- Attendance: \\{\\{attendance_record\\}\\}
+- Conduct issues: \\{\\{any_issues\\}\\}
+- Reference type: \\{\\{basic_or_detailed\\}\\}
 Include:
 - Factual employment details
 - Objective performance comments
@@ -38,15 +38,15 @@ Include:
 Follow "true, accurate, fair" principle.
 
 ## Variables
-- \{\{employee_name\}\} – former employee
-- \{\{job_title\}\} – role held
-- \{\{start_date\}\} – employment start
-- \{\{end_date\}\} – employment end
-- \{\{departure_reason\}\} – why they left
-- \{\{performance_summary\}\} – objective assessment
-- \{\{attendance_record\}\} – factual record
-- \{\{any_issues\}\} – disciplinary/performance matters
-- \{\{basic_or_detailed\}\} – level of detail required
+- \\{\\{employee_name\\}\\} – former employee
+- \\{\\{job_title\\}\\} – role held
+- \\{\\{start_date\\}\\} – employment start
+- \\{\\{end_date\\}\\} – employment end
+- \\{\\{departure_reason\\}\\} – why they left
+- \\{\\{performance_summary\\}\\} – objective assessment
+- \\{\\{attendance_record\\}\\} – factual record
+- \\{\\{any_issues\\}\\} – disciplinary/performance matters
+- \\{\\{basic_or_detailed\\}\\} – level of detail required
 
 ## Example Usage
 ### Input

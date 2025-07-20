@@ -23,7 +23,7 @@ United Kingdom.
 SaaS sales enablement, account management, and finance teams.
 
 ### Base Prompt  
-“You are a SaaS growth consultant. Create an **Upsell & Cross-Sell Strategy** for **\{\{Company\}\}** using existing install-base metrics (NRR, NPS, Product Usage Depth). Provide segment-specific plays and success KPIs.”
+“You are a SaaS growth consultant. Create an **Upsell & Cross-Sell Strategy** for **\\{\\{Company\\}\\}** using existing install-base metrics (NRR, NPS, Product Usage Depth). Provide segment-specific plays and success KPIs.”
 
 ### Variables  
 | Variable | Description | Example |

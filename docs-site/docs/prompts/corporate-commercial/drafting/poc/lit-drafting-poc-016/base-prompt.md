@@ -22,11 +22,11 @@ England & Wales
 Used for initiating County Court proceedings for debt recovery, breach of contract, or other money claims under £100,000.
 
 ## Base Prompt
-Draft particulars of claim for \{\{claimant_name\}\} against \{\{defendant_name\}\} for \{\{claim_type\}\}:
-- Amount claimed: £\{\{principal_amount\}\}
-- Interest basis: \{\{interest_basis\}\}
-- Key dates: \{\{key_dates\}\}
-- Brief facts: \{\{fact_summary\}\}
+Draft particulars of claim for \\{\\{claimant_name\\}\\} against \\{\\{defendant_name\\}\\} for \\{\\{claim_type\\}\\}:
+- Amount claimed: £\\{\\{principal_amount\\}\\}
+- Interest basis: \\{\\{interest_basis\\}\\}
+- Key dates: \\{\\{key_dates\\}\\}
+- Brief facts: \\{\\{fact_summary\\}\\}
 Structure per CPR PD 16:
 1. Parties and jurisdiction
 2. Chronological factual background
@@ -38,13 +38,13 @@ Structure per CPR PD 16:
 Include statement of truth wording.
 
 ## Variables
-- \{\{claimant_name\}\} – claiming party
-- \{\{defendant_name\}\} – defending party
-- \{\{claim_type\}\} – "unpaid invoice", "breach of contract", etc.
-- \{\{principal_amount\}\} – main sum claimed
-- \{\{interest_basis\}\} – "contractual at X%" or "statutory"
-- \{\{key_dates\}\} – relevant chronology
-- \{\{fact_summary\}\} – brief factual background
+- \\{\\{claimant_name\\}\\} – claiming party
+- \\{\\{defendant_name\\}\\} – defending party
+- \\{\\{claim_type\\}\\} – "unpaid invoice", "breach of contract", etc.
+- \\{\\{principal_amount\\}\\} – main sum claimed
+- \\{\\{interest_basis\\}\\} – "contractual at X%" or "statutory"
+- \\{\\{key_dates\\}\\} – relevant chronology
+- \\{\\{fact_summary\\}\\} – brief factual background
 
 ## Example Usage
 ### Input

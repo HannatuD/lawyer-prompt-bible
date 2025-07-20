@@ -22,8 +22,8 @@ UK-wide
 Used to quickly understand and compare investment offers, particularly for founders and boards evaluating venture capital or private equity proposals.
 
 ## Base Prompt
-Summarise the investment terms for \{\{company_name\}\} receiving investment from \{\{investor_name\}\}:
-\{\{termsheet_content\}\}
+Summarise the investment terms for \\{\\{company_name\\}\\} receiving investment from \\{\\{investor_name\\}\\}:
+\\{\\{termsheet_content\\}\\}
 Extract and explain:
 - Investment amount and structure
 - Pre/post-money valuation
@@ -37,9 +37,9 @@ Extract and explain:
 Create comparison table of key terms and highlight founder-unfriendly provisions.
 
 ## Variables
-- \{\{company_name\}\} – target company
-- \{\{investor_name\}\} – investing entity
-- \{\{termsheet_content\}\} – term sheet text
+- \\{\\{company_name\\}\\} – target company
+- \\{\\{investor_name\\}\\} – investing entity
+- \\{\\{termsheet_content\\}\\} – term sheet text
 
 ## Example Usage
 ### Input

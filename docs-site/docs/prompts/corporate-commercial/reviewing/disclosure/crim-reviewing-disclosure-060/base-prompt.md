@@ -22,8 +22,8 @@ England & Wales
 First assessment of prosecution case strength essential for plea advice and case strategy.
 
 ## Base Prompt
-Review initial disclosure in R v \{\{defendant_name\}\} for \{\{charges\}\}:
-\{\{disclosure_bundle\}\}
+Review initial disclosure in R v \\{\\{defendant_name\\}\\} for \\{\\{charges\\}\\}:
+\\{\\{disclosure_bundle\\}\\}
 Assess:
 1. Each element of offences
 2. Evidence strength/admissibility
@@ -41,9 +41,9 @@ Identify:
 - Defence witnesses required
 
 ## Variables
-- \{\{defendant_name\}\} – accused person
-- \{\{charges\}\} – offences charged
-- \{\{disclosure_bundle\}\} – prosecution papers
+- \\{\\{defendant_name\\}\\} – accused person
+- \\{\\{charges\\}\\} – offences charged
+- \\{\\{disclosure_bundle\\}\\} – prosecution papers
 
 ## Example Usage
 ### Input

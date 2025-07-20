@@ -22,10 +22,10 @@ England & Wales
 Used for establishing long-term supply relationships for manufactured goods, particularly where buyer requires security of supply and quality standards.
 
 ## Base Prompt
-Draft a manufacturing supply agreement where \{\{manufacturer\}\} supplies \{\{products\}\} to \{\{buyer\}\}:
-- Term: \{\{contract_term\}\} with \{\{renewal_option\}\}
-- Minimum order: \{\{min_order\}\} units/month
-- Pricing: £\{\{unit_price\}\} with \{\{price_review\}\}
+Draft a manufacturing supply agreement where \\{\\{manufacturer\\}\\} supplies \\{\\{products\\}\\} to \\{\\{buyer\\}\\}:
+- Term: \\{\\{contract_term\\}\\} with \\{\\{renewal_option\\}\\}
+- Minimum order: \\{\\{min_order\\}\\} units/month
+- Pricing: £\\{\\{unit_price\\}\\} with \\{\\{price_review\\}\\}
 Include:
 - Detailed product specifications
 - Quality standards and inspection rights
@@ -39,14 +39,14 @@ Include:
 - Termination and wind-down
 
 ## Variables
-- \{\{manufacturer\}\} – supplier company name
-- \{\{buyer\}\} – purchasing company name
-- \{\{products\}\} – goods description
-- \{\{contract_term\}\} – initial term length
-- \{\{renewal_option\}\} – renewal provisions
-- \{\{min_order\}\} – minimum monthly quantity
-- \{\{unit_price\}\} – price per unit
-- \{\{price_review\}\} – "annual review" or "fixed term"
+- \\{\\{manufacturer\\}\\} – supplier company name
+- \\{\\{buyer\\}\\} – purchasing company name
+- \\{\\{products\\}\\} – goods description
+- \\{\\{contract_term\\}\\} – initial term length
+- \\{\\{renewal_option\\}\\} – renewal provisions
+- \\{\\{min_order\\}\\} – minimum monthly quantity
+- \\{\\{unit_price\\}\\} – price per unit
+- \\{\\{price_review\\}\\} – "annual review" or "fixed term"
 
 ## Example Usage
 ### Input

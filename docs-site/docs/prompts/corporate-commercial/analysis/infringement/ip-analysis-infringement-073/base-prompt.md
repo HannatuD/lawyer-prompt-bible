@@ -22,11 +22,11 @@ UK-wide
 Critical analysis for product launch decisions or defence against infringement allegations.
 
 ## Base Prompt
-Analyse infringement risk for \{\{product_name\}\} against \{\{patent_number\}\}:
-- Patent holder: \{\{patentee\}\}
-- Priority date: \{\{priority_date\}\}
-- Product features: \{\{product_description\}\}
-- Claims focus: \{\{relevant_claims\}\}
+Analyse infringement risk for \\{\\{product_name\\}\\} against \\{\\{patent_number\\}\\}:
+- Patent holder: \\{\\{patentee\\}\\}
+- Priority date: \\{\\{priority_date\\}\\}
+- Product features: \\{\\{product_description\\}\\}
+- Claims focus: \\{\\{relevant_claims\\}\\}
 Conduct:
 1. Claim construction
 2. Feature-by-feature analysis
@@ -41,12 +41,12 @@ Conduct:
 Provide FTO opinion structure.
 
 ## Variables
-- \{\{product_name\}\} – product being assessed
-- \{\{patent_number\}\} – patent of concern
-- \{\{patentee\}\} – patent owner
-- \{\{priority_date\}\} – patent priority
-- \{\{product_description\}\} – product details
-- \{\{relevant_claims\}\} – key patent claims
+- \\{\\{product_name\\}\\} – product being assessed
+- \\{\\{patent_number\\}\\} – patent of concern
+- \\{\\{patentee\\}\\} – patent owner
+- \\{\\{priority_date\\}\\} – patent priority
+- \\{\\{product_description\\}\\} – product details
+- \\{\\{relevant_claims\\}\\} – key patent claims
 
 ## Example Usage
 ### Input

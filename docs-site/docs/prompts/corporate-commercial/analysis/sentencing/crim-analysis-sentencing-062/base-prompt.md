@@ -22,11 +22,11 @@ England & Wales
 Essential for client advice on plea decisions and managing expectations about likely outcomes.
 
 ## Base Prompt
-Analyse sentencing for \{\{defendant_name\}\} convicted of \{\{offence\}\}:
-- Previous convictions: \{\{antecedents\}\}
-- Offence category: \{\{category_factors\}\}
-- Harm factors: \{\{harm_level\}\}
-- Culpability: \{\{culpability_level\}\}
+Analyse sentencing for \\{\\{defendant_name\\}\\} convicted of \\{\\{offence\\}\\}:
+- Previous convictions: \\{\\{antecedents\\}\\}
+- Offence category: \\{\\{category_factors\\}\\}
+- Harm factors: \\{\\{harm_level\\}\\}
+- Culpability: \\{\\{culpability_level\\}\\}
 Apply guidelines:
 1. Starting point identification
 2. Category range
@@ -42,12 +42,12 @@ Consider:
 - Community options
 
 ## Variables
-- \{\{defendant_name\}\} – person being sentenced
-- \{\{offence\}\} – conviction offence
-- \{\{antecedents\}\} – criminal record
-- \{\{category_factors\}\} – offence specifics
-- \{\{harm_level\}\} – harm caused
-- \{\{culpability_level\}\} – culpability factors
+- \\{\\{defendant_name\\}\\} – person being sentenced
+- \\{\\{offence\\}\\} – conviction offence
+- \\{\\{antecedents\\}\\} – criminal record
+- \\{\\{category_factors\\}\\} – offence specifics
+- \\{\\{harm_level\\}\\} – harm caused
+- \\{\\{culpability_level\\}\\} – culpability factors
 
 ## Example Usage
 ### Input

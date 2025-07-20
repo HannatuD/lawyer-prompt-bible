@@ -22,13 +22,13 @@ England & Wales
 Used after defence filed to inform court about case complexity, evidence needs, and preferred case management directions.
 
 ## Base Prompt
-Complete directions questionnaire for \{\{party_name\}\} in \{\{case_name\}\}:
-- Claim value: £\{\{claim_value\}\}
-- Complexity: \{\{complexity_level\}\}
-- Witnesses: \{\{witness_count\}\}
-- Expert needed: \{\{expert_required\}\}
-- Disclosure extent: \{\{disclosure_scope\}\}
-- Trial estimate: \{\{trial_length\}\}
+Complete directions questionnaire for \\{\\{party_name\\}\\} in \\{\\{case_name\\}\\}:
+- Claim value: £\\{\\{claim_value\\}\\}
+- Complexity: \\{\\{complexity_level\\}\\}
+- Witnesses: \\{\\{witness_count\\}\\}
+- Expert needed: \\{\\{expert_required\\}\\}
+- Disclosure extent: \\{\\{disclosure_scope\\}\\}
+- Trial estimate: \\{\\{trial_length\\}\\}
 Address:
 A. Settlement attempts/ADR
 B. Court location preference
@@ -40,14 +40,14 @@ G. Trial readiness timeline
 H. Costs budget (if multi-track)
 
 ## Variables
-- \{\{party_name\}\} – your client's name
-- \{\{case_name\}\} – case title
-- \{\{claim_value\}\} – amount in dispute
-- \{\{complexity_level\}\} – "straightforward", "moderate", "complex"
-- \{\{witness_count\}\} – number of witnesses
-- \{\{expert_required\}\} – "yes" or "no" and field
-- \{\{disclosure_scope\}\} – "standard" or "specific"
-- \{\{trial_length\}\} – estimated days
+- \\{\\{party_name\\}\\} – your client's name
+- \\{\\{case_name\\}\\} – case title
+- \\{\\{claim_value\\}\\} – amount in dispute
+- \\{\\{complexity_level\\}\\} – "straightforward", "moderate", "complex"
+- \\{\\{witness_count\\}\\} – number of witnesses
+- \\{\\{expert_required\\}\\} – "yes" or "no" and field
+- \\{\\{disclosure_scope\\}\\} – "standard" or "specific"
+- \\{\\{trial_length\\}\\} – estimated days
 
 ## Example Usage
 ### Input

@@ -23,7 +23,7 @@ United Kingdom.
 Finance, sales, and product teams at mid-market and enterprise SaaS companies.
 
 ### Base Prompt  
-“You are a SaaS finance analyst. Build an **Expansion Revenue Framework** for **\{\{Company\}\}**. Include dashboard metrics (NDR, expansion MRR), trigger events, and playbook alignment.”
+“You are a SaaS finance analyst. Build an **Expansion Revenue Framework** for **\\{\\{Company\\}\\}**. Include dashboard metrics (NDR, expansion MRR), trigger events, and playbook alignment.”
 
 ### Variables  
 | Variable | Description | Example |

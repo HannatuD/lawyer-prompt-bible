@@ -22,10 +22,10 @@ England & Wales
 Used when appointing a master franchisee to develop a franchise network within UK, requiring careful balance of control, support, and commercial terms.
 
 ## Base Prompt
-Draft a master franchise agreement where \{\{franchisor\}\} grants \{\{master_franchisee\}\} exclusive rights to develop \{\{franchise_system\}\} in \{\{territory\}\}:
-- Development schedule: \{\{min_outlets\}\} outlets over \{\{dev_period\}\} years
-- Master franchise fee: £\{\{master_fee\}\}
-- Ongoing fees: \{\{royalty_rate\}\}% of sub-franchise revenues
+Draft a master franchise agreement where \\{\\{franchisor\\}\\} grants \\{\\{master_franchisee\\}\\} exclusive rights to develop \\{\\{franchise_system\\}\\} in \\{\\{territory\\}\\}:
+- Development schedule: \\{\\{min_outlets\\}\\} outlets over \\{\\{dev_period\\}\\} years
+- Master franchise fee: £\\{\\{master_fee\\}\\}
+- Ongoing fees: \\{\\{royalty_rate\\}\\}% of sub-franchise revenues
 Include:
 - Grant of rights and exclusivity
 - Development obligations and remedies
@@ -38,14 +38,14 @@ Include:
 - Post-term restrictions
 
 ## Variables
-- \{\{franchisor\}\} – franchise system owner
-- \{\{master_franchisee\}\} – UK developer
-- \{\{franchise_system\}\} – brand/business name
-- \{\{territory\}\} – geographic scope in UK
-- \{\{min_outlets\}\} – minimum outlets to develop
-- \{\{dev_period\}\} – development timeframe
-- \{\{master_fee\}\} – upfront fee
-- \{\{royalty_rate\}\} – ongoing percentage
+- \\{\\{franchisor\\}\\} – franchise system owner
+- \\{\\{master_franchisee\\}\\} – UK developer
+- \\{\\{franchise_system\\}\\} – brand/business name
+- \\{\\{territory\\}\\} – geographic scope in UK
+- \\{\\{min_outlets\\}\\} – minimum outlets to develop
+- \\{\\{dev_period\\}\\} – development timeframe
+- \\{\\{master_fee\\}\\} – upfront fee
+- \\{\\{royalty_rate\\}\\} – ongoing percentage
 
 ## Example Usage
 ### Input

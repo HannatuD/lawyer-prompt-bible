@@ -22,12 +22,12 @@ England & Wales
 Emergency application in cases of domestic abuse or relationship breakdown requiring one party to leave home.
 
 ## Base Prompt
-Draft occupation order application for \{\{applicant_name\}\} against \{\{respondent_name\}\}:
-- Property: \{\{property_address\}\}
-- Ownership: \{\{ownership_status\}\}
-- Relationship: \{\{relationship_type\}\}
-- Children: \{\{children_present\}\}
-- Incidents: \{\{abuse_summary\}\}
+Draft occupation order application for \\{\\{applicant_name\\}\\} against \\{\\{respondent_name\\}\\}:
+- Property: \\{\\{property_address\\}\\}
+- Ownership: \\{\\{ownership_status\\}\\}
+- Relationship: \\{\\{relationship_type\\}\\}
+- Children: \\{\\{children_present\\}\\}
+- Incidents: \\{\\{abuse_summary\\}\\}
 Apply s.33/35/36/37/38 tests:
 1. Property rights
 2. Conduct
@@ -42,13 +42,13 @@ Include:
 - Power of arrest need
 
 ## Variables
-- \{\{applicant_name\}\} – person seeking order
-- \{\{respondent_name\}\} – person to be excluded
-- \{\{property_address\}\} – family home
-- \{\{ownership_status\}\} – who owns/rents
-- \{\{relationship_type\}\} – married/cohabiting
-- \{\{children_present\}\} – children details
-- \{\{abuse_summary\}\} – conduct relied on
+- \\{\\{applicant_name\\}\\} – person seeking order
+- \\{\\{respondent_name\\}\\} – person to be excluded
+- \\{\\{property_address\\}\\} – family home
+- \\{\\{ownership_status\\}\\} – who owns/rents
+- \\{\\{relationship_type\\}\\} – married/cohabiting
+- \\{\\{children_present\\}\\} – children details
+- \\{\\{abuse_summary\\}\\} – conduct relied on
 
 ## Example Usage
 ### Input

@@ -22,13 +22,13 @@ England & Wales
 Advocacy document for sentencing hearing aiming to achieve lowest appropriate sentence.
 
 ## Base Prompt
-Draft mitigation for \{\{defendant_name\}\} being sentenced for \{\{offence\}\}:
+Draft mitigation for \\{\\{defendant_name\\}\\} being sentenced for \\{\\{offence\\}\\}:
 Personal circumstances:
-- Age: \{\{age\}\}
-- Employment: \{\{job_status\}\}
-- Family: \{\{family_situation\}\}
-- Health: \{\{health_issues\}\}
-- Previous character: \{\{character\}\}
+- Age: \\{\\{age\\}\\}
+- Employment: \\{\\{job_status\\}\\}
+- Family: \\{\\{family_situation\\}\\}
+- Health: \\{\\{health_issues\\}\\}
+- Previous character: \\{\\{character\\}\\}
 Structure:
 1. Acknowledge offence seriousness
 2. Guilty plea credit
@@ -41,13 +41,13 @@ Structure:
 Include references/testimonials approach.
 
 ## Variables
-- \{\{defendant_name\}\} – person being sentenced
-- \{\{offence\}\} – conviction
-- \{\{age\}\} – defendant's age
-- \{\{job_status\}\} – employment situation
-- \{\{family_situation\}\} – dependents
-- \{\{health_issues\}\} – relevant conditions
-- \{\{character\}\} – previous behaviour
+- \\{\\{defendant_name\\}\\} – person being sentenced
+- \\{\\{offence\\}\\} – conviction
+- \\{\\{age\\}\\} – defendant's age
+- \\{\\{job_status\\}\\} – employment situation
+- \\{\\{family_situation\\}\\} – dependents
+- \\{\\{health_issues\\}\\} – relevant conditions
+- \\{\\{character\\}\\} – previous behaviour
 
 ## Example Usage
 ### Input

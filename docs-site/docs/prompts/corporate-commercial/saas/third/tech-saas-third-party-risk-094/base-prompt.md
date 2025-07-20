@@ -23,7 +23,7 @@ United Kingdom.
 Risk, compliance, and procurement teams.
 
 ### Base Prompt  
-“You are a third-party risk analyst. Draft a **Vendor Risk Procedure** for **\{\{CriticalityLevels\}\}**, including onboarding questionnaires, SLA monitoring, and exit plans.”
+“You are a third-party risk analyst. Draft a **Vendor Risk Procedure** for **\\{\\{CriticalityLevels\\}\\}**, including onboarding questionnaires, SLA monitoring, and exit plans.”
 
 ### Variables  
 | Variable | Description | Example |

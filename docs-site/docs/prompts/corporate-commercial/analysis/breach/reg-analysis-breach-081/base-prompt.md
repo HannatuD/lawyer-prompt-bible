@@ -22,12 +22,12 @@ UK-wide
 Critical incident response requiring rapid assessment of risks and legal notification obligations.
 
 ## Base Prompt
-Assess data breach at \{\{organisation_name\}\}:
-- Incident type: \{\{breach_type\}\}
-- Data affected: \{\{data_categories\}\}
-- Individuals affected: \{\{number_affected\}\}
-- Detection date: \{\{discovery_date\}\}
-- Cause: \{\{breach_cause\}\}
+Assess data breach at \\{\\{organisation_name\\}\\}:
+- Incident type: \\{\\{breach_type\\}\\}
+- Data affected: \\{\\{data_categories\\}\\}
+- Individuals affected: \\{\\{number_affected\\}\\}
+- Detection date: \\{\\{discovery_date\\}\\}
+- Cause: \\{\\{breach_cause\\}\\}
 Evaluate:
 1. Risk to individuals
 2. Severity assessment
@@ -42,12 +42,12 @@ Evaluate:
 Create action plan with timelines.
 
 ## Variables
-- \{\{organisation_name\}\} – affected entity
-- \{\{breach_type\}\} – nature of breach
-- \{\{data_categories\}\} – types compromised
-- \{\{number_affected\}\} – scale of breach
-- \{\{discovery_date\}\} – when discovered
-- \{\{breach_cause\}\} – how occurred
+- \\{\\{organisation_name\\}\\} – affected entity
+- \\{\\{breach_type\\}\\} – nature of breach
+- \\{\\{data_categories\\}\\} – types compromised
+- \\{\\{number_affected\\}\\} – scale of breach
+- \\{\\{discovery_date\\}\\} – when discovered
+- \\{\\{breach_cause\\}\\} – how occurred
 
 ## Example Usage
 ### Input

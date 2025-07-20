@@ -22,11 +22,11 @@ England & Wales
 Technical document requiring precision as errors can invalidate transfer or cause significant delays.
 
 ## Base Prompt
-Review pension sharing annex for \{\{pension_scheme\}\}:
-- Member: \{\{member_name\}\}
-- Transfer percentage: \{\{percentage\}\}%
-- CE value: £\{\{cev_amount\}\}
-- CE date: \{\{cev_date\}\}
+Review pension sharing annex for \\{\\{pension_scheme\\}\\}:
+- Member: \\{\\{member_name\\}\\}
+- Transfer percentage: \\{\\{percentage\\}\\}%
+- CE value: £\\{\\{cev_amount\\}\\}
+- CE date: \\{\\{cev_date\\}\\}
 Check:
 1. Scheme details accuracy
 2. Member reference numbers
@@ -40,11 +40,11 @@ Check:
 10. Information requirements
 
 ## Variables
-- \{\{pension_scheme\}\} – pension provider
-- \{\{member_name\}\} – pension member
-- \{\{percentage\}\} – share percentage
-- \{\{cev_amount\}\} – cash equivalent
-- \{\{cev_date\}\} – valuation date
+- \\{\\{pension_scheme\\}\\} – pension provider
+- \\{\\{member_name\\}\\} – pension member
+- \\{\\{percentage\\}\\} – share percentage
+- \\{\\{cev_amount\\}\\} – cash equivalent
+- \\{\\{cev_date\\}\\} – valuation date
 
 ## Example Usage
 ### Input

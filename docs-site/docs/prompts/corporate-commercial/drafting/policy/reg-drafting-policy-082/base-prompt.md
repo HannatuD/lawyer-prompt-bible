@@ -23,10 +23,10 @@ Mandatory compliance framework for regulated entities preventing business being 
 
 ## Base Prompt
 ```text
-Draft AML policy for \{\{business_name\}\} in \{\{sector_type\}\}:
-- Business activities: \{\{services_provided\}\}
-- Risk profile: \{\{risk_level\}\}
-- Staff size: \{\{employee_count\}\}
+Draft AML policy for \\{\\{business_name\\}\\} in \\{\\{sector_type\\}\\}:
+- Business activities: \\{\\{services_provided\\}\\}
+- Risk profile: \\{\\{risk_level\\}\\}
+- Staff size: \\{\\{employee_count\\}\\}
 
 Include:
 1. Risk assessment framework
@@ -44,11 +44,11 @@ Align with MLR 2017 requirements.
 
 
 ## Variables
-- \{\{business_name\}\} – company name
-- \{\{sector_type\}\} – business sector
-- \{\{services_provided\}\} – regulated activities
-- \{\{risk_level\}\} – inherent risk
-- \{\{employee_count\}\} – staff numbers
+- \\{\\{business_name\\}\\} – company name
+- \\{\\{sector_type\\}\\} – business sector
+- \\{\\{services_provided\\}\\} – regulated activities
+- \\{\\{risk_level\\}\\} – inherent risk
+- \\{\\{employee_count\\}\\} – staff numbers
 
 ### Input
 business_name=Property Agents Ltd; sector_type=estate agency;

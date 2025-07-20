@@ -22,12 +22,12 @@ England & Wales
 Used to evaluate repair liability exposure and negotiate dilapidations claims at lease termination.
 
 ## Base Prompt
-Assess dilapidations liability for \{\{tenant_name\}\} at \{\{property_address\}\}:
-- Lease term: \{\{lease_details\}\}
-- Repair covenant: \{\{repair_obligation\}\}
-- Current condition: \{\{condition_summary\}\}
-- Time to expiry: \{\{months_remaining\}\}
-- Landlord's intentions: \{\{landlord_plans\}\}
+Assess dilapidations liability for \\{\\{tenant_name\\}\\} at \\{\\{property_address\\}\\}:
+- Lease term: \\{\\{lease_details\\}\\}
+- Repair covenant: \\{\\{repair_obligation\\}\\}
+- Current condition: \\{\\{condition_summary\\}\\}
+- Time to expiry: \\{\\{months_remaining\\}\\}
+- Landlord's intentions: \\{\\{landlord_plans\\}\\}
 Analyse:
 1. Scope of repair obligation
 2. Decoration requirements
@@ -41,13 +41,13 @@ Analyse:
 10. Early settlement benefits
 
 ## Variables
-- \{\{tenant_name\}\} – tenant company
-- \{\{property_address\}\} – leased premises
-- \{\{lease_details\}\} – key lease terms
-- \{\{repair_obligation\}\} – "full repairing" etc
-- \{\{condition_summary\}\} – current state
-- \{\{months_remaining\}\} – time to lease end
-- \{\{landlord_plans\}\} – known intentions
+- \\{\\{tenant_name\\}\\} – tenant company
+- \\{\\{property_address\\}\\} – leased premises
+- \\{\\{lease_details\\}\\} – key lease terms
+- \\{\\{repair_obligation\\}\\} – "full repairing" etc
+- \\{\\{condition_summary\\}\\} – current state
+- \\{\\{months_remaining\\}\\} – time to lease end
+- \\{\\{landlord_plans\\}\\} – known intentions
 
 ## Example Usage
 ### Input

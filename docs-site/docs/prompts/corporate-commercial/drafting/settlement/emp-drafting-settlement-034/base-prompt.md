@@ -22,13 +22,13 @@ England & Wales
 Used to document agreed exits ensuring clean break with waiver of claims in exchange for enhanced package.
 
 ## Base Prompt
-Draft settlement agreement between \{\{employer\}\} and \{\{employee\}\} for \{\{exit_reason\}\}:
-- Termination date: \{\{leave_date\}\}
-- Ex gratia payment: £\{\{ex_gratia\}\}
-- PILON: £\{\{pilon_amount\}\}
-- Notice period: \{\{notice_weeks\}\} weeks
-- Benefits: \{\{benefits_continuation\}\}
-- Restrictive covenants: \{\{restrictions_position\}\}
+Draft settlement agreement between \\{\\{employer\\}\\} and \\{\\{employee\\}\\} for \\{\\{exit_reason\\}\\}:
+- Termination date: \\{\\{leave_date\\}\\}
+- Ex gratia payment: £\\{\\{ex_gratia\\}\\}
+- PILON: £\\{\\{pilon_amount\\}\\}
+- Notice period: \\{\\{notice_weeks\\}\\} weeks
+- Benefits: \\{\\{benefits_continuation\\}\\}
+- Restrictive covenants: \\{\\{restrictions_position\\}\\}
 Include:
 1. Termination terms
 2. Payment breakdown and tax treatment
@@ -42,15 +42,15 @@ Include:
 Ensure s.203 ERA compliance.
 
 ## Variables
-- \{\{employer\}\} – company name
-- \{\{employee\}\} – departing employee
-- \{\{exit_reason\}\} – "redundancy", "mutual agreement", etc.
-- \{\{leave_date\}\} – final day
-- \{\{ex_gratia\}\} – compensation payment
-- \{\{pilon_amount\}\} – pay in lieu amount
-- \{\{notice_weeks\}\} – notice period
-- \{\{benefits_continuation\}\} – ongoing benefits
-- \{\{restrictions_position\}\} – affirm/waive/modify
+- \\{\\{employer\\}\\} – company name
+- \\{\\{employee\\}\\} – departing employee
+- \\{\\{exit_reason\\}\\} – "redundancy", "mutual agreement", etc.
+- \\{\\{leave_date\\}\\} – final day
+- \\{\\{ex_gratia\\}\\} – compensation payment
+- \\{\\{pilon_amount\\}\\} – pay in lieu amount
+- \\{\\{notice_weeks\\}\\} – notice period
+- \\{\\{benefits_continuation\\}\\} – ongoing benefits
+- \\{\\{restrictions_position\\}\\} – affirm/waive/modify
 
 ## Example Usage
 ### Input

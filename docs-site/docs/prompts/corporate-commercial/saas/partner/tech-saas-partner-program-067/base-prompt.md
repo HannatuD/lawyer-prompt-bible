@@ -23,7 +23,7 @@ United Kingdom.
 Channel sales and legal teams.
 
 ### Base Prompt  
-“You are a SaaS channel lawyer. Draft a **Partner Programme Agreement** between **\{\{Vendor\}\}** and **\{\{Partner\}\}**, covering reseller margin, deal registration, training, and marketing funds.”
+“You are a SaaS channel lawyer. Draft a **Partner Programme Agreement** between **\\{\\{Vendor\\}\\}** and **\\{\\{Partner\\}\\}**, covering reseller margin, deal registration, training, and marketing funds.”
 
 ### Variables  
 | Variable | Description | Example |

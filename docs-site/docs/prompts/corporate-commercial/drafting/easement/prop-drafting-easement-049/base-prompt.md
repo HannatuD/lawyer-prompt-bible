@@ -22,13 +22,13 @@ England & Wales
 Used to formalise access rights between neighbouring properties, essential for landlocked sites or shared accessways.
 
 ## Base Prompt
-Draft deed of easement between \{\{grantor\}\} (servient owner) and \{\{grantee\}\} (dominant owner):
-- Servient land: \{\{burdened_property\}\}
-- Dominant land: \{\{benefited_property\}\}
-- Right granted: \{\{access_description\}\}
-- Route: \{\{route_details\}\}
-- Payment: £\{\{consideration\}\}
-- Maintenance: \{\{maintenance_split\}\}
+Draft deed of easement between \\{\\{grantor\\}\\} (servient owner) and \\{\\{grantee\\}\\} (dominant owner):
+- Servient land: \\{\\{burdened_property\\}\\}
+- Dominant land: \\{\\{benefited_property\\}\\}
+- Right granted: \\{\\{access_description\\}\\}
+- Route: \\{\\{route_details\\}\\}
+- Payment: £\\{\\{consideration\\}\\}
+- Maintenance: \\{\\{maintenance_split\\}\\}
 Include:
 1. Clear grant of right
 2. Extent (vehicles/pedestrian)
@@ -42,14 +42,14 @@ Include:
 10. Successor binding
 
 ## Variables
-- \{\{grantor\}\} – owner granting right
-- \{\{grantee\}\} – owner receiving benefit
-- \{\{burdened_property\}\} – servient land
-- \{\{benefited_property\}\} – dominant land
-- \{\{access_description\}\} – type of access
-- \{\{route_details\}\} – physical route
-- \{\{consideration\}\} – payment amount
-- \{\{maintenance_split\}\} – cost sharing
+- \\{\\{grantor\\}\\} – owner granting right
+- \\{\\{grantee\\}\\} – owner receiving benefit
+- \\{\\{burdened_property\\}\\} – servient land
+- \\{\\{benefited_property\\}\\} – dominant land
+- \\{\\{access_description\\}\\} – type of access
+- \\{\\{route_details\\}\\} – physical route
+- \\{\\{consideration\\}\\} – payment amount
+- \\{\\{maintenance_split\\}\\} – cost sharing
 
 ## Example Usage
 ### Input

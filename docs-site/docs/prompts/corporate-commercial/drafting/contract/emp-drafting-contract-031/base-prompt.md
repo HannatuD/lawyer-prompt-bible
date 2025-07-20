@@ -22,36 +22,36 @@ England & Wales
 Used for hiring senior employees where protecting business interests through carefully drafted terms is essential.
 
 ## Base Prompt
-Draft employment contract for \{\{employer_name\}\} hiring \{\{employee_name\}\} as \{\{job_title\}\}:
-- Salary: £\{\{annual_salary\}\}
-- Start date: \{\{start_date\}\}
-- Benefits: \{\{benefits_package\}\}
-- Notice period: \{\{notice_months\}\} months
+Draft employment contract for \\{\\{employer_name\\}\\} hiring \\{\\{employee_name\\}\\} as \\{\\{job_title\\}\\}:
+- Salary: £\\{\\{annual_salary\\}\\}
+- Start date: \\{\\{start_date\\}\\}
+- Benefits: \\{\\{benefits_package\\}\\}
+- Notice period: \\{\\{notice_months\\}\\} months
 Include:
 1. Duties and reporting
 2. Confidentiality (during and post)
 3. IP assignment
 4. Garden leave clause
 5. Post-termination restrictions:
-   - Non-compete: \{\{compete_period\}\} months in \{\{compete_scope\}\}
-   - Non-solicitation: \{\{solicit_period\}\} months
-   - Non-dealing: \{\{dealing_period\}\} months
+   - Non-compete: \\{\\{compete_period\\}\\} months in \\{\\{compete_scope\\}\\}
+   - Non-solicitation: \\{\\{solicit_period\\}\\} months
+   - Non-dealing: \\{\\{dealing_period\\}\\} months
 6. Bonus scheme (discretionary)
 7. Share options reference
 Ensure enforceability of restrictions.
 
 ## Variables
-- \{\{employer_name\}\} – company name
-- \{\{employee_name\}\} – individual's name
-- \{\{job_title\}\} – position title
-- \{\{annual_salary\}\} – base salary
-- \{\{start_date\}\} – commencement date
-- \{\{benefits_package\}\} – "car, healthcare, pension"
-- \{\{notice_months\}\} – notice period
-- \{\{compete_period\}\} – non-compete duration
-- \{\{compete_scope\}\} – geographic/sector limit
-- \{\{solicit_period\}\} – non-solicitation duration
-- \{\{dealing_period\}\} – non-dealing duration
+- \\{\\{employer_name\\}\\} – company name
+- \\{\\{employee_name\\}\\} – individual's name
+- \\{\\{job_title\\}\\} – position title
+- \\{\\{annual_salary\\}\\} – base salary
+- \\{\\{start_date\\}\\} – commencement date
+- \\{\\{benefits_package\\}\\} – "car, healthcare, pension"
+- \\{\\{notice_months\\}\\} – notice period
+- \\{\\{compete_period\\}\\} – non-compete duration
+- \\{\\{compete_scope\\}\\} – geographic/sector limit
+- \\{\\{solicit_period\\}\\} – non-solicitation duration
+- \\{\\{dealing_period\\}\\} – non-dealing duration
 
 ## Example Usage
 ### Input

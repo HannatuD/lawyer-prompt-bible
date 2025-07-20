@@ -22,8 +22,8 @@ UK-wide
 Critical analysis determining whether refusal can be challenged and best route for challenge.
 
 ## Base Prompt
-Review refusal of \{\{visa_type\}\} for \{\{applicant_name\}\}:
-\{\{refusal_letter\}\}
+Review refusal of \\{\\{visa_type\\}\\} for \\{\\{applicant_name\\}\\}:
+\\{\\{refusal_letter\\}\\}
 Analyse:
 1. Refusal reasons validity
 2. Evidence considered/ignored
@@ -41,9 +41,9 @@ Determine:
 - Urgent factors
 
 ## Variables
-- \{\{visa_type\}\} – type of visa refused
-- \{\{applicant_name\}\} – refused applicant
-- \{\{refusal_letter\}\} – decision letter
+- \\{\\{visa_type\\}\\} – type of visa refused
+- \\{\\{applicant_name\\}\\} – refused applicant
+- \\{\\{refusal_letter\\}\\} – decision letter
 
 ## Example Usage
 ### Input

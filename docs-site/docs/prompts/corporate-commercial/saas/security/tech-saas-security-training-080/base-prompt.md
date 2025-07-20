@@ -23,7 +23,7 @@ United Kingdom.
 HR, IT security, and compliance departments.
 
 ### Base Prompt  
-“You are a security education specialist. Design a **Security Training Programme** for **\{\{Year\}\}** including phishing modules, secure coding, and social-engineering drills.”
+“You are a security education specialist. Design a **Security Training Programme** for **\\{\\{Year\\}\\}** including phishing modules, secure coding, and social-engineering drills.”
 
 ### Variables  
 | Variable | Description | Example |

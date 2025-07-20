@@ -22,12 +22,12 @@ England & Wales
 Protecting client's interests in custom software development with appropriate IP assignments and delivery terms.
 
 ## Base Prompt
-Draft software development agreement between \{\{client_company\}\} and \{\{developer_company\}\}:
-- Project: \{\{project_description\}\}
-- Phases: \{\{development_phases\}\}
-- Timeline: \{\{delivery_schedule\}\}
-- Budget: £\{\{total_cost\}\}
-- Payment: \{\{payment_terms\}\}
+Draft software development agreement between \\{\\{client_company\\}\\} and \\{\\{developer_company\\}\\}:
+- Project: \\{\\{project_description\\}\\}
+- Phases: \\{\\{development_phases\\}\\}
+- Timeline: \\{\\{delivery_schedule\\}\\}
+- Budget: £\\{\\{total_cost\\}\\}
+- Payment: \\{\\{payment_terms\\}\\}
 Include:
 1. Detailed specifications schedule
 2. IP ownership/assignment
@@ -41,13 +41,13 @@ Include:
 10. Dispute escalation
 
 ## Variables
-- \{\{client_company\}\} – commissioning party
-- \{\{developer_company\}\} – software developer
-- \{\{project_description\}\} – software purpose
-- \{\{development_phases\}\} – project stages
-- \{\{delivery_schedule\}\} – timeline
-- \{\{total_cost\}\} – project value
-- \{\{payment_terms\}\} – payment structure
+- \\{\\{client_company\\}\\} – commissioning party
+- \\{\\{developer_company\\}\\} – software developer
+- \\{\\{project_description\\}\\} – software purpose
+- \\{\\{development_phases\\}\\} – project stages
+- \\{\\{delivery_schedule\\}\\} – timeline
+- \\{\\{total_cost\\}\\} – project value
+- \\{\\{payment_terms\\}\\} – payment structure
 
 ## Example Usage
 ### Input

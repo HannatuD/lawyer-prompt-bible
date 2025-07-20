@@ -23,7 +23,7 @@ United Kingdom (PECR & UK-GDPR).
 Web engineering and privacy compliance teams.
 
 ### Base Prompt  
-“You are a CMP implementation specialist. Draft an **Implementation Plan** for **\{\{CMPVendor\}\}** across **\{\{Surfaces\}\}**, including consent logging, A/B banner testing, and user preference centres.”
+“You are a CMP implementation specialist. Draft an **Implementation Plan** for **\\{\\{CMPVendor\\}\\}** across **\\{\\{Surfaces\\}\\}**, including consent logging, A/B banner testing, and user preference centres.”
 
 ### Variables  
 | Variable | Description | Example |

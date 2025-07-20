@@ -22,12 +22,12 @@ England & Wales
 Used in development projects where purchaser needs time to secure planning before committing to purchase.
 
 ## Base Prompt
-Draft option agreement between \{\{landowner\}\} and \{\{developer\}\} for \{\{site_description\}\}:
-- Option period: \{\{option_term\}\}
-- Option fee: £\{\{option_payment\}\}
-- Purchase price: £\{\{purchase_price\}\} or \{\{price_mechanism\}\}
-- Trigger: \{\{exercise_conditions\}\}
-- Planning: \{\{planning_requirements\}\}
+Draft option agreement between \\{\\{landowner\\}\\} and \\{\\{developer\\}\\} for \\{\\{site_description\\}\\}:
+- Option period: \\{\\{option_term\\}\\}
+- Option fee: £\\{\\{option_payment\\}\\}
+- Purchase price: £\\{\\{purchase_price\\}\\} or \\{\\{price_mechanism\\}\\}
+- Trigger: \\{\\{exercise_conditions\\}\\}
+- Planning: \\{\\{planning_requirements\\}\\}
 Include:
 1. Grant of option
 2. Restrictions during option period
@@ -41,15 +41,15 @@ Include:
 10. Tax provisions
 
 ## Variables
-- \{\{landowner\}\} – grantor of option
-- \{\{developer\}\} – option holder
-- \{\{site_description\}\} – land description
-- \{\{option_term\}\} – option period length
-- \{\{option_payment\}\} – option fee
-- \{\{purchase_price\}\} – fixed price or
-- \{\{price_mechanism\}\} – calculation method
-- \{\{exercise_conditions\}\} – triggers for exercise
-- \{\{planning_requirements\}\} – planning needed
+- \\{\\{landowner\\}\\} – grantor of option
+- \\{\\{developer\\}\\} – option holder
+- \\{\\{site_description\\}\\} – land description
+- \\{\\{option_term\\}\\} – option period length
+- \\{\\{option_payment\\}\\} – option fee
+- \\{\\{purchase_price\\}\\} – fixed price or
+- \\{\\{price_mechanism\\}\\} – calculation method
+- \\{\\{exercise_conditions\\}\\} – triggers for exercise
+- \\{\\{planning_requirements\\}\\} – planning needed
 
 ## Example Usage
 ### Input

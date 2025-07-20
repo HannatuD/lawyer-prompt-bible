@@ -22,8 +22,8 @@ England & Wales
 Essential for client understanding of property title complexities before exchange of contracts.
 
 ## Base Prompt
-Summarise title report for \{\{property_address\}\}:
-\{\{title_documents\}\}
+Summarise title report for \\{\\{property_address\\}\\}:
+\\{\\{title_documents\\}\\}
 Extract and explain:
 1. Ownership verification
 2. Boundaries and plans
@@ -42,8 +42,8 @@ Present as:
 - Completion requirements
 
 ## Variables
-- \{\{property_address\}\} – subject property
-- \{\{title_documents\}\} – title report content
+- \\{\\{property_address\\}\\} – subject property
+- \\{\\{title_documents\\}\\} – title report content
 
 ## Example Usage
 ### Input

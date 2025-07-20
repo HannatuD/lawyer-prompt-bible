@@ -22,7 +22,7 @@ England & Wales
 Used when appointing or reviewing distribution arrangements, particularly for manufacturers or IP owners expanding market reach through third parties.
 
 ## Base Prompt
-Review distribution agreement for \{\{principal_name\}\} appointing \{\{distributor_name\}\} for \{\{territory\}\}:
+Review distribution agreement for \\{\\{principal_name\\}\\} appointing \\{\\{distributor_name\\}\\} for \\{\\{territory\\}\\}:
 Assess and report on:
 - Exclusivity and territory definitions
 - Minimum purchase/sales commitments
@@ -36,9 +36,9 @@ Assess and report on:
 Provide commercial recommendations and amendment suggestions.
 
 ## Variables
-- \{\{principal_name\}\} – manufacturer/supplier name
-- \{\{distributor_name\}\} – appointed distributor
-- \{\{territory\}\} – geographic scope
+- \\{\\{principal_name\\}\\} – manufacturer/supplier name
+- \\{\\{distributor_name\\}\\} – appointed distributor
+- \\{\\{territory\\}\\} – geographic scope
 
 ## Example Usage
 ### Input

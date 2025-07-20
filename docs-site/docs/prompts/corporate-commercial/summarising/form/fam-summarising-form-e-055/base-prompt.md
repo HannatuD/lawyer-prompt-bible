@@ -22,7 +22,7 @@ England & Wales
 Essential analysis in financial remedy proceedings to understand financial landscape and identify disclosure gaps.
 
 ## Base Prompt
-Summarise Form E from \{\{party_name\}\} in \{\{case_name\}\}:
+Summarise Form E from \\{\\{party_name\\}\\} in \\{\\{case_name\\}\\}:
 Extract:
 1. Total assets summary
 2. Income (all sources)
@@ -42,8 +42,8 @@ Analyse:
 - Questionnaire priorities
 
 ## Variables
-- \{\{party_name\}\} – disclosing party
-- \{\{case_name\}\} – case reference
+- \\{\\{party_name\\}\\} – disclosing party
+- \\{\\{case_name\\}\\} – case reference
 
 ## Example Usage
 ### Input

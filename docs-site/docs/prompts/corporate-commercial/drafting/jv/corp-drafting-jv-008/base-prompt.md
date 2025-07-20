@@ -22,10 +22,10 @@ England & Wales
 Used when two or more businesses collaborate on a specific project or ongoing business, requiring clear governance, funding, and exit arrangements.
 
 ## Base Prompt
-Draft a joint venture agreement between \{\{party_a\}\} and \{\{party_b\}\} to establish \{\{jv_purpose\}\}:
-- JV vehicle: \{\{structure_type\}\}
-- Ownership split: \{\{party_a_share\}\}% / \{\{party_b_share\}\}%
-- Initial funding: £\{\{initial_capital\}\}
+Draft a joint venture agreement between \\{\\{party_a\\}\\} and \\{\\{party_b\\}\\} to establish \\{\\{jv_purpose\\}\\}:
+- JV vehicle: \\{\\{structure_type\\}\\}
+- Ownership split: \\{\\{party_a_share\\}\\}% / \\{\\{party_b_share\\}\\}%
+- Initial funding: £\\{\\{initial_capital\\}\\}
 Include:
 - Business plan and objectives
 - Board and management structure
@@ -38,13 +38,13 @@ Include:
 - Dissolution triggers and procedures
 
 ## Variables
-- \{\{party_a\}\} – first JV partner name
-- \{\{party_b\}\} – second JV partner name
-- \{\{jv_purpose\}\} – business purpose of JV
-- \{\{structure_type\}\} – "new company" or "contractual JV"
-- \{\{party_a_share\}\} – party A's percentage
-- \{\{party_b_share\}\} – party B's percentage
-- \{\{initial_capital\}\} – starting capital amount
+- \\{\\{party_a\\}\\} – first JV partner name
+- \\{\\{party_b\\}\\} – second JV partner name
+- \\{\\{jv_purpose\\}\\} – business purpose of JV
+- \\{\\{structure_type\\}\\} – "new company" or "contractual JV"
+- \\{\\{party_a_share\\}\\} – party A's percentage
+- \\{\\{party_b_share\\}\\} – party B's percentage
+- \\{\\{initial_capital\\}\\} – starting capital amount
 
 ## Example Usage
 ### Input

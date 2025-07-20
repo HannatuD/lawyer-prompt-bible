@@ -22,10 +22,10 @@ England & Wales
 Pre-collaboration review ensuring confidential information protected while enabling meaningful technical discussions.
 
 ## Base Prompt
-Review NDA for \{\{disclosing_party\}\} sharing with \{\{receiving_party\}\}:
-- Purpose: \{\{disclosure_purpose\}\}
-- Information type: \{\{info_category\}\}
-- Duration: \{\{nda_term\}\}
+Review NDA for \\{\\{disclosing_party\\}\\} sharing with \\{\\{receiving_party\\}\\}:
+- Purpose: \\{\\{disclosure_purpose\\}\\}
+- Information type: \\{\\{info_category\\}\\}
+- Duration: \\{\\{nda_term\\}\\}
 Check for:
 1. Definition breadth
 2. Permitted use scope
@@ -40,11 +40,11 @@ Check for:
 Flag unusual or problematic terms.
 
 ## Variables
-- \{\{disclosing_party\}\} – information owner
-- \{\{receiving_party\}\} – recipient
-- \{\{disclosure_purpose\}\} – why disclosing
-- \{\{info_category\}\} – type of information
-- \{\{nda_term\}\} – confidentiality period
+- \\{\\{disclosing_party\\}\\} – information owner
+- \\{\\{receiving_party\\}\\} – recipient
+- \\{\\{disclosure_purpose\\}\\} – why disclosing
+- \\{\\{info_category\\}\\} – type of information
+- \\{\\{nda_term\\}\\} – confidentiality period
 
 ## Example Usage
 ### Input

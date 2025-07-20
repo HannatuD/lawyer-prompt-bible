@@ -22,8 +22,8 @@ UK-wide
 Used for board reporting, due diligence preparation, or contract management system implementation to understand contractual commitments and opportunities.
 
 ## Base Prompt
-Summarise the following contracts for \{\{company_name\}\}:
-\{\{contract_list\}\}
+Summarise the following contracts for \\{\\{company_name\\}\\}:
+\\{\\{contract_list\\}\\}
 For each contract provide:
 - Counterparty and contract type
 - Key commercial terms (price, volume, exclusivity)
@@ -36,8 +36,8 @@ For each contract provide:
 Create summary table and highlight top 5 risks/opportunities.
 
 ## Variables
-- \{\{company_name\}\} – entity holding the contracts
-- \{\{contract_list\}\} – list or details of contracts to review
+- \\{\\{company_name\\}\\} – entity holding the contracts
+- \\{\\{contract_list\\}\\} – list or details of contracts to review
 
 ## Example Usage
 ### Input

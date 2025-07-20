@@ -22,8 +22,8 @@ England & Wales
 Used after standard disclosure to analyse opponent's document production and identify further disclosure needs.
 
 ## Base Prompt
-Review disclosure list from \{\{disclosing_party\}\} in \{\{case_name\}\}:
-\{\{disclosure_list\}\}
+Review disclosure list from \\{\\{disclosing_party\\}\\} in \\{\\{case_name\\}\\}:
+\\{\\{disclosure_list\\}\\}
 Analyse:
 1. Documents disclosed vs issues in case
 2. Obvious gaps or missing categories
@@ -40,9 +40,9 @@ Identify:
 Create action plan with deadlines.
 
 ## Variables
-- \{\{disclosing_party\}\} – opponent's name
-- \{\{case_name\}\} – case reference
-- \{\{disclosure_list\}\} – their list of documents
+- \\{\\{disclosing_party\\}\\} – opponent's name
+- \\{\\{case_name\\}\\} – case reference
+- \\{\\{disclosure_list\\}\\} – their list of documents
 
 ## Example Usage
 ### Input

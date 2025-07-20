@@ -22,13 +22,13 @@ England & Wales
 Used in construction disputes, dilapidations claims, and other multi-issue cases requiring itemised analysis of claims.
 
 ## Base Prompt
-Create Scott Schedule for \{\{case_type\}\} in \{\{case_name\}\}:
+Create Scott Schedule for \\{\\{case_type\\}\\} in \\{\\{case_name\\}\\}:
 Structure columns:
 1. Item number
-2. \{\{claimant_name\}\}'s description of \{\{item_type\}\}
-3. \{\{claimant_name\}\}'s costing
-4. \{\{defendant_name\}\}'s response
-5. \{\{defendant_name\}\}'s costing
+2. \\{\\{claimant_name\\}\\}'s description of \\{\\{item_type\\}\\}
+3. \\{\\{claimant_name\\}\\}'s costing
+4. \\{\\{defendant_name\\}\\}'s response
+5. \\{\\{defendant_name\\}\\}'s costing
 6. Court/Expert notes
 For each item include:
 - Clear description
@@ -37,16 +37,16 @@ For each item include:
 - Remedial work needed
 - Cost breakdown
 - Supporting evidence refs
-Total items: \{\{item_count\}\}
+Total items: \\{\\{item_count\\}\\}
 Format as table suitable for ongoing use.
 
 ## Variables
-- \{\{case_type\}\} – "construction defects", "dilapidations", etc.
-- \{\{case_name\}\} – case reference
-- \{\{claimant_name\}\} – claiming party
-- \{\{defendant_name\}\} – defending party
-- \{\{item_type\}\} – "defect", "breach", "disrepair"
-- \{\{item_count\}\} – number of items
+- \\{\\{case_type\\}\\} – "construction defects", "dilapidations", etc.
+- \\{\\{case_name\\}\\} – case reference
+- \\{\\{claimant_name\\}\\} – claiming party
+- \\{\\{defendant_name\\}\\} – defending party
+- \\{\\{item_type\\}\\} – "defect", "breach", "disrepair"
+- \\{\\{item_count\\}\\} – number of items
 
 ## Example Usage
 ### Input
