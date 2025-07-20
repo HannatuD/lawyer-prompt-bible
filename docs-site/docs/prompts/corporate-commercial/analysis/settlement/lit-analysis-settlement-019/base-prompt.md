@@ -22,12 +22,12 @@ UK-wide
 Used during settlement negotiations to objectively assess proposals against likely court outcomes, costs, and commercial objectives.
 
 ## Base Prompt
-Analyse settlement proposal in {{case_name}}:
-- Claim value: £{{claim_amount}}
-- Settlement offer: £{{offer_amount}}
-- Stage of proceedings: {{case_stage}}
-- Costs to date: £{{costs_incurred}}
-- Estimated future costs: £{{future_costs}}
+Analyse settlement proposal in \{\{case_name\}\}:
+- Claim value: £\{\{claim_amount\}\}
+- Settlement offer: £\{\{offer_amount\}\}
+- Stage of proceedings: \{\{case_stage\}\}
+- Costs to date: £\{\{costs_incurred\}\}
+- Estimated future costs: £\{\{future_costs\}\}
 Evaluate:
 1. Percentage recovery vs claim
 2. Net recovery after costs
@@ -40,12 +40,12 @@ Evaluate:
 Provide recommendation with reasoning.
 
 ## Variables
-- {{case_name}} – case reference
-- {{claim_amount}} – full claim value
-- {{offer_amount}} – settlement proposed
-- {{case_stage}} – "pre-action", "pleadings", "disclosure", etc.
-- {{costs_incurred}} – costs spent so far
-- {{future_costs}} – estimated costs to trial
+- \{\{case_name\}\} – case reference
+- \{\{claim_amount\}\} – full claim value
+- \{\{offer_amount\}\} – settlement proposed
+- \{\{case_stage\}\} – "pre-action", "pleadings", "disclosure", etc.
+- \{\{costs_incurred\}\} – costs spent so far
+- \{\{future_costs\}\} – estimated costs to trial
 
 ## Example Usage
 ### Input

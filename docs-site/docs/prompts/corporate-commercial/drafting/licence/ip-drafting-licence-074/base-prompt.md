@@ -22,13 +22,13 @@ England & Wales
 Structuring IP licensing deal ensuring clear scope, appropriate controls, and fair commercial terms.
 
 ## Base Prompt
-Draft IP licence between {{licensor}} and {{licensee}}:
-- IP type: {{ip_rights}}
-- Scope: {{licence_scope}}
-- Territory: {{territory}}
-- Term: {{licence_term}}
-- Royalty: {{royalty_structure}}
-- Exclusivity: {{exclusive_status}}
+Draft IP licence between \{\{licensor\}\} and \{\{licensee\}\}:
+- IP type: \{\{ip_rights\}\}
+- Scope: \{\{licence_scope\}\}
+- Territory: \{\{territory\}\}
+- Term: \{\{licence_term\}\}
+- Royalty: \{\{royalty_structure\}\}
+- Exclusivity: \{\{exclusive_status\}\}
 Include:
 1. Grant clause precision
 2. Field of use limits
@@ -42,14 +42,14 @@ Include:
 10. Termination events
 
 ## Variables
-- {{licensor}} – IP owner
-- {{licensee}} – party receiving licence
-- {{ip_rights}} – patents/copyright/trademark
-- {{licence_scope}} – permitted uses
-- {{territory}} – geographic limits
-- {{licence_term}} – duration
-- {{royalty_structure}} – payment terms
-- {{exclusive_status}} – exclusive/non-exclusive
+- \{\{licensor\}\} – IP owner
+- \{\{licensee\}\} – party receiving licence
+- \{\{ip_rights\}\} – patents/copyright/trademark
+- \{\{licence_scope\}\} – permitted uses
+- \{\{territory\}\} – geographic limits
+- \{\{licence_term\}\} – duration
+- \{\{royalty_structure\}\} – payment terms
+- \{\{exclusive_status\}\} – exclusive/non-exclusive
 
 ## Example Usage
 ### Input

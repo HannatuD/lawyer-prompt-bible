@@ -22,11 +22,11 @@ England & Wales
 Advising on whether to accept caution as alternative to prosecution considering admission requirements and consequences.
 
 ## Base Prompt
-Review caution proposal for {{client_name}} for {{offence}}:
-- Evidence strength: {{evidence_summary}}
-- Admission made: {{admission_status}}
-- Previous record: {{previous_cautions}}
-- Immigration status: {{immigration}}
+Review caution proposal for \{\{client_name\}\} for \{\{offence\}\}:
+- Evidence strength: \{\{evidence_summary\}\}
+- Admission made: \{\{admission_status\}\}
+- Previous record: \{\{previous_cautions\}\}
+- Immigration status: \{\{immigration\}\}
 Consider:
 1. Prosecution likelihood
 2. Conviction chances
@@ -41,12 +41,12 @@ Consider:
 Advise on acceptance.
 
 ## Variables
-- {{client_name}} – person offered caution
-- {{offence}} – alleged offence
-- {{evidence_summary}} – prosecution evidence
-- {{admission_status}} – whether admitted
-- {{previous_cautions}} – criminal history
-- {{immigration}} – visa status if relevant
+- \{\{client_name\}\} – person offered caution
+- \{\{offence\}\} – alleged offence
+- \{\{evidence_summary\}\} – prosecution evidence
+- \{\{admission_status\}\} – whether admitted
+- \{\{previous_cautions\}\} – criminal history
+- \{\{immigration\}\} – visa status if relevant
 
 ## Example Usage
 ### Input

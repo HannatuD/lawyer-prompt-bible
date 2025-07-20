@@ -23,7 +23,7 @@ United Kingdom & EU.
 Finance controllers of SaaS companies.
 
 ### Base Prompt  
-“You are an indirect-tax consultant. Draft a **VAT MOSS Transition Checklist** for **{{Company}}**, covering OSS registration, invoicing updates, and evidence of customer location.”
+“You are an indirect-tax consultant. Draft a **VAT MOSS Transition Checklist** for **\{\{Company\}\}**, covering OSS registration, invoicing updates, and evidence of customer location.”
 
 ### Variables  
 | Variable | Description | Example |

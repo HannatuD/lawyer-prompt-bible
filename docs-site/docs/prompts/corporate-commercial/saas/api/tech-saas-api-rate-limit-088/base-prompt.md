@@ -23,7 +23,7 @@ United Kingdom.
 Platform engineers and product managers.
 
 ### Base Prompt  
-“You are a platform architect. Design an **API Rate-Limiting Strategy** for **{{APIName}}**, including quota tiers, burst handling, and overage billing.”
+“You are a platform architect. Design an **API Rate-Limiting Strategy** for **\{\{APIName\}\}**, including quota tiers, burst handling, and overage billing.”
 
 ### Variables  
 | Variable | Description | Example |

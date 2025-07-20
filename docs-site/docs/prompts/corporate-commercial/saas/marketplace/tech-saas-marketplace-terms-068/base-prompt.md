@@ -23,7 +23,7 @@ United Kingdom.
 Legal and marketplace operations teams.
 
 ### Base Prompt  
-“You are a SaaS marketplace lawyer. Draft **Listing Terms** for **{{Product}}** on **{{Marketplace}}**, covering pricing, support obligations, data residency, and delisting procedures.”
+“You are a SaaS marketplace lawyer. Draft **Listing Terms** for **\{\{Product\}\}** on **\{\{Marketplace\}\}**, covering pricing, support obligations, data residency, and delisting procedures.”
 
 ### Variables  
 | Variable | Description | Example |

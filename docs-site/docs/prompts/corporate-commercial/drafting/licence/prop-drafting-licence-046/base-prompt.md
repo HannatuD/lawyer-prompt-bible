@@ -22,12 +22,12 @@ England & Wales
 Required when tenant needs landlord consent for alterations under lease terms, documenting agreed works and conditions.
 
 ## Base Prompt
-Draft licence to alter for {{tenant_name}} at {{property_address}}:
-- Landlord: {{landlord_name}}
-- Proposed works: {{works_description}}
-- Plans reference: {{plans_ref}}
-- Timescale: {{completion_time}}
-- Reinstatement required: {{reinstatement}}
+Draft licence to alter for \{\{tenant_name\}\} at \{\{property_address\}\}:
+- Landlord: \{\{landlord_name\}\}
+- Proposed works: \{\{works_description\}\}
+- Plans reference: \{\{plans_ref\}\}
+- Timescale: \{\{completion_time\}\}
+- Reinstatement required: \{\{reinstatement\}\}
 Include:
 1. Permission scope (plans annexed)
 2. Conditions precedent
@@ -41,13 +41,13 @@ Include:
 10. Documentation requirements
 
 ## Variables
-- {{tenant_name}} – tenant company
-- {{property_address}} – premises location
-- {{landlord_name}} – landlord entity
-- {{works_description}} – alteration summary
-- {{plans_ref}} – drawing references
-- {{completion_time}} – works timescale
-- {{reinstatement}} – "yes" or "no"
+- \{\{tenant_name\}\} – tenant company
+- \{\{property_address\}\} – premises location
+- \{\{landlord_name\}\} – landlord entity
+- \{\{works_description\}\} – alteration summary
+- \{\{plans_ref\}\} – drawing references
+- \{\{completion_time\}\} – works timescale
+- \{\{reinstatement\}\} – "yes" or "no"
 
 ## Example Usage
 ### Input

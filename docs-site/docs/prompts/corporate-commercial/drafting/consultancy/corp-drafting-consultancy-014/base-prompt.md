@@ -22,10 +22,10 @@ England & Wales
 Used for engaging IT consultants through limited companies where demonstrating genuine business services (not disguised employment) is critical.
 
 ## Base Prompt
-Draft an IT consultancy agreement between {{client}} and {{consultancy_company}} for {{consultant_name}} to provide {{services}}:
-- Duration: {{contract_length}}
-- Fee: £{{daily_rate}} per day
-- Location: {{work_location}}
+Draft an IT consultancy agreement between \{\{client\}\} and \{\{consultancy_company\}\} for \{\{consultant_name\}\} to provide \{\{services\}\}:
+- Duration: \{\{contract_length\}\}
+- Fee: £\{\{daily_rate\}\} per day
+- Location: \{\{work_location\}\}
 IR35 considerations:
 - Right of substitution (qualified)
 - No mutuality of obligation
@@ -37,13 +37,13 @@ IR35 considerations:
 Include IP assignment, confidentiality, professional indemnity insurance.
 
 ## Variables
-- {{client}} – end client company
-- {{consultancy_company}} – consultant's limited company
-- {{consultant_name}} – individual consultant
-- {{services}} – IT services description
-- {{contract_length}} – project duration
-- {{daily_rate}} – consultancy rate
-- {{work_location}} – "client site", "remote", or "mixed"
+- \{\{client\}\} – end client company
+- \{\{consultancy_company\}\} – consultant's limited company
+- \{\{consultant_name\}\} – individual consultant
+- \{\{services\}\} – IT services description
+- \{\{contract_length\}\} – project duration
+- \{\{daily_rate\}\} – consultancy rate
+- \{\{work_location\}\} – "client site", "remote", or "mixed"
 
 ## Example Usage
 ### Input

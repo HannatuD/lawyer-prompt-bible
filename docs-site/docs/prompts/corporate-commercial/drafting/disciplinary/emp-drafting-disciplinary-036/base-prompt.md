@@ -22,12 +22,12 @@ UK-wide
 First formal step in disciplinary process requiring careful drafting to ensure procedural fairness.
 
 ## Base Prompt
-Draft disciplinary invitation letter for {{employee_name}} regarding {{allegation_type}}:
-- Incident date(s): {{incident_dates}}
-- Allegations: {{specific_allegations}}
-- Hearing date: {{hearing_date}}
-- Hearing location: {{location}}
-- Hearing chair: {{chair_name}}
+Draft disciplinary invitation letter for \{\{employee_name\}\} regarding \{\{allegation_type\}\}:
+- Incident date(s): \{\{incident_dates\}\}
+- Allegations: \{\{specific_allegations\}\}
+- Hearing date: \{\{hearing_date\}\}
+- Hearing location: \{\{location\}\}
+- Hearing chair: \{\{chair_name\}\}
 Include:
 1. Clear allegation details
 2. Potential outcomes (including dismissal if applicable)
@@ -41,13 +41,13 @@ Include:
 Ensure ACAS Code compliance.
 
 ## Variables
-- {{employee_name}} – employee facing disciplinary
-- {{allegation_type}} – misconduct category
-- {{incident_dates}} – when alleged incidents occurred
-- {{specific_allegations}} – detailed allegations
-- {{hearing_date}} – proposed hearing date/time
-- {{location}} – hearing venue
-- {{chair_name}} – who will chair hearing
+- \{\{employee_name\}\} – employee facing disciplinary
+- \{\{allegation_type\}\} – misconduct category
+- \{\{incident_dates\}\} – when alleged incidents occurred
+- \{\{specific_allegations\}\} – detailed allegations
+- \{\{hearing_date\}\} – proposed hearing date/time
+- \{\{location\}\} – hearing venue
+- \{\{chair_name\}\} – who will chair hearing
 
 ## Example Usage
 ### Input

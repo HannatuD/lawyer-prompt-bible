@@ -22,11 +22,11 @@ England & Wales
 Used by couples seeking to regulate financial arrangements on divorce, requiring careful balance of protection and fairness.
 
 ## Base Prompt
-Draft pre-nuptial agreement between {{party_a}} and {{party_b}}:
-- Party A assets: {{a_assets}}
-- Party B assets: {{b_assets}}
-- Wedding date: {{marriage_date}}
-- Provision intent: {{financial_approach}}
+Draft pre-nuptial agreement between \{\{party_a\}\} and \{\{party_b\}\}:
+- Party A assets: \{\{a_assets\}\}
+- Party B assets: \{\{b_assets\}\}
+- Wedding date: \{\{marriage_date\}\}
+- Provision intent: \{\{financial_approach\}\}
 Include:
 1. Current financial disclosure
 2. Pre-acquired asset protection
@@ -41,12 +41,12 @@ Include:
 Follow Radmacher principles.
 
 ## Variables
-- {{party_a}} – first party name
-- {{party_b}} – second party name
-- {{a_assets}} – Party A's assets summary
-- {{b_assets}} – Party B's assets summary
-- {{marriage_date}} – intended wedding date
-- {{financial_approach}} – "protect pre-acquired" etc
+- \{\{party_a\}\} – first party name
+- \{\{party_b\}\} – second party name
+- \{\{a_assets\}\} – Party A's assets summary
+- \{\{b_assets\}\} – Party B's assets summary
+- \{\{marriage_date\}\} – intended wedding date
+- \{\{financial_approach\}\} – "protect pre-acquired" etc
 
 ## Example Usage
 ### Input

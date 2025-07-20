@@ -22,13 +22,13 @@ UK-wide
 Used when planning workforce reductions, ensuring fair process and minimising legal risk of unfair dismissal claims.
 
 ## Base Prompt
-Plan redundancy process for {{company_name}}:
-- Current employees: {{total_employees}}
-- Proposed redundancies: {{redundancy_number}}
-- Locations affected: {{locations}}
-- Roles affected: {{affected_roles}}
-- Business reason: {{redundancy_reason}}
-- Timeline pressure: {{urgency_level}}
+Plan redundancy process for \{\{company_name\}\}:
+- Current employees: \{\{total_employees\}\}
+- Proposed redundancies: \{\{redundancy_number\}\}
+- Locations affected: \{\{locations\}\}
+- Roles affected: \{\{affected_roles\}\}
+- Business reason: \{\{redundancy_reason\}\}
+- Timeline pressure: \{\{urgency_level\}\}
 Develop:
 1. Consultation requirements (individual/collective)
 2. Selection pool definition
@@ -42,13 +42,13 @@ Develop:
 10. Protected characteristic impact
 
 ## Variables
-- {{company_name}} – employer name
-- {{total_employees}} – workforce size
-- {{redundancy_number}} – proposed job losses
-- {{locations}} – sites affected
-- {{affected_roles}} – positions at risk
-- {{redundancy_reason}} – business rationale
-- {{urgency_level}} – time pressure
+- \{\{company_name\}\} – employer name
+- \{\{total_employees\}\} – workforce size
+- \{\{redundancy_number\}\} – proposed job losses
+- \{\{locations\}\} – sites affected
+- \{\{affected_roles\}\} – positions at risk
+- \{\{redundancy_reason\}\} – business rationale
+- \{\{urgency_level\}\} – time pressure
 
 ## Example Usage
 ### Input

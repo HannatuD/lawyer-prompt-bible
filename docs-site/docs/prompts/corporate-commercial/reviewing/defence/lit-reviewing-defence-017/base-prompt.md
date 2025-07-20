@@ -22,8 +22,8 @@ England & Wales
 Used when analysing opponent's defence to identify weaknesses, admissions, and areas requiring clarification or challenge.
 
 ## Base Prompt
-Review the following defence filed in {{case_name}}:
-{{defence_text}}
+Review the following defence filed in \{\{case_name\}\}:
+\{\{defence_text\}\}
 Analyse and report on:
 1. Admissions made (express and implied)
 2. Bare denials requiring evidence
@@ -40,8 +40,8 @@ Recommend:
 - Whether to file reply
 
 ## Variables
-- {{case_name}} – case title/reference
-- {{defence_text}} – the defence document
+- \{\{case_name\}\} – case title/reference
+- \{\{defence_text\}\} – the defence document
 
 ## Example Usage
 ### Input

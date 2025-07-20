@@ -22,11 +22,11 @@ England & Wales
 Used to assess child arrangements proposals in private law proceedings focusing on child's best interests.
 
 ## Base Prompt
-Analyse child arrangements proposal for {{children_names}} (ages {{ages}}):
-- Current arrangements: {{existing_pattern}}
-- Proposed change: {{proposed_arrangements}}
-- Reason for change: {{change_reason}}
-- Parental positions: {{parent_views}}
+Analyse child arrangements proposal for \{\{children_names\}\} (ages \{\{ages\}\}):
+- Current arrangements: \{\{existing_pattern\}\}
+- Proposed change: \{\{proposed_arrangements\}\}
+- Reason for change: \{\{change_reason\}\}
+- Parental positions: \{\{parent_views\}\}
 Apply welfare checklist:
 1. Child's wishes/feelings
 2. Physical/emotional needs
@@ -42,12 +42,12 @@ Consider:
 - Sibling relationships
 
 ## Variables
-- {{children_names}} – children involved
-- {{ages}} – children's ages
-- {{existing_pattern}} – current arrangements
-- {{proposed_arrangements}} – suggested changes
-- {{change_reason}} – why change sought
-- {{parent_views}} – each parent's position
+- \{\{children_names\}\} – children involved
+- \{\{ages\}\} – children's ages
+- \{\{existing_pattern\}\} – current arrangements
+- \{\{proposed_arrangements\}\} – suggested changes
+- \{\{change_reason\}\} – why change sought
+- \{\{parent_views\}\} – each parent's position
 
 ## Example Usage
 ### Input

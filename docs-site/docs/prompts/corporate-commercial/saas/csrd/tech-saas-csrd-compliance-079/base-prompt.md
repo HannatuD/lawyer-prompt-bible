@@ -23,7 +23,7 @@ European Union (extraterritorial) & United Kingdom.
 Sustainability reporting and legal teams.
 
 ### Base Prompt  
-“You are a sustainability standards advisor. Build a **CSRD Readiness Checklist** for **{{Company}}**, mapping ESRS disclosure requirements to existing data.”
+“You are a sustainability standards advisor. Build a **CSRD Readiness Checklist** for **\{\{Company\}\}**, mapping ESRS disclosure requirements to existing data.”
 
 ### Variables  
 | Variable | Description | Example |

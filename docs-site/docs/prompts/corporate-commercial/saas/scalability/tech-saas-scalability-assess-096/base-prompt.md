@@ -23,7 +23,7 @@ United Kingdom.
 Engineering leadership and capacity-planning teams.
 
 ### Base Prompt  
-“You are a scalability engineer. Conduct a **Scalability Assessment** for **{{GrowthScenario}}**, modelling CPU, memory, and network utilisation.”
+“You are a scalability engineer. Conduct a **Scalability Assessment** for **\{\{GrowthScenario\}\}**, modelling CPU, memory, and network utilisation.”
 
 ### Variables  
 | Variable | Description | Example |

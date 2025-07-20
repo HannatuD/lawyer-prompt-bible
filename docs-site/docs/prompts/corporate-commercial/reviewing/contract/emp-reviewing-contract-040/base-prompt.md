@@ -22,8 +22,8 @@ UK-wide
 Used for casual workforce arrangements requiring careful drafting to maintain flexibility while meeting legal obligations.
 
 ## Base Prompt
-Review zero hours contract for {{employer}} engaging {{worker_type}}:
-{{contract_text}}
+Review zero hours contract for \{\{employer\}\} engaging \{\{worker_type\}\}:
+\{\{contract_text\}\}
 Check for:
 1. Mutuality of obligation clarity
 2. Right to refuse work
@@ -41,9 +41,9 @@ Identify risks of:
 - Continuity of employment
 
 ## Variables
-- {{employer}} – company name
-- {{worker_type}} – type of casual worker
-- {{contract_text}} – contract to review
+- \{\{employer\}\} – company name
+- \{\{worker_type\}\} – type of casual worker
+- \{\{contract_text\}\} – contract to review
 
 ## Example Usage
 ### Input

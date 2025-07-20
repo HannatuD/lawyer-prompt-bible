@@ -22,7 +22,7 @@ UK-wide
 Essential HR compliance exercise ensuring policies meet statutory requirements and provide appropriate employer protections.
 
 ## Base Prompt
-Review employee handbook for {{company_name}} with {{employee_count}} employees in {{industry_sector}}:
+Review employee handbook for \{\{company_name\}\} with \{\{employee_count\}\} employees in \{\{industry_sector\}\}:
 Check policies for:
 1. Legal compliance:
    - Disciplinary and grievance (ACAS Code)
@@ -44,9 +44,9 @@ Check policies for:
 Identify missing policies and outdated provisions.
 
 ## Variables
-- {{company_name}} – employer name
-- {{employee_count}} – workforce size
-- {{industry_sector}} – type of business
+- \{\{company_name\}\} – employer name
+- \{\{employee_count\}\} – workforce size
+- \{\{industry_sector\}\} – type of business
 
 ## Example Usage
 ### Input

@@ -22,7 +22,7 @@ UK-wide
 Pre-hearing analysis essential for effective tribunal advocacy and identifying additional evidence needs.
 
 ## Base Prompt
-Review appeal bundle for {{appellant_name}} v SSHD:
+Review appeal bundle for \{\{appellant_name\}\} v SSHD:
 Summarise:
 1. Grounds of appeal
 2. Refusal reasons
@@ -42,7 +42,7 @@ Create hearing preparation notes including:
 - Submissions structure
 
 ## Variables
-- {{appellant_name}} – person appealing
+- \{\{appellant_name\}\} – person appealing
 
 ## Example Usage
 ### Input

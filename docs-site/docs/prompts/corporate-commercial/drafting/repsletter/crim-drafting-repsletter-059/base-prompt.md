@@ -22,11 +22,11 @@ England & Wales
 Urgent communication when client arrested, establishing legal representation and protecting fundamental rights.
 
 ## Base Prompt
-Draft police station representation letter for {{client_name}} detained at {{police_station}}:
-- Reference: {{custody_number}}
-- Alleged offence: {{offence}}
-- Time of detention: {{detention_time}}
-- Interview scheduled: {{interview_time}}
+Draft police station representation letter for \{\{client_name\}\} detained at \{\{police_station\}\}:
+- Reference: \{\{custody_number\}\}
+- Alleged offence: \{\{offence\}\}
+- Time of detention: \{\{detention_time\}\}
+- Interview scheduled: \{\{interview_time\}\}
 Assert:
 1. Confirmation of representation
 2. Immediate consultation required
@@ -40,12 +40,12 @@ Assert:
 10. Bail representations preparation
 
 ## Variables
-- {{client_name}} – detained person
-- {{police_station}} – place of detention
-- {{custody_number}} – custody reference
-- {{offence}} – alleged offence
-- {{detention_time}} – when detained
-- {{interview_time}} – planned interview
+- \{\{client_name\}\} – detained person
+- \{\{police_station\}\} – place of detention
+- \{\{custody_number\}\} – custody reference
+- \{\{offence\}\} – alleged offence
+- \{\{detention_time\}\} – when detained
+- \{\{interview_time\}\} – planned interview
 
 ## Example Usage
 ### Input

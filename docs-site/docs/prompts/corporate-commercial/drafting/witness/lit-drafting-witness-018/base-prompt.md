@@ -22,7 +22,7 @@ England & Wales
 Used for preparing witness evidence in civil litigation, ensuring compliance with formal requirements and effective presentation of evidence.
 
 ## Base Prompt
-Draft a witness statement template for {{witness_name}} in {{case_name}} covering {{subject_matter}}:
+Draft a witness statement template for \{\{witness_name\}\} in \{\{case_name\}\} covering \{\{subject_matter\}\}:
 Structure per PD 32:
 1. Formal heading with case details
 2. Witness details and qualification to give evidence
@@ -31,8 +31,8 @@ Structure per PD 32:
 5. Reference to exhibited documents
 6. Opinion evidence (if expert)
 7. Statement of truth
-Key events: {{key_events}}
-Documents to exhibit: {{exhibits}}
+Key events: \{\{key_events\}\}
+Documents to exhibit: \{\{exhibits\}\}
 Ensure:
 - First person narrative
 - Factual not argumentative
@@ -40,11 +40,11 @@ Ensure:
 - Proper exhibit referencing
 
 ## Variables
-- {{witness_name}} – person giving evidence
-- {{case_name}} – case title and number
-- {{subject_matter}} – what evidence covers
-- {{key_events}} – important dates/events
-- {{exhibits}} – documents to attach
+- \{\{witness_name\}\} – person giving evidence
+- \{\{case_name\}\} – case title and number
+- \{\{subject_matter\}\} – what evidence covers
+- \{\{key_events\}\} – important dates/events
+- \{\{exhibits\}\} – documents to attach
 
 ## Example Usage
 ### Input

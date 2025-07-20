@@ -22,11 +22,11 @@ England & Wales
 Used when cohabitees separate, lacking divorce law protections but needing formal arrangement for assets and children.
 
 ## Base Prompt
-Draft separation agreement for {{party_1}} and {{party_2}} (unmarried):
-- Shared property: {{property_details}}
-- Ownership: {{ownership_shares}}
-- Children: {{children_details}}
-- Separation date: {{sep_date}}
+Draft separation agreement for \{\{party_1\}\} and \{\{party_2\}\} (unmarried):
+- Shared property: \{\{property_details\}\}
+- Ownership: \{\{ownership_shares\}\}
+- Children: \{\{children_details\}\}
+- Separation date: \{\{sep_date\}\}
 Include:
 1. Property sale/transfer terms
 2. Mortgage responsibility
@@ -41,12 +41,12 @@ Include:
 Note limits without court order.
 
 ## Variables
-- {{party_1}} – first party
-- {{party_2}} – second party
-- {{property_details}} – shared home details
-- {{ownership_shares}} – legal ownership split
-- {{children_details}} – children and ages
-- {{sep_date}} – when separated
+- \{\{party_1\}\} – first party
+- \{\{party_2\}\} – second party
+- \{\{property_details\}\} – shared home details
+- \{\{ownership_shares\}\} – legal ownership split
+- \{\{children_details\}\} – children and ages
+- \{\{sep_date\}\} – when separated
 
 ## Example Usage
 ### Input

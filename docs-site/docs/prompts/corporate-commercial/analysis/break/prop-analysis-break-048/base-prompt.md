@@ -22,12 +22,12 @@ England & Wales
 Critical when planning lease termination as strict compliance required and errors cannot usually be corrected.
 
 ## Base Prompt
-Analyse break clause in lease of {{property_address}}:
-- Tenant: {{tenant_name}}
-- Break date: {{break_date}}
-- Notice period: {{notice_required}}
-- Current date: {{today_date}}
-- Conditions: {{break_conditions}}
+Analyse break clause in lease of \{\{property_address\}\}:
+- Tenant: \{\{tenant_name\}\}
+- Break date: \{\{break_date\}\}
+- Notice period: \{\{notice_required\}\}
+- Current date: \{\{today_date\}\}
+- Conditions: \{\{break_conditions\}\}
 Assess:
 1. Notice timing calculations
 2. Service requirements
@@ -42,12 +42,12 @@ Assess:
 Provide compliance checklist and timeline.
 
 ## Variables
-- {{property_address}} – leased property
-- {{tenant_name}} – tenant exercising break
-- {{break_date}} – when break operates
-- {{notice_required}} – notice period needed
-- {{today_date}} – current date
-- {{break_conditions}} – conditions to satisfy
+- \{\{property_address\}\} – leased property
+- \{\{tenant_name\}\} – tenant exercising break
+- \{\{break_date\}\} – when break operates
+- \{\{notice_required\}\} – notice period needed
+- \{\{today_date\}\} – current date
+- \{\{break_conditions\}\} – conditions to satisfy
 
 ## Example Usage
 ### Input

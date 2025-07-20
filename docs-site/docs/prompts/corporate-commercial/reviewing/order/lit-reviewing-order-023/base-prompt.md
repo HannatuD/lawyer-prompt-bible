@@ -22,8 +22,8 @@ England & Wales
 Used to ensure full understanding and compliance with court orders, avoiding sanctions for breach.
 
 ## Base Prompt
-Review court order in {{case_name}} dated {{order_date}}:
-{{order_text}}
+Review court order in \{\{case_name\}\} dated \{\{order_date\}\}:
+\{\{order_text\}\}
 Extract and summarise:
 1. Specific obligations on each party
 2. Deadlines (with calendar dates)
@@ -40,9 +40,9 @@ Create compliance checklist with:
 - Evidence of compliance needed
 
 ## Variables
-- {{case_name}} – case reference
-- {{order_date}} – date of order
-- {{order_text}} – full order text
+- \{\{case_name\}\} – case reference
+- \{\{order_date\}\} – date of order
+- \{\{order_text\}\} – full order text
 
 ## Example Usage
 ### Input

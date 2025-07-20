@@ -23,7 +23,7 @@ United Kingdom.
 Finance engineering and product teams.
 
 ### Base Prompt  
-“You are a payments integration specialist. Create a **Billing Integration Guide** for **{{BillingPlatform}}** into **{{Product}}**, covering API authentication, webhook handling, and proration logic.”
+“You are a payments integration specialist. Create a **Billing Integration Guide** for **\{\{BillingPlatform\}\}** into **\{\{Product\}\}**, covering API authentication, webhook handling, and proration logic.”
 
 ### Variables  
 | Variable | Description | Example |

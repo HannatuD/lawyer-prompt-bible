@@ -22,7 +22,7 @@ UK-wide
 Strategic IP review for business planning, investment rounds, or exit preparation.
 
 ## Base Prompt
-Audit IP portfolio for {{company_name}}:
+Audit IP portfolio for \{\{company_name\}\}:
 Catalogue:
 1. Patents (granted/pending)
 2. Trademarks (registered/used)
@@ -42,7 +42,7 @@ Assess each for:
 Identify strategic recommendations.
 
 ## Variables
-- {{company_name}} – portfolio owner
+- \{\{company_name\}\} – portfolio owner
 
 ## Example Usage
 ### Input

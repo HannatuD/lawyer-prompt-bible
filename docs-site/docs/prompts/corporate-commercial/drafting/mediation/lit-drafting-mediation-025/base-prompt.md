@@ -22,11 +22,11 @@ UK-wide
 Used for mediation preparation, balancing openness for settlement with protection of litigation position.
 
 ## Base Prompt
-Draft mediation position statement for {{party_name}} in {{dispute_description}}:
-- Claim amount: £{{claim_amount}}
-- Key issues: {{main_issues}}
-- Settlement range: £{{min_settlement}} to £{{ideal_settlement}}
-- Non-monetary terms: {{other_terms}}
+Draft mediation position statement for \{\{party_name\}\} in \{\{dispute_description\}\}:
+- Claim amount: £\{\{claim_amount\}\}
+- Key issues: \{\{main_issues\}\}
+- Settlement range: £\{\{min_settlement\}\} to £\{\{ideal_settlement\}\}
+- Non-monetary terms: \{\{other_terms\}\}
 Structure:
 1. Brief case background
 2. Key issues in dispute
@@ -39,13 +39,13 @@ Tone: Constructive but protecting position
 Mark "Without Prejudice Save as to Costs"
 
 ## Variables
-- {{party_name}} – your client
-- {{dispute_description}} – nature of dispute
-- {{claim_amount}} – amount in dispute
-- {{main_issues}} – key disagreement points
-- {{min_settlement}} – minimum acceptable
-- {{ideal_settlement}} – target settlement
-- {{other_terms}} – non-monetary aspects
+- \{\{party_name\}\} – your client
+- \{\{dispute_description\}\} – nature of dispute
+- \{\{claim_amount\}\} – amount in dispute
+- \{\{main_issues\}\} – key disagreement points
+- \{\{min_settlement\}\} – minimum acceptable
+- \{\{ideal_settlement\}\} – target settlement
+- \{\{other_terms\}\} – non-monetary aspects
 
 ## Example Usage
 ### Input

@@ -22,10 +22,10 @@ England & Wales
 Used for engaging consultants, IT services, marketing agencies, or other professional service providers where clear deliverables and liability allocation are critical.
 
 ## Base Prompt
-Draft a professional services agreement where {{service_provider}} provides {{service_type}} to {{client_name}}:
-- Service term: {{term_length}}
-- Fees: £{{fee_amount}} {{payment_frequency}}
-- Notice period: {{notice_period}}
+Draft a professional services agreement where \{\{service_provider\}\} provides \{\{service_type\}\} to \{\{client_name\}\}:
+- Service term: \{\{term_length\}\}
+- Fees: £\{\{fee_amount\}\} \{\{payment_frequency\}\}
+- Notice period: \{\{notice_period\}\}
 Include:
 - Detailed services schedule
 - IP ownership (work product to client)
@@ -35,13 +35,13 @@ Include:
 - GDPR processor terms if applicable
 
 ## Variables
-- {{service_provider}} – consultant/agency name
-- {{client_name}} – customer name
-- {{service_type}} – description of services
-- {{term_length}} – "12 months" or "project basis"
-- {{fee_amount}} – fee in GBP
-- {{payment_frequency}} – "monthly" or "per milestone"
-- {{notice_period}} – "30 days" typical
+- \{\{service_provider\}\} – consultant/agency name
+- \{\{client_name\}\} – customer name
+- \{\{service_type\}\} – description of services
+- \{\{term_length\}\} – "12 months" or "project basis"
+- \{\{fee_amount\}\} – fee in GBP
+- \{\{payment_frequency\}\} – "monthly" or "per milestone"
+- \{\{notice_period\}\} – "30 days" typical
 
 ## Example Usage
 ### Input

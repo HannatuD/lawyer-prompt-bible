@@ -23,7 +23,7 @@ United Kingdom.
 Sustainability and finance teams.
 
 ### Base Prompt  
-“You are an ESG consultant. Draft a **SaaS ESG Reporting Framework** for **{{Company}}** that covers Scope 1-3 emissions, data-centre energy efficiency, and social governance metrics.”
+“You are an ESG consultant. Draft a **SaaS ESG Reporting Framework** for **\{\{Company\}\}** that covers Scope 1-3 emissions, data-centre energy efficiency, and social governance metrics.”
 
 ### Variables  
 | Variable | Description | Example |

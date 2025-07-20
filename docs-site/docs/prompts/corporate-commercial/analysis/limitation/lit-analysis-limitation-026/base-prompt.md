@@ -22,11 +22,11 @@ England & Wales
 Critical analysis required before commencing proceedings to ensure claims not time-barred under Limitation Act 1980.
 
 ## Base Prompt
-Analyse limitation period for {{claim_type}} by {{claimant}} against {{defendant}}:
-- Key dates: {{relevant_dates}}
-- Basis of claim: {{claim_basis}}
-- Knowledge date (if relevant): {{knowledge_date}}
-- Defendant location: {{defendant_jurisdiction}}
+Analyse limitation period for \{\{claim_type\}\} by \{\{claimant\}\} against \{\{defendant\}\}:
+- Key dates: \{\{relevant_dates\}\}
+- Basis of claim: \{\{claim_basis\}\}
+- Knowledge date (if relevant): \{\{knowledge_date\}\}
+- Defendant location: \{\{defendant_jurisdiction\}\}
 Consider:
 1. Primary limitation period
 2. Date of accrual
@@ -42,13 +42,13 @@ Calculate:
 - Service requirements
 
 ## Variables
-- {{claim_type}} – type of legal claim
-- {{claimant}} – potential claimant
-- {{defendant}} – potential defendant
-- {{relevant_dates}} – key events/dates
-- {{claim_basis}} – contract/tort/statute
-- {{knowledge_date}} – when discovered claim
-- {{defendant_jurisdiction}} – where defendant based
+- \{\{claim_type\}\} – type of legal claim
+- \{\{claimant\}\} – potential claimant
+- \{\{defendant\}\} – potential defendant
+- \{\{relevant_dates\}\} – key events/dates
+- \{\{claim_basis\}\} – contract/tort/statute
+- \{\{knowledge_date\}\} – when discovered claim
+- \{\{defendant_jurisdiction\}\} – where defendant based
 
 ## Example Usage
 ### Input

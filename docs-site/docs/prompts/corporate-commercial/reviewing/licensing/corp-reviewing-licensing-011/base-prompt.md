@@ -22,10 +22,10 @@ UK-wide
 Used when procuring significant software licenses or SaaS subscriptions, particularly for business-critical systems requiring careful risk assessment.
 
 ## Base Prompt
-Review software license agreement for {{licensee_name}} licensing {{software_name}} from {{vendor_name}}:
-- License type: {{license_model}}
-- Annual cost: £{{annual_fee}}
-- User/usage scope: {{scope}}
+Review software license agreement for \{\{licensee_name\}\} licensing \{\{software_name\}\} from \{\{vendor_name\}\}:
+- License type: \{\{license_model\}\}
+- Annual cost: £\{\{annual_fee\}\}
+- User/usage scope: \{\{scope\}\}
 Evaluate:
 - License grant adequacy for intended use
 - Warranty and support commitments
@@ -39,12 +39,12 @@ Evaluate:
 Rate each area and provide negotiation priorities.
 
 ## Variables
-- {{licensee_name}} – customer company name
-- {{software_name}} – software product/service
-- {{vendor_name}} – software supplier
-- {{license_model}} – "perpetual", "subscription", or "SaaS"
-- {{annual_fee}} – yearly cost
-- {{scope}} – "enterprise-wide" or specific limits
+- \{\{licensee_name\}\} – customer company name
+- \{\{software_name\}\} – software product/service
+- \{\{vendor_name\}\} – software supplier
+- \{\{license_model\}\} – "perpetual", "subscription", or "SaaS"
+- \{\{annual_fee\}\} – yearly cost
+- \{\{scope\}\} – "enterprise-wide" or specific limits
 
 ## Example Usage
 ### Input

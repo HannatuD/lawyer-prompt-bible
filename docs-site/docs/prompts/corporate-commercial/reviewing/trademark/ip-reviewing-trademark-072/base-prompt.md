@@ -22,12 +22,12 @@ UK-wide
 Pre-filing review to maximize registration chances and avoid costly objections or oppositions.
 
 ## Base Prompt
-Review trademark application for {{mark_name}}:
-- Type: {{mark_type}}
-- Classes: {{nice_classes}}
-- Goods/services: {{specification}}
-- Applicant: {{applicant_name}}
-- Prior search: {{search_results}}
+Review trademark application for \{\{mark_name\}\}:
+- Type: \{\{mark_type\}\}
+- Classes: \{\{nice_classes\}\}
+- Goods/services: \{\{specification\}\}
+- Applicant: \{\{applicant_name\}\}
+- Prior search: \{\{search_results\}\}
 Assess:
 1. Inherent distinctiveness
 2. Descriptiveness risk
@@ -42,12 +42,12 @@ Assess:
 Recommend improvements.
 
 ## Variables
-- {{mark_name}} – trademark applied for
-- {{mark_type}} – word/logo/combined
-- {{nice_classes}} – classification numbers
-- {{specification}} – goods/services list
-- {{applicant_name}} – trademark owner
-- {{search_results}} – clearance search outcome
+- \{\{mark_name\}\} – trademark applied for
+- \{\{mark_type\}\} – word/logo/combined
+- \{\{nice_classes\}\} – classification numbers
+- \{\{specification\}\} – goods/services list
+- \{\{applicant_name\}\} – trademark owner
+- \{\{search_results\}\} – clearance search outcome
 
 ## Example Usage
 ### Input

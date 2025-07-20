@@ -22,11 +22,11 @@ England & Wales
 Formal transfer of IP ownership requiring precision to ensure complete and valid assignment.
 
 ## Base Prompt
-Draft IP assignment from {{assignor}} to {{assignee}}:
-- IP description: {{ip_assets}}
-- Consideration: £{{purchase_price}}
-- Effective date: {{transfer_date}}
-- Territory: {{geographic_scope}}
+Draft IP assignment from \{\{assignor\}\} to \{\{assignee\}\}:
+- IP description: \{\{ip_assets\}\}
+- Consideration: £\{\{purchase_price\}\}
+- Effective date: \{\{transfer_date\}\}
+- Territory: \{\{geographic_scope\}\}
 Include:
 1. Full title guarantee
 2. Present and future rights
@@ -41,12 +41,12 @@ Include:
 Address all IP types comprehensively.
 
 ## Variables
-- {{assignor}} – current IP owner
-- {{assignee}} – new IP owner
-- {{ip_assets}} – IP being transferred
-- {{purchase_price}} – consideration
-- {{transfer_date}} – when effective
-- {{geographic_scope}} – worldwide/limited
+- \{\{assignor\}\} – current IP owner
+- \{\{assignee\}\} – new IP owner
+- \{\{ip_assets\}\} – IP being transferred
+- \{\{purchase_price\}\} – consideration
+- \{\{transfer_date\}\} – when effective
+- \{\{geographic_scope\}\} – worldwide/limited
 
 ## Example Usage
 ### Input

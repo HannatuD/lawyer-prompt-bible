@@ -23,21 +23,21 @@ Used for the acquisition of shares in a private limited company, typically invol
 
 ## Base Prompt
 Draft a share purchase agreement under English law with:
-- Purchaser: {{purchaser_name}}
-- Seller: {{seller_name}}
-- Target company: {{target_company}}
-- Purchase price: £{{purchase_price}}
-- Completion date: {{completion_date}}
-- Warranty limitations: £{{warranty_cap}}
+- Purchaser: \{\{purchaser_name\}\}
+- Seller: \{\{seller_name\}\}
+- Target company: \{\{target_company\}\}
+- Purchase price: £\{\{purchase_price\}\}
+- Completion date: \{\{completion_date\}\}
+- Warranty limitations: £\{\{warranty_cap\}\}
 Include: conditions precedent, warranties schedule, disclosure letter mechanics, completion accounts mechanism, restrictive covenants, and tax covenant.
 
 ## Variables
-- {{purchaser_name}} – full legal name of acquiring entity
-- {{seller_name}} – full legal name of selling shareholder(s)
-- {{target_company}} – name and company number
-- {{purchase_price}} – total consideration in GBP
-- {{completion_date}} – DD/MM/YYYY format
-- {{warranty_cap}} – maximum warranty liability
+- \{\{purchaser_name\}\} – full legal name of acquiring entity
+- \{\{seller_name\}\} – full legal name of selling shareholder(s)
+- \{\{target_company\}\} – name and company number
+- \{\{purchase_price\}\} – total consideration in GBP
+- \{\{completion_date\}\} – DD/MM/YYYY format
+- \{\{warranty_cap\}\} – maximum warranty liability
 
 ## Example Usage
 ### Input

@@ -22,13 +22,13 @@ England & Wales
 Used for advising clients on financial exposure in litigation and informing settlement decisions.
 
 ## Base Prompt
-Assess costs position for {{party}} in {{case_name}}:
-- Claim value: £{{claim_value}}
-- Track: {{track}}
-- Stage: {{current_stage}}
-- Own costs to date: £{{own_costs}}
-- Estimated future costs: £{{future_costs}}
-- Part 36 offers: {{part36_position}}
+Assess costs position for \{\{party\}\} in \{\{case_name\}\}:
+- Claim value: £\{\{claim_value\}\}
+- Track: \{\{track\}\}
+- Stage: \{\{current_stage\}\}
+- Own costs to date: £\{\{own_costs\}\}
+- Estimated future costs: £\{\{future_costs\}\}
+- Part 36 offers: \{\{part36_position\}\}
 Calculate:
 1. Total own costs exposure
 2. Adverse costs risk if lose
@@ -40,14 +40,14 @@ Calculate:
 Provide best/worst case scenarios.
 
 ## Variables
-- {{party}} – claimant or defendant
-- {{case_name}} – case reference
-- {{claim_value}} – amount claimed
-- {{track}} – small/fast/multi track
-- {{current_stage}} – point in proceedings
-- {{own_costs}} – costs incurred
-- {{future_costs}} – costs to trial
-- {{part36_position}} – any Part 36 offers
+- \{\{party\}\} – claimant or defendant
+- \{\{case_name\}\} – case reference
+- \{\{claim_value\}\} – amount claimed
+- \{\{track\}\} – small/fast/multi track
+- \{\{current_stage\}\} – point in proceedings
+- \{\{own_costs\}\} – costs incurred
+- \{\{future_costs\}\} – costs to trial
+- \{\{part36_position\}\} – any Part 36 offers
 
 ## Example Usage
 ### Input

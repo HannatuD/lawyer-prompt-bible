@@ -22,10 +22,10 @@ England & Wales
 Used where defendant admits offence but disputes prosecution version of facts affecting sentence.
 
 ## Base Prompt
-Draft basis of plea for {{defendant_name}} pleading guilty to {{offence}}:
-- Prosecution version: {{pros_facts}}
-- Defence version: {{def_facts}}
-- Key disputes: {{disputed_elements}}
+Draft basis of plea for \{\{defendant_name\}\} pleading guilty to \{\{offence\}\}:
+- Prosecution version: \{\{pros_facts\}\}
+- Defence version: \{\{def_facts\}\}
+- Key disputes: \{\{disputed_elements\}\}
 Structure:
 1. Charge admitted
 2. Elements agreed
@@ -40,11 +40,11 @@ Ensure:
 - Supported by evidence
 
 ## Variables
-- {{defendant_name}} – defendant
-- {{offence}} – charge pleading to
-- {{pros_facts}} – prosecution version
-- {{def_facts}} – defendant's version
-- {{disputed_elements}} – key differences
+- \{\{defendant_name\}\} – defendant
+- \{\{offence\}\} – charge pleading to
+- \{\{pros_facts\}\} – prosecution version
+- \{\{def_facts\}\} – defendant's version
+- \{\{disputed_elements\}\} – key differences
 
 ## Example Usage
 ### Input

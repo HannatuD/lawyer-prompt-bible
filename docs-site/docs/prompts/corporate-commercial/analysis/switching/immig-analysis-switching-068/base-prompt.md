@@ -22,11 +22,11 @@ UK-wide
 Strategic advice on changing immigration status while remaining in UK, navigating complex switching restrictions.
 
 ## Base Prompt
-Analyse visa switch for {{applicant_name}}:
-- Current visa: {{current_status}}
-- Expiry date: {{visa_expiry}}
-- Target visa: {{desired_status}}
-- Circumstances: {{change_reason}}
+Analyse visa switch for \{\{applicant_name\}\}:
+- Current visa: \{\{current_status\}\}
+- Expiry date: \{\{visa_expiry\}\}
+- Target visa: \{\{desired_status\}\}
+- Circumstances: \{\{change_reason\}\}
 Assess:
 1. Switching permitted
 2. Eligibility requirements
@@ -41,11 +41,11 @@ Assess:
 Provide application timeline.
 
 ## Variables
-- {{applicant_name}} – visa holder
-- {{current_status}} – present visa type
-- {{visa_expiry}} – current visa end date
-- {{desired_status}} – target visa category
-- {{change_reason}} – why switching
+- \{\{applicant_name\}\} – visa holder
+- \{\{current_status\}\} – present visa type
+- \{\{visa_expiry\}\} – current visa end date
+- \{\{desired_status\}\} – target visa category
+- \{\{change_reason\}\} – why switching
 
 ## Example Usage
 ### Input

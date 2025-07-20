@@ -22,12 +22,12 @@ UK-wide
 Used in early stages of acquisition planning to determine optimal deal structure considering liability exposure, tax efficiency, and commercial objectives.
 
 ## Base Prompt
-Compare asset purchase vs share purchase for acquiring {{target_business}}:
-- Purchase price: £{{purchase_price}}
-- Target structure: {{company_structure}}
-- Key assets: {{asset_types}}
-- Employee numbers: {{employee_count}}
-- Property interests: {{property_status}}
+Compare asset purchase vs share purchase for acquiring \{\{target_business\}\}:
+- Purchase price: £\{\{purchase_price\}\}
+- Target structure: \{\{company_structure\}\}
+- Key assets: \{\{asset_types\}\}
+- Employee numbers: \{\{employee_count\}\}
+- Property interests: \{\{property_status\}\}
 Analyse:
 1. Liability exposure differences
 2. Tax implications (stamp duty, VAT, corporation tax)
@@ -39,12 +39,12 @@ Analyse:
 Provide recommendation with rationale.
 
 ## Variables
-- {{target_business}} – business sector and name
-- {{purchase_price}} – acquisition value
-- {{company_structure}} – "single company" or "group"
-- {{asset_types}} – main assets involved
-- {{employee_count}} – number of employees
-- {{property_status}} – "owned", "leased" or "none"
+- \{\{target_business\}\} – business sector and name
+- \{\{purchase_price\}\} – acquisition value
+- \{\{company_structure\}\} – "single company" or "group"
+- \{\{asset_types\}\} – main assets involved
+- \{\{employee_count\}\} – number of employees
+- \{\{property_status\}\} – "owned", "leased" or "none"
 
 ## Example Usage
 ### Input

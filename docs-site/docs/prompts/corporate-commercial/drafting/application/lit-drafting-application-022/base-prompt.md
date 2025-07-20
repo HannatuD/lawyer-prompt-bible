@@ -22,11 +22,11 @@ England & Wales
 Used for making applications during proceedings such as summary judgment, security for costs, or specific disclosure.
 
 ## Base Prompt
-Draft application notice for {{applicant}} seeking {{relief_sought}} in {{case_name}}:
-- Legal basis: {{legal_grounds}}
-- Evidence relied on: {{evidence_summary}}
-- Time estimate: {{hearing_time}}
-- Urgency: {{urgent_basis}}
+Draft application notice for \{\{applicant\}\} seeking \{\{relief_sought\}\} in \{\{case_name\}\}:
+- Legal basis: \{\{legal_grounds\}\}
+- Evidence relied on: \{\{evidence_summary\}\}
+- Time estimate: \{\{hearing_time\}\}
+- Urgency: \{\{urgent_basis\}\}
 Include:
 1. Form N244 completion
 2. Draft order sought
@@ -40,13 +40,13 @@ Structure:
 - Time estimate justified
 
 ## Variables
-- {{applicant}} – applying party
-- {{relief_sought}} – what order seeking
-- {{case_name}} – case reference
-- {{legal_grounds}} – CPR rule/legal basis
-- {{evidence_summary}} – supporting evidence
-- {{hearing_time}} – estimated hearing length
-- {{urgent_basis}} – if urgent, why
+- \{\{applicant\}\} – applying party
+- \{\{relief_sought\}\} – what order seeking
+- \{\{case_name\}\} – case reference
+- \{\{legal_grounds\}\} – CPR rule/legal basis
+- \{\{evidence_summary\}\} – supporting evidence
+- \{\{hearing_time\}\} – estimated hearing length
+- \{\{urgent_basis\}\} – if urgent, why
 
 ## Example Usage
 ### Input

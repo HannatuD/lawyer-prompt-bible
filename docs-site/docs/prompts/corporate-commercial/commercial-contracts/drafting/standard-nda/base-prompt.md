@@ -20,7 +20,7 @@ success_rate: TBD
 ---
 
 ## Context 
-You are instructed as a solicitor to draft a **mutual non-disclosure agreement** between *{{counterparty_name}}* and the client, governed by the laws of England & Wales and effective on *{{effective_date}}*.
+You are instructed as a solicitor to draft a **mutual non-disclosure agreement** between *\{\{counterparty_name\}\}* and the client, governed by the laws of England & Wales and effective on *\{\{effective_date\}\}*.
 
 ### Core Clauses to Include
 1. Definition of **Confidential Information** (standard carve-outs). 

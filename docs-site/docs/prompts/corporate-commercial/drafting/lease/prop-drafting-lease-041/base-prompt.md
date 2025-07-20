@@ -22,14 +22,14 @@ England & Wales
 Used for letting commercial property requiring balance between landlord investment protection and tenant business needs.
 
 ## Base Prompt
-Draft commercial lease for {{property_address}}:
-- Landlord: {{landlord_name}}
-- Tenant: {{tenant_name}}
-- Term: {{lease_term}} years
-- Rent: £{{annual_rent}} per annum
-- Rent reviews: {{review_pattern}}
-- Use: {{permitted_use}}
-- Break clause: {{break_options}}
+Draft commercial lease for \{\{property_address\}\}:
+- Landlord: \{\{landlord_name\}\}
+- Tenant: \{\{tenant_name\}\}
+- Term: \{\{lease_term\}\} years
+- Rent: £\{\{annual_rent\}\} per annum
+- Rent reviews: \{\{review_pattern\}\}
+- Use: \{\{permitted_use\}\}
+- Break clause: \{\{break_options\}\}
 Include:
 1. Premises definition and rights
 2. Rent payment (quarterly in advance)
@@ -44,14 +44,14 @@ Include:
 Include schedules for condition and services.
 
 ## Variables
-- {{property_address}} – full property address
-- {{landlord_name}} – landlord details
-- {{tenant_name}} – tenant company
-- {{lease_term}} – length in years
-- {{annual_rent}} – yearly rent
-- {{review_pattern}} – "5-yearly upward only"
-- {{permitted_use}} – planning use class
-- {{break_options}} – break clause details
+- \{\{property_address\}\} – full property address
+- \{\{landlord_name\}\} – landlord details
+- \{\{tenant_name\}\} – tenant company
+- \{\{lease_term\}\} – length in years
+- \{\{annual_rent\}\} – yearly rent
+- \{\{review_pattern\}\} – "5-yearly upward only"
+- \{\{permitted_use\}\} – planning use class
+- \{\{break_options\}\} – break clause details
 
 ## Example Usage
 ### Input
